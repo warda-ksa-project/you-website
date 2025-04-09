@@ -1,0 +1,23 @@
+.card-container{
+   margin: 0 10%;
+   .ng-cont{
+    // width: 100%;
+    // margin: auto;
+    .card{
+        width: 350px;
+        border: 1px solid #96B7FF;
+        padding:30px 20px;
+        span{
+            margin-top: 15px;
+            font-family: Cairo;
+font-weight: 700;
+font-size: 24px;
+line-height: 38.4px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+        }
+    }
+   }
+}

@@ -1,0 +1,16 @@
+<div class="page" id="partner">
+    <div class="">
+     <div>
+        <span class="primary-text"> شركاؤنا في النجاح</span>
+     <p class="second-text mt-3">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربي، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التي يولدها التطبيق</p>
+     </div>
+    
+    </div>
+    <div class="card-container d-flex justify-content-start flex-wrap mt-5">
+       <ng-container *ngFor="let item of partners">
+        <div class="card m-2  d-flex justify-content-start">
+                    <img [src]="item.image"  alt="">
+        </div>
+       </ng-container>
+    </div>
+ </div>

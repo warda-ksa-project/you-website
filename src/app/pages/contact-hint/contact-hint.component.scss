@@ -1,0 +1,19 @@
+#contact{
+    background: linear-gradient(to left, #031AAF, #819FF1);
+    padding: 20px;
+    .fz-35{
+        font-family: Cairo;
+font-weight: 600;
+font-size: 35px;
+line-height: 55px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+    }
+    .button{
+        text-align: end;
+        button{
+            background: #031AAF;
+        }
+    }
+}

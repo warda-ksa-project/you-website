@@ -1,0 +1,70 @@
+body{
+   direction: rtl; 
+   font-family: 'tajwal', sans-serif;
+   &:lang(ar) {
+     font-family: 'tajwal', sans-serif;
+   }
+    background: #F9F9F9;
+ 
+   p,
+   span,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5 {
+     margin: 0px;
+     font-family: 'tajwal', sans-serif;
+     &:lang(ar) {
+       font-family: 'tajwal', sans-serif;
+     }
+   }
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.primary-text{
+    font-family: Cairo;
+font-weight: 600;
+font-size: 35px;
+line-height: 57.6px;
+letter-spacing: -2%;
+vertical-align: middle;
+color: #0D0D0D;
+}
+.second-text{
+    font-family: Cairo;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #808080;
+
+}
+.page{
+    padding: 0px 50px;
+    margin: 50px 0px;
+}
+.bold{
+    font-weight: bolder;
+}
+.fz-25{
+    font-size: 25px;
+}
+.fz-30{
+    font-size: 30px;
+}
+.fz-18{
+    font-size: 18px;
+}
+.w-30{
+    width: 300px;
+}
+.lh-40{
+    line-height: 40px;
+}
+.w-45{
+    width: 40%;
+}
+}
+
