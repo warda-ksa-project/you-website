@@ -1,6 +1,9 @@
 #contact{
-    background: linear-gradient(to left, #031AAF, #819FF1);
-    padding: 20px;
+    .bkg{
+        background: url("../../../assets/images/CTA.svg") no-repeat center center;
+        padding:30px 20px;
+        background-size: cover;
+    }
     .fz-35{
         font-family: Cairo;
 font-weight: 600;
@@ -10,10 +13,25 @@ letter-spacing: 0%;
 vertical-align: middle;
 
     }
-    .button{
-        text-align: end;
-        button{
-            background: #031AAF;
+    .card-container {
+        margin: 0 10%;
+        .card{
+            width: 350px;
+            height: auto;
+            margin: 10px;
+            padding: 20px;
+            span.block{
+                margin: 0px 5px;
+            }
+        }
+        .card-yellow{
+          background-color: #FEF9E6;
+          color: #343434;
+        }
+        .card-gray{
+            background-color: #EEEEEE;
+            color: #343434;
         }
     }
+
 }

@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'tajwal';
+    src: url('assets/fonts/tajawal/Tajawal-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
 body{
    direction: rtl; 
    font-family: 'tajwal', sans-serif;
@@ -41,15 +47,21 @@ letter-spacing: 0%;
 color: #808080;
 
 }
+.text-yellow{
+  color: #F7C600;
+}
 .page{
     padding: 0px 50px;
-    margin: 50px 0px;
+    margin: 90px 0px;
 }
 .bold{
     font-weight: bolder;
 }
 .fz-25{
     font-size: 25px;
+}
+.fz-20{
+    font-size: 20px;
 }
 .fz-30{
     font-size: 30px;
@@ -65,6 +77,9 @@ color: #808080;
 }
 .w-45{
     width: 40%;
+}
+.reverse{
+    direction: ltr;
 }
 }
 

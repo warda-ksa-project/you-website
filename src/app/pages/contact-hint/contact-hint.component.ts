@@ -1,5 +1,4 @@
-import { Component, inject } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-contact-hint',
@@ -9,8 +8,5 @@ import { Router } from '@angular/router';
   styleUrl: './contact-hint.component.scss'
 })
 export class ContactHintComponent {
-  private router =inject(Router)
-  goToContactUs(){
-      this.router.navigateByUrl('/contact')
-  }
+
 }
