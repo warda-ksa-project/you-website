@@ -6,7 +6,7 @@ div.bk-video {
   // z-index: 9999;
   background: url("../../../assets/images/bk_video.gif") no-repeat center center;
   background-size: cover;
-  height: 410px;
+  height: 500px;
   nav {
     background: url("../../../assets/images/bk_video.gif") no-repeat center
       center;
@@ -57,6 +57,10 @@ div.bk-video {
         color: #555555 !important; // darker text on white
       }
     }
+    
+  }
+  .info{
+    font-size: 1.5rem!important;
   }
 
 }
