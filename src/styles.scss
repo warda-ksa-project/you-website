@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'tajwal';
-    src: url('../src/assets/fonts/tajawal/Tajawal-Regular.ttf') format('ttf');
-    font-weight: normal;
+    src: url('assets/fonts/tajawal/Tajawal-Regular.ttf') format('truetype');
+    font-weight:bolder;
     font-style: normal;
   }
 body{
@@ -32,7 +32,6 @@ body{
     visibility: hidden;
 }
 .primary-text{
-    font-family: Cairo;
 font-weight: 600;
 font-size: 35px;
 line-height: 57.6px;
@@ -41,7 +40,6 @@ vertical-align: middle;
 color: #0D0D0D;
 }
 .second-text{
-    font-family: Cairo;
 font-weight: 600;
 font-size: 18px;
 line-height: 24px;
