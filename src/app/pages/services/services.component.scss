@@ -1,12 +1,15 @@
 .card-container{
-   margin: 0 10%;
+//    margin: 0 10%;
    .ng-cont{
     // width: 100%;
     // margin: auto;
     .card{
-        width: 350px;
+        // width: 21.875rem;
+        height: 170px;
         border: 1px solid #96B7FF;
         padding:30px 20px;
+        // flex-grow: 1;
+        // flex-shrink: 1;
         span{
             margin-top: 15px;
             font-family: Cairo;

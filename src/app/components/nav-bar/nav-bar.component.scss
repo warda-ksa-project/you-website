@@ -1,42 +1,63 @@
-
-div.bk-video{
-    // position: fixed;
-    // top: 0;
-    // right: 0;
-    // left: 0;
-    // z-index: 9999;
-    background: url("../../../assets/images/bk_video.gif") no-repeat center center;
+div.bk-video {
+  // position: fixed;
+  // top: 0;
+  // right: 0;
+  // left: 0;
+  // z-index: 9999;
+  background: url("../../../assets/images/bk_video.gif") no-repeat center center;
+  background-size: cover;
+  height: 410px;
+  nav {
+    background: url("../../../assets/images/bk_video.gif") no-repeat center
+      center;
     background-size: cover;
-    height: 500px;
-    nav{
-        border-bottom: 1px solid #fff;
-        padding-right: 10%;
-        background: url("../../../assets/images/bk_video.gif") no-repeat center center;
-        background-size: cover;
-        .btn-toggle{
-            color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-right: 5%;
+    .btn-toggle {
+      color: #fff;
+    }
+    ul {
+      // background-color: green;
+      width: 100%;
+      li {
+        a {
+          margin: 0px 10px;
+          font-size: 1rem;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .info {
+    color: #fff;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+  }
+}
 
-        }
-        ul{
-            // background-color: green;
-            width: 100%;
-            li{
-                a{
-                    margin: 0px 10px;
-                    font-size: 1rem;
-                }
-            }
-        }
-      
+@media screen and (max-width: 575px) {
+  .info {
+    // display:none!important;
+  }
+  .bk-video {
+    // background:unset!important;
+    // height: 0!important;
+  }
+  nav {
+    padding: unset !important;
+    .navbar-collapse {
+      background-color: white !important;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      border-radius: 0 0 8px 8px;
+      padding: 1rem;
+      margin: 10px -13px -3px -13px;
+      .nav-link {
+        color: #555555 !important; // darker text on white
+      }
     }
-    .info{
-        color: #fff;
-        font-size: 1.7rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 70vh;
-    }
-  
+  }
 }

@@ -21,6 +21,12 @@ export class PartnerComponent {
     },
     {
       image:'assets/images/Logo_1.svg'
+    },
+    {
+      image:'assets/images/Logo_2.svg'
+    },
+    {
+      image:'assets/images/Logo_1.svg'
     }
   ]
 }
