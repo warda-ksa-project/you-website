@@ -23,7 +23,8 @@ div.bk-video {
         a {
           margin: 0px 10px;
           font-size: 1rem;
-          color: #fff;
+          color: #EEEEEE;
+          opacity: 0.9;
         }
       }
     }
@@ -38,7 +39,11 @@ div.bk-video {
     height: 70vh;
   }
 }
-
+.active{
+    color: #fff!important;
+    font-weight: bolder;
+    opacity: unset!important;
+}
 @media screen and (max-width: 575px) {
   nav {
     padding: unset !important;
@@ -53,4 +58,5 @@ div.bk-video {
       }
     }
   }
+
 }

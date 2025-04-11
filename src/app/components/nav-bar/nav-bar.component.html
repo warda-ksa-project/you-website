@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-sm fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" routerLink="/">
-        <img src="assets/images/white_logo.svg" height="20" alt="">
+        <img src="assets/images/white_logo.svg" height="20" alt="" />
       </a>
       <button
         class="navbar-toggler"
@@ -15,53 +15,22 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a
-              class="nav-link "
-              href="#about"
-              routerLinkActive="active"
-              [routerLinkActiveOptions]="{ exact: true }"
-              >{{"الرئيسية"|translate}}</a
-            >
+            <a class="nav-link" [class.active]="router.url=='/home'" href="/home">{{ "الرئيسية" | translate }}</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link "
-              href="#about"
-              routerLinkActive="active"
-              >من نحن</a
-            >
+            <a class="nav-link" [class.active]="router.url.includes('#about')" href="#about">من نحن</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link "
-              href="#services"
-              routerLinkActive="active"
-              >خدماتنا</a
-            >
+            <a class="nav-link" [class.active]="router.url.includes('#services')" href="#services">خدماتنا</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link "
-              href="#works"
-              routerLinkActive="active"
-              >اعمالنا</a
-            >
+            <a class="nav-link" [class.active]="router.url.includes('#works')" href="#works">اعمالنا</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link "
-              href="#partner"
-              routerLinkActive="active"
-              >شركاء النجاح</a
-            >
+            <a class="nav-link"[class.active]="router.url.includes('#partner')" href="#partner">شركاء النجاح</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link "
-              href="#contact"
-              routerLinkActive="active"
-              >تواصل معنا</a
-            >
+            <a class="nav-link"[class.active]="router.url.includes('#contact')" href="#contact">تواصل معنا</a>
           </li>
         </ul>
       </div>
@@ -71,12 +40,12 @@
     </button> -->
   </nav>
   <div class="info text-center p-3">
-   
-      <p>ابتكار حلول تكنولوجية تصنع الفارق</p>
+    <p>ابتكار حلول تكنولوجية تصنع الفارق</p>
     <p>نحن نبني مستقبل التكنولوجيا، بحلول ذكية تواكب احتياجاتك</p>
-    <p>نقدم لك حلولاً برمجية مبتكرة ومخصصة تضمن لك التميز في عالم الأعمال. من تطوير الأنظمة إلى إدارة 
-      </p>
+    <p>
+      نقدم لك حلولاً برمجية مبتكرة ومخصصة تضمن لك التميز في عالم الأعمال. من
+      تطوير الأنظمة إلى إدارة
+    </p>
     <p>البيانات، نحن شركاؤك في تحقيق النجاح الرقمي</p>
   </div>
 </div>
-

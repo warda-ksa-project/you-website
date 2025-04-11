@@ -1,5 +1,5 @@
 import { Component, Inject, inject } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { TranslateServiceService } from '../../services/translate-service.service';
 import { DOCUMENT } from '@angular/common';
 import { LocalStorageServiceService } from '../../services/local-storage-service.service';
@@ -16,8 +16,10 @@ export class NavBarComponent {
   translateService = inject(TranslateServiceService);
   LocalStorageService =inject(LocalStorageServiceService)
   selectedLang: string = this.LocalStorageService.getItem('lang') || 'en';
-
-  constructor(@Inject(DOCUMENT) private document: Document) {}
+  router=inject(Router)
+  constructor(@Inject(DOCUMENT) private document: Document) {
+    console.log("NavBarComponent  constructor  this.router.url:", this.router.url)
+  }
 
   toggleLanguage() {
     this.selectedLang = this.selectedLang === 'en' ? 'ar' : 'en';
@@ -28,7 +30,6 @@ export class NavBarComponent {
     document.documentElement.setAttribute('lang', this.selectedLang);
     document.documentElement.setAttribute('dir', this.selectedLang === 'ar' ? 'rtl' : 'ltr');
     // window.location.reload()
-    console.log('ggg',this.selectedLang)
   }
-  
+
 }
