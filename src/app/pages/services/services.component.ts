@@ -17,27 +17,27 @@ export class ServicesComponent {
     },
     {
       name: 'services.d_marketing',
-      image: 'assets/images/icon-service-1.svg'
+      image: 'assets/images/icon-sv-2.svg'
 
     },
     {
       name: 'services.development',
-      image: 'assets/images/icon-service-1.svg'
+      image: 'assets/images/icon-sv-3.svg'
 
     },
     {
       name: 'services.mobile_design',
-      image: 'assets/images/icon-service-1.svg'
+      image: 'assets/images/icon-sv-4.svg'
 
     }
     , {
       name: 'services.program_testing',
-      image: 'assets/images/icon-service-1.svg'
+      image: 'assets/images/icon-sv-5.svg'
 
     }
     , {
       name: 'services.solution',
-      image: 'assets/images/icon-service-1.svg'
+      image: 'assets/images/icon-sv-6.svg'
 
     }
   ]

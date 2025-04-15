@@ -18,7 +18,7 @@ export class AppComponent {
   LocalStorageService =inject(LocalStorageServiceService)
   
   constructor(private translate: TranslateService) {
-    this.defaultLang =this.LocalStorageService.getItem('lang') || 'en';
+    this.defaultLang =this.LocalStorageService.getItem('lang') ?? 'en';
     translate.setDefaultLang(this.defaultLang); // Optional
     translate.use(this.defaultLang); // Required
   }

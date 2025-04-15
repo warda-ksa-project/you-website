@@ -1,9 +1,4 @@
 div.bk-video {
-  // position: fixed;
-  // top: 0;
-  // right: 0;
-  // left: 0;
-  // z-index: 9999;
   background: url("../../../assets/images/bk_video.gif") no-repeat center center;
   background-size: cover;
   height: 500px;
@@ -23,16 +18,31 @@ div.bk-video {
         a {
           margin: 0px 10px;
           font-size: 1rem;
-          color: #EEEEEE;
+          color: #eeeeee;
           opacity: 0.9;
         }
-      }
+      };
+      .lang-sm {
+          display: none;
+          margin: 0px 10px;
+          font-size: 1rem;
+          color: #eeeeee;
+          opacity: 0.9;
+          span {
+            cursor: pointer;
+          }
+          img {
+            margin: 0px 5px;
+            cursor: pointer;
+          }
+        }
     }
-    .lang{
-      span{
+    .lang {
+      margin: 0px 30px;
+      span {
         cursor: pointer;
       }
-      img{
+      img {
         margin: 0px 5px;
         cursor: pointer;
       }
@@ -45,34 +55,38 @@ div.bk-video {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 75vh;
+    height: 78vh;
   }
 }
-.active{
-    color: #fff!important;
-    font-weight: bolder;
-    opacity: unset!important;
+.active {
+  color: #fff !important;
+  font-weight: bolder;
+  opacity: unset !important;
 }
 @media screen and (max-width: 575px) {
   nav {
     padding: unset !important;
+    height: 55px;
     .navbar-collapse {
       background-color: white !important;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
       border-radius: 0 0 8px 8px;
       padding: 1rem;
       margin: 10px -13px -3px -13px;
-      .nav-link {
-        color: #555555 !important; // darker text on white
+      .nav-link,
+      .lang-sm {
+        color: #555555 !important;
+      }
+      .lang-sm {
+        display: block !important;
       }
     }
-    .lang{
-      display: none;
+    .lang {
+      display: none !important;
     }
     
   }
-  .info{
-    font-size: 1.5rem!important;
+  .info {
+    font-size: 1.4rem !important;
   }
-
 }

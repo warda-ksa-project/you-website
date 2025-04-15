@@ -15,20 +15,23 @@ import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
 export class NavBarComponent {
   translateService = inject(TranslateServiceService);
   LocalStorageService =inject(LocalStorageServiceService)
-  selectedLang: string = this.LocalStorageService.getItem('lang') || 'en';
+  selectedLang: string = this.LocalStorageService.getItem('lang') ?? 'en';
   router=inject(Router)
   constructor(@Inject(DOCUMENT) private document: Document) {
+    this.defaultLang();
   }
 
   toggleLanguage() {
     this.selectedLang = this.selectedLang === 'en' ? 'ar' : 'en';
-    this.translateService.translationService.currentLang = this.selectedLang;
-    this.translateService.change(this.selectedLang);
-
-    this.document.body.dir = this.selectedLang === 'ar' ? 'rtl' : 'ltr';
-    document.documentElement.setAttribute('lang', this.selectedLang);
-    document.documentElement.setAttribute('dir', this.selectedLang === 'ar' ? 'rtl' : 'ltr');
+    this.LocalStorageService.setItem('lang', this.selectedLang);
     window.location.reload()
+
   }
 
+  defaultLang() {
+    this.selectedLang = this.LocalStorageService.getItem('lang') || 'en';
+    this.document.body.dir = this.selectedLang === 'ar' ? 'rtl' : 'ltr';
+    this.document.documentElement.setAttribute('lang', this.selectedLang);
+    this.document.documentElement.setAttribute('dir', this.selectedLang === 'ar' ? 'rtl' : 'ltr');
+  }
 }

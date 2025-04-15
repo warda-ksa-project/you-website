@@ -64,6 +64,19 @@
               {{ "nav_bar.contact" | translate }}</a
             >
           </li>
+          <li class="nav-item lang-sm">
+            <div class="d-flex"(click)="toggleLanguage()">
+              <span>
+                <span *ngIf="selectedLang=='en'">
+                  {{'nav_bar.english'|translate}} 
+                 </span>
+                 <span *ngIf="selectedLang=='ar'">
+                  {{'nav_bar.arabic'|translate}} 
+                 </span>
+              </span>
+               <img  src="assets/images/Flags.svg" alt="">
+              </div>
+          </li>
         </ul>
       </div>
     </div>
