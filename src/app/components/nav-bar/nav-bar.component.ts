@@ -1,14 +1,14 @@
 import { Component, Inject, inject } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 import { TranslateServiceService } from '../../services/translate-service.service';
-import { DOCUMENT } from '@angular/common';
+import { DOCUMENT, NgIf } from '@angular/common';
 import { LocalStorageServiceService } from '../../services/local-storage-service.service';
 import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-nav-bar',
   standalone: true,
-  imports: [RouterModule,TranslatePipe],
+  imports: [RouterModule,TranslatePipe,NgIf],
   templateUrl: './nav-bar.component.html',
   styleUrl: './nav-bar.component.scss'
 })
@@ -18,7 +18,6 @@ export class NavBarComponent {
   selectedLang: string = this.LocalStorageService.getItem('lang') || 'en';
   router=inject(Router)
   constructor(@Inject(DOCUMENT) private document: Document) {
-    console.log("NavBarComponent  constructor  this.router.url:", this.router.url)
   }
 
   toggleLanguage() {
@@ -29,7 +28,7 @@ export class NavBarComponent {
     this.document.body.dir = this.selectedLang === 'ar' ? 'rtl' : 'ltr';
     document.documentElement.setAttribute('lang', this.selectedLang);
     document.documentElement.setAttribute('dir', this.selectedLang === 'ar' ? 'rtl' : 'ltr');
-    // window.location.reload()
+    window.location.reload()
   }
 
 }

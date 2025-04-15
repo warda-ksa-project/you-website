@@ -1,10 +1,11 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-partner',
   standalone: true,
-  imports: [NgFor],
+  imports: [NgFor,TranslatePipe],
   templateUrl: './partner.component.html',
   styleUrl: './partner.component.scss'
 })

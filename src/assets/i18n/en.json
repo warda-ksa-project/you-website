@@ -1,5 +1,67 @@
 {
-    "nav_bar":{
-        "home":"Home"
-    }
+  "nav_bar": {
+    "arabic": "Arabic",
+    "english": "English",
+    "home": "Home",
+    "about": "About Us",
+    "services": "Our Services",
+    "works": "Our Work",
+    "partner": "Success Partners",
+    "contact": "Contact Us",
+    "info1": "Innovative technological solutions that make a difference",
+    "info2": "We build the future of technology with smart solutions tailored to your needs",
+    "info3": "We provide you with innovative and customized software solutions that ensure excellence in the business world, from system development to",
+    "info4": "data management. We are your partners in achieving digital success"
+  },
+  "about": {
+    "why": "Why Us",
+    "p1": "Innovative technological solutions to enhance company performance and achieve digital goals",
+    "message": "Our Mission",
+    "p2": "We aim to provide flexible and advanced software solutions that meet the needs of both local and international markets, focusing on quality and innovation to achieve mutual success",
+    "vision": "Our Vision",
+    "p3": "To be pioneers in providing innovative technological solutions that make a real difference in the market and contribute to driving growth and digital transformation"
+  },
+  "services": {
+    "title": "Our Services",
+    "p1": "Innovative solutions to digitally transform your business",
+    "p2": "We aim to provide flexible and advanced software solutions that meet the needs of both local and international markets, focusing on quality and innovation to achieve mutual success",
+    "design_services": "Design Services",
+    "d_marketing": "Digital Marketing",
+    "development": "Business Development",
+    "mobile_design": "Mobile App Design",
+    "program_testing": "Software Testing",
+    "solution": "Technical Consulting & Innovative Solutions"
+  },
+  "works": {
+    "title": "Our Work",
+    "p1": "Our innovative projects that achieve success and inspire the future",
+    "p2": "Through creative technical solutions and excellent software experiences, we deliver actual results that exceed expectations. Explore our work characterized by quality and innovation in every field"
+  },
+  "partner": {
+    "title": "Our Success Partners",
+    "p1": "Data"
+  },
+  "contact": {
+    "p1": "We are here to support you",
+    "p2": "We are happy to answer your inquiries and help you achieve your digital goals",
+    "title": "Contact Us",
+    "let_contact": "Let’s connect and make",
+    "real_ideas": "Your ideas real",
+    "mobile_number": "Mobile Number",
+    "phone_number": "Phone Number",
+    "works_hours": "Working Hours",
+    "wk1": "Sunday to Thursday",
+    "morning_hour": "Morning Shift",
+    "afternoon_hour": "Evening Shift",
+    "morning": "Morning",
+    "noon": "Noon",
+    "afternoon": "Afternoon",
+    "night": "Evening",
+    "SAR_Period_time": "Saudi Arabia Time"
+  },
+  "footer": {
+    "quick_link": "Quick Links",
+    "p1": "You can contact us via the website contact form or book a free consultation to discuss your needs and provide the best solutions for you",
+    "copy_right": "All rights reserved ©"
+  }
 }

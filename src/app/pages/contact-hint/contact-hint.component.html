@@ -1,55 +1,54 @@
 <div id="contact">
   <h1 class="primary-text mt-3 hidden">contact</h1>
   <div class="bkg text-white mt-3 mb-3">
-    <p>نحن هنا لدعمك</p>
+    <p>{{ "contact.p1" | translate }}</p>
     <p class="fz-35">
-      نسعد بالإجابة على استفساراتك ومساعدتك في تحقيق أهدافك الرقمية
+      {{ "contact.p2" | translate }}
     </p>
   </div>
   <div class="page mt-4">
-    <p class="second-text">تواصل معنا</p>
+    <p class="second-text">{{ "contact.title" | translate }}</p>
     <p class="bold fz-35">
-      دعنا نتواصل ونجعل
-      <span class="text-yellow">أفكارك حقيقة</span>
+      {{ "contact.let_contact" | translate }}
+      <span class="text-yellow"> {{ "contact.real_ideas" | translate }} </span>
     </p>
     <div class="card-container row mt-2">
       <div class="card card-yellow col-md-5 col-lg-5 col-sm-12">
         <div class="data-card">
           <img src="assets/images/contact_2.svg" width="50" alt="" />
-        <span class="bold block fz-20 mt-3">تواصل معنا</span>
-        <div class="d-flex justify-content-start">
-          <span class="block"> رقم الهاتف </span>
-          <span class="block reverse"> +966 4567 123 </span>
-        </div>
-        <div class="d-flex justify-content-start">
-          <span class="block"> رقم جوال </span>
-          <span class="block reverse"> +966 4567 123 </span>
-        </div>
+          <span class="bold block fz-20 mt-3">{{"contact.title" | translate }}</span>
+          <div class="d-flex justify-content-start">
+            <span class="block">{{"contact.mobile_number" | translate }}</span>
+            <span class="block reverse"> +966 4567 123 </span>
+          </div>
+          <div class="d-flex justify-content-start">
+            <span class="block"> {{"contact.phone_number" | translate }} </span>
+            <span class="block reverse"> +966 4567 123 </span>
+          </div>
         </div>
       </div>
       <div class="card card-gray col-md-5 col-lg-5 col-sm-12">
         <div class="data-card">
           <img src="assets/images/contact_1.svg" width="50" alt="" />
-        <span class="bold block fz-20 mt-3"> مواعيد العمل</span>
-        <span class="block fz-20"> من الاحد الي الخميس</span>
-        <div class="d-flex justify-content-start">
-          <span class="block"> الفترة الصباحية </span>
-          <span class="block">
-            <span> 09:00 صباحا </span> -
-            <span> 01:00 ظهرا </span>
-          </span>
-        </div>
-        <div class="d-flex justify-content-start">
-          <span class="block"> الفترة المسائية </span>
-          <span class="block">
-            <span> 04:00 عصرا </span> -
-            <span> 08:00 مساءا </span>
-          </span>
-        </div>
-        <span class="block fz-20"> (توقيت المملكة العربية السعودية)</span>
+          <span class="bold block fz-20 mt-3">{{"contact.works_hours" | translate }} </span>
+          <span class="block fz-20"> {{"contact.wk1" | translate }}</span>
+          <div class="d-flex justify-content-start">
+            <span class="block">{{"contact.morning_hour" | translate }}  </span>
+            <span class="block">
+              <span> 09:00 {{"contact.morning" | translate }} </span> -
+              <span> 01:00 {{"contact.noon" | translate }} </span>
+            </span>
+          </div>
+          <div class="d-flex justify-content-start">
+            <span class="block">{{"contact.afternoon_hour" | translate }}  </span>
+            <span class="block">
+              <span> 04:00{{"contact.afternoon" | translate }}  </span> -
+              <span> 08:00 {{"contact.night" | translate }} </span>
+            </span>
+          </div>
+          <span class="block fz-20">({{"contact.SAR_Period_time" | translate }} )</span>
         </div>
       </div>
     </div>
   </div>
- 
 </div>

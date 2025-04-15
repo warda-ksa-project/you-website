@@ -1,42 +1,43 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-services',
   standalone: true,
-  imports: [NgFor],
+  imports: [NgFor, TranslatePipe],
   templateUrl: './services.component.html',
   styleUrl: './services.component.scss'
 })
 export class ServicesComponent {
-  services:any=[
+  services: any = [
     {
-      name:'خدمات التصميم',
-      image:'assets/images/icon-service-1.svg'
+      name: 'services.design_services',
+      image: 'assets/images/icon-service-1.svg'
     },
     {
-      name:'التسويق الالكتروني',
-           image:'assets/images/icon-service-1.svg'
+      name: 'services.d_marketing',
+      image: 'assets/images/icon-service-1.svg'
 
     },
     {
-      name:'تطوير الاعمال',
-           image:'assets/images/icon-service-1.svg'
+      name: 'services.development',
+      image: 'assets/images/icon-service-1.svg'
 
     },
     {
-      name:'تصميم تطبيقات الجوال',
-           image:'assets/images/icon-service-1.svg'
+      name: 'services.mobile_design',
+      image: 'assets/images/icon-service-1.svg'
 
     }
     , {
-      name:'أختبار البرمجيات',
-           image:'assets/images/icon-service-1.svg'
+      name: 'services.program_testing',
+      image: 'assets/images/icon-service-1.svg'
 
     }
     , {
-      name:'استشارات تقنية وحلول مبتكرة',
-           image:'assets/images/icon-service-1.svg'
+      name: 'services.solution',
+      image: 'assets/images/icon-service-1.svg'
 
     }
   ]

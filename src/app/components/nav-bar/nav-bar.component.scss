@@ -28,6 +28,15 @@ div.bk-video {
         }
       }
     }
+    .lang{
+      span{
+        cursor: pointer;
+      }
+      img{
+        margin: 0px 5px;
+        cursor: pointer;
+      }
+    }
   }
   .info {
     color: #fff;
@@ -56,6 +65,9 @@ div.bk-video {
       .nav-link {
         color: #555555 !important; // darker text on white
       }
+    }
+    .lang{
+      display: none;
     }
     
   }

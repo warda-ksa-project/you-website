@@ -15,37 +15,81 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" [class.active]="router.url=='/home'" href="/home">{{ "الرئيسية" | translate }}</a>
+            <a
+              class="nav-link"
+              [class.active]="router.url == '/home'"
+              href="/home"
+              >{{ "nav_bar.home" | translate }}</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" [class.active]="router.url.includes('#about')" href="#about">من نحن</a>
+            <a
+              class="nav-link"
+              [class.active]="router.url.includes('#about')"
+              href="#about"
+            >
+              {{ "nav_bar.about" | translate }}</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" [class.active]="router.url.includes('#services')" href="#services">خدماتنا</a>
+            <a
+              class="nav-link"
+              [class.active]="router.url.includes('#services')"
+              href="#services"
+              >{{ "nav_bar.services" | translate }}</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" [class.active]="router.url.includes('#works')" href="#works">اعمالنا</a>
+            <a
+              class="nav-link"
+              [class.active]="router.url.includes('#works')"
+              href="#works"
+              >{{ "nav_bar.works" | translate }}</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link"[class.active]="router.url.includes('#partner')" href="#partner">شركاء النجاح</a>
+            <a
+              class="nav-link"
+              [class.active]="router.url.includes('#partner')"
+              href="#partner"
+              >{{ "nav_bar.partner" | translate }}</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link"[class.active]="router.url.includes('#contact')" href="#contact">تواصل معنا</a>
+            <a
+              class="nav-link"
+              [class.active]="router.url.includes('#contact')"
+              href="#contact"
+            >
+              {{ "nav_bar.contact" | translate }}</a
+            >
           </li>
         </ul>
       </div>
+    </div>
+    <div class="lang text-white d-flex"(click)="toggleLanguage()">
+    <span>
+      <span *ngIf="selectedLang=='en'">
+        {{'nav_bar.english'|translate}} 
+       </span>
+       <span *ngIf="selectedLang=='ar'">
+        {{'nav_bar.arabic'|translate}} 
+       </span>
+    </span>
+     <img  src="assets/images/Flags.svg" alt="">
     </div>
     <!-- <button class="lang-btn" (click)="toggleLanguage()">
       click
     </button> -->
   </nav>
   <div class="info text-center p-3">
-    <p>ابتكار حلول تكنولوجية تصنع الفارق</p>
-    <p>نحن نبني مستقبل التكنولوجيا، بحلول ذكية تواكب احتياجاتك</p>
+    <p>{{ "nav_bar.info1" | translate }}</p>
+    <p>{{ "nav_bar.info2" | translate }}</p>
     <p>
-      نقدم لك حلولاً برمجية مبتكرة ومخصصة تضمن لك التميز في عالم الأعمال. من
-      تطوير الأنظمة إلى إدارة
+      {{ "nav_bar.info3" | translate }}
     </p>
-    <p>البيانات، نحن شركاؤك في تحقيق النجاح الرقمي</p>
+    <p>
+      {{ "nav_bar.info4" | translate }}
+    </p>
   </div>
 </div>
