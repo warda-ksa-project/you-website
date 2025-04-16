@@ -31,6 +31,12 @@ body{
 .hidden{
     visibility: hidden;
 }
+.block{
+    display: block;
+}
+.box-shadow{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 .primary-text{
 font-weight: 600;
 font-size: 35px;

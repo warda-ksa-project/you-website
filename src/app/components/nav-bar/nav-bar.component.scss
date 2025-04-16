@@ -49,13 +49,32 @@ div.bk-video {
     }
   }
   .info {
-    color: #fff;
-    font-size: 1.7rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 78vh;
+    .text-info1 {
+      font-size: 1.3rem !important;
+      color: #e3e3e3;
+      font-weight: 300;
+    }
+    .text-info2 {
+      font-size: 1.7rem !important;
+      color:#fff;
+      font-weight:600;
+      margin: 15px 0px;
+    }
+    .text-info3 {
+      font-size: 1.4rem !important;
+       color: #e3e3e3;
+       font-weight: 300;
+    }
+    .text-info4 {
+      font-size: 1.4rem !important;
+       color: #e3e3e3;
+       font-weight: 300;
+    }
   }
 }
 .active {
