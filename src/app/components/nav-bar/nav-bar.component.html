@@ -67,14 +67,15 @@
           <li class="nav-item lang-sm">
             <div class="d-flex"(click)="toggleLanguage()">
               <span>
-                <span *ngIf="selectedLang=='en'">
+                <span *ngIf="selectedLang=='ar'">
                   {{'nav_bar.english'|translate}} 
                  </span>
-                 <span *ngIf="selectedLang=='ar'">
+                 <span *ngIf="selectedLang=='en'">
                   {{'nav_bar.arabic'|translate}} 
                  </span>
               </span>
-               <img  src="assets/images/Flags.svg" alt="">
+               <img *ngIf="selectedLang=='en'" src="assets/images/arab_lang.png" alt="" height="20">
+               <img  *ngIf="selectedLang=='ar'" src="assets/images/english_lang.png" alt="" height="20">
               </div>
           </li>
         </ul>
@@ -82,25 +83,28 @@
     </div>
     <div class="lang text-white d-flex animate__animated animate__rubberBand"(click)="toggleLanguage()">
     <span>
-      <span *ngIf="selectedLang=='en'">
+      <span *ngIf="selectedLang=='ar'">
         {{'nav_bar.english'|translate}} 
        </span>
-       <span *ngIf="selectedLang=='ar'">
+       <span *ngIf="selectedLang=='en'">
         {{'nav_bar.arabic'|translate}} 
        </span>
     </span>
-     <img  src="assets/images/Flags.svg" alt="">
+    <img *ngIf="selectedLang=='en'" src="assets/images/arab_lang.png" alt=""  height="20">
+    <img  *ngIf="selectedLang=='ar'" src="assets/images/english_lang.png" alt=""  height="20">
     </div>
     <!-- <button class="lang-btn" (click)="toggleLanguage()">
       click
     </button> -->
   </nav>
-  <div class="info text-center p-3 animate__animated animate__fadeInDown">
-    <p class="text-info1">{{ "nav_bar.info1" | translate }}</p>
-    <p class="text-info2">{{ "nav_bar.info2" | translate }}</p>
-    <p class="text-info3">{{ "nav_bar.info3" | translate }}</p>
-    <p class="text-info4">
-      {{ "nav_bar.info4" | translate }}
-    </p>
+  <div class="info-container">
+    <div class="info text-center p-3 animate__animated animate__fadeInDown">
+      <p class="text-info1">{{ "nav_bar.info1" | translate }}</p>
+      <p class="text-info2">{{ "nav_bar.info2" | translate }}</p>
+      <p class="text-info3">{{ "nav_bar.info3" | translate }}</p>
+      <p class="text-info4">
+        {{ "nav_bar.info4" | translate }}
+      </p>
+    </div>
   </div>
 </div>

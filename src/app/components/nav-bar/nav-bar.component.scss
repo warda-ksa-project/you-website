@@ -48,12 +48,19 @@ div.bk-video {
       }
     }
   }
-  .info {
+ .info-container{
+  position: relative;
+z-index: 999999999999999;
+display: flex;
+justify-content: center;  
+align-items: center;     
+height: 500px;
+margin-top: 55px;
+.info {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 78vh;
     .text-info1 {
       font-size: 1.3rem !important;
       color: #e3e3e3;
@@ -76,6 +83,7 @@ div.bk-video {
        font-weight: 300;
     }
   }
+ }
 }
 .active {
   color: #fff !important;
