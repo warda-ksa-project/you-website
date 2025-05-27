@@ -32,8 +32,8 @@
           <div class="w-100">
             <img [src]="item?.image" width="50" alt="" />
           </div>
-          <div class="mt-2">
-            <div class="text-end" *ngFor="let details of item.details">
+          <div class="mt-2"[class]="currentLang=='en'?'text-start':'text-end'">
+            <div class="" *ngFor="let details of item.details">
                   <p *ngIf="details.id==0" class="bold">{{details.name|translate}}</p>
                   <div class="d-flex justify-content-start">
                     <p  *ngIf="details.id>0">{{details.name|translate}}</p>

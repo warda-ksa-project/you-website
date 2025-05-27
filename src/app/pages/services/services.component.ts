@@ -1,6 +1,6 @@
 import { NgFor, NgIf } from '@angular/common';
-import { Component } from '@angular/core';
-import { TranslatePipe } from '@ngx-translate/core';
+import { Component, inject } from '@angular/core';
+import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-services',
@@ -10,6 +10,9 @@ import { TranslatePipe } from '@ngx-translate/core';
   styleUrl: './services.component.scss',
 })
 export class ServicesComponent {
+  private translate =inject(TranslateService)
+  currentLang=this.translate.currentLang
+
   services: any = [
     {
       id: 0,
@@ -116,7 +119,6 @@ export class ServicesComponent {
       ],
     },
   ];
-
   showServiceDetails(id: number) {
     this.services.map((res: any) => {
       if (res.id == id) res.showDetails = true;
