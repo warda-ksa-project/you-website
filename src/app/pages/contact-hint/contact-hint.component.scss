@@ -17,6 +17,9 @@ vertical-align: middle;
         .card{
             margin: 10px;
             border-radius: 23px;
+            min-width: 350px;
+            width: 30%;
+            flex-grow: 1;
             .data-card{
                 // width: 100%;
                 height: auto;
@@ -31,6 +34,12 @@ vertical-align: middle;
           background-color: #FEF9E6;
           color: #343434;
           border: 1px solid #FEF9E6;
+
+        }
+           .card-blue{
+          background-color: #e6f0fe;
+          color: #343434;
+          border: 1px solid #e6f0fe;
 
         }
         .card-gray{

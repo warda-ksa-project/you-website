@@ -3,12 +3,14 @@
    .ng-cont{
     // width: 100%;
     // margin: auto;
+    flex-grow: 1;
     .card{
-        // width: 21.875rem;
-        height: 170px;
+        min-height: 170px;
+        min-width: 320px;
         border: 1px solid #fff;
         border-radius: 23px;
         padding:30px 20px;
+        cursor: pointer;
         // flex-grow: 1;
         // flex-shrink: 1;
         span{
@@ -23,4 +25,8 @@ vertical-align: middle;
         }
     }
    }
+}
+
+.maxWidth_350{
+    max-width: 350px!important;
 }
