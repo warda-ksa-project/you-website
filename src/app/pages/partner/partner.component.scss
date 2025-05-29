@@ -1,13 +1,15 @@
 .card-container{
     // margin: 0 10%;
+    display: flex;
+    justify-content: center;
     .card{
-        display: flex;               
-        flex-direction: column;    
-        justify-content: center;    
-        align-items: center;        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: 25px 40px;
         height: 100px;
-        text-align: center;    
+        text-align: center;
         border: 1px solid #fff;
         border-radius: 23px;
     }
