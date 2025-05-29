@@ -1,32 +1,35 @@
-.card-container{
-//    margin: 0 10%;
-   .ng-cont{
+.card-container {
+
+  //    margin: 0 10%;
+  .ng-cont {
     // width: 100%;
     // margin: auto;
     flex-grow: 1;
-    .card{
-        min-height: 170px;
-        min-width: 320px;
-        border: 1px solid #fff;
-        border-radius: 23px;
-        padding:30px 20px;
-        cursor: pointer;
-        // flex-grow: 1;
-        // flex-shrink: 1;
-        span{
-            margin-top: 15px;
-font-weight: 700;
-font-size: 1rem;
-line-height: 38.4px;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
 
-        }
+    .card {
+      min-height: 170px;
+      // min-width: 320px;
+      border: 1px solid #fff;
+      border-radius: 23px;
+      padding: 30px 20px;
+      cursor: pointer;
+
+      // flex-grow: 1;
+      // flex-shrink: 1;
+      span {
+        margin-top: 15px;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 38.4px;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+
+      }
     }
-   }
+  }
 }
 
-.maxWidth_350{
-    max-width: 350px!important;
+.maxWidth_350 {
+  max-width: 350px !important;
 }

@@ -15,19 +15,19 @@ export class PartnerComponent {
       image:'assets/images/matlop-logo.svg'
     },
     {
-      image:'assets/images/Logo_3.svg'
+      image:'assets/images/logo.svg'
     },
-    {
-      image:'assets/images/Logo_2.svg'
-    },
-    {
-      image:'assets/images/Logo_1.svg'
-    },
-    {
-      image:'assets/images/Logo_2.svg'
-    },
-    {
-      image:'assets/images/Logo_1.svg'
-    }
+    // {
+    //   image:'assets/images/Logo_2.svg'
+    // },
+    // {
+    //   image:'assets/images/Logo_1.svg'
+    // },
+    // {
+    //   image:'assets/images/Logo_2.svg'
+    // },
+    // {
+    //   image:'assets/images/Logo_1.svg'
+    // }
   ]
 }

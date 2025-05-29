@@ -1,53 +1,61 @@
-#contact{
-    .bkg{
-        background: url("../../../assets/images/CTA.svg") no-repeat center center;
-        padding:30px 20px;
-        background-size: cover;
+#contact {
+  .bkg {
+    background: url("../../../assets/images/CTA.svg") no-repeat center center;
+    padding: 30px 20px;
+    background-size: cover;
+  }
+
+  .fz-35 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 55px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+  }
+
+  .card-container {
+
+    // margin: 0 10%;
+    .card {
+      margin: 10px;
+      border-radius: 23px;
+      // min-width: 350px;
+      // width: 30%;
+      flex-grow: 1;
+
+      .data-card {
+        // width: 100%;
+        height: auto;
+        margin: 5px;
+        padding: 20px;
+
+        span.block {
+          margin: 0px 5px;
+        }
+      }
     }
-    .fz-35{
-font-weight: 600;
-font-size: 35px;
-line-height: 55px;
-letter-spacing: 0%;
-vertical-align: middle;
+
+    .card-yellow {
+      background-color: #FEF9E6;
+      color: #343434;
+      border: 1px solid #FEF9E6;
 
     }
-    .card-container {
-        // margin: 0 10%;
-        .card{
-            margin: 10px;
-            border-radius: 23px;
-            min-width: 350px;
-            width: 30%;
-            flex-grow: 1;
-            .data-card{
-                // width: 100%;
-                height: auto;
-                margin: 5px;
-                padding: 20px;
-                span.block{
-                    margin: 0px 5px;
-                }
-            }
-        }
-        .card-yellow{
-          background-color: #FEF9E6;
-          color: #343434;
-          border: 1px solid #FEF9E6;
 
-        }
-           .card-blue{
-          background-color: #e6f0fe;
-          color: #343434;
-          border: 1px solid #e6f0fe;
+    .card-blue {
+      background-color: #e6f0fe;
+      color: #343434;
+      border: 1px solid #e6f0fe;
 
-        }
-        .card-gray{
-            background-color: #EEEEEE;
-            color: #343434;
-            
-            border: 1px solid #EEEEEE;
-        }
     }
+
+    .card-gray {
+      background-color: #EEEEEE;
+      color: #343434;
+
+      border: 1px solid #EEEEEE;
+    }
+  }
 
 }
