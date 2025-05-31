@@ -36,7 +36,7 @@ export class ServicesComponent {
     },
     {
       id: 0,
-      name: 'services.service_4',
+      name: 'services.service_5',
       image: 'assets/images/s-5.svg',
     },
     {
