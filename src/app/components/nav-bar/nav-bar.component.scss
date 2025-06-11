@@ -1,10 +1,9 @@
 div.bk-video {
-  background: url("../../../assets/images/bk_video.gif") no-repeat center center;
-  background-size: cover;
-  height: 500px;
-  nav {
-    background: url("../../../assets/images/bk_video.gif") no-repeat center
-      center;
+  // background: url("../../../assets/images/bk_video.gif") no-repeat center center;
+  // background-size: cover;
+  // height: 500px;
+  nav {  
+      background: url("../../../assets/images/slider1.svg") no-repeat center center;
     background-size: cover;
     border-bottom: 1px solid #fff;
     padding-right: 5%;
@@ -48,49 +47,15 @@ div.bk-video {
       }
     }
   }
- .info-container{
-  position: relative;
-z-index: 999999999999999;
-display: flex;
-justify-content: center;  
-align-items: center;     
-height: 500px;
-margin-top: 55px;
-.info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    .text-info1 {
-      font-size: 1.3rem !important;
-      color: #e3e3e3;
-      font-weight: 300;
-    }
-    .text-info2 {
-      font-size: 1.7rem !important;
-      color:#fff;
-      font-weight:600;
-      margin: 15px 0px;
-    }
-    .text-info3 {
-      font-size: 1.4rem !important;
-       color: #e3e3e3;
-       font-weight: 300;
-    }
-    .text-info4 {
-      font-size: 1.4rem !important;
-       color: #e3e3e3;
-       font-weight: 300;
-    }
-  }
- }
+
 }
 .active {
   color: #fff !important;
   font-weight: bolder;
   opacity: unset !important;
 }
-@media screen and (max-width: 575px) {
+
+@media screen and (max-width: 991.5px) {
   nav {
     padding: unset !important;
     height: 55px;
@@ -113,7 +78,31 @@ margin-top: 55px;
     }
     
   }
-  .info {
-    font-size: 1.4rem !important;
+  .info-container {
+    display: none;
+    // height: 50px;
+  }
+}
+
+.indicators-left {
+  position: absolute;
+  top: 55%;
+  // right: -150px; /* Adjust right spacing */
+  // left:-150px;
+  transform: translateY(-50%);
+  flex-direction: column; /* Stack vertically */
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px; /* space between dots */
+}
+
+.indicators-left button {
+  width: 5px;
+  height: 100px;
+}
+
+::ng-deep{
+  .carousel-indicators{
+  margin: 0px 50px!important;
   }
 }
