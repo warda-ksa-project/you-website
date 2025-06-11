@@ -85,6 +85,29 @@ export class ServicesComponent {
         { id: 5, name: 'services.s4_5' },
       ],
     },
+    {
+      id: 4,
+      name: 'services.service_new_5',
+      image: 'assets/images/sv-5.svg',
+      showDetails: false,
+      details: [
+        { id: 1, name: 'services.s4_1' },
+        { id: 2, name: 'services.s4_2' },
+        {
+          id: 3,
+          name: 'services.s4_3',
+        },
+        { id: 4, name: 'services.s4_4' },
+        { id: 5, name: 'services.s4_5' },
+      ],
+    },
+    {
+      id: 5,
+      name: 'services.more_services',
+      image: '',
+      showDetails: false,
+      details: [],
+    },
   ];
   // showServiceDetails(id: number) {
   //  this.selectedData= this.services.filter((res: any) => {
@@ -97,7 +120,10 @@ export class ServicesComponent {
   //   });
   // }
   selectedService(id: number) {
+    if(id==5)
+      alert('routing')
+    else
     this.selectedData = this.services[id];
-    console.log('ffff', this.selectedData);
+
   }
 }

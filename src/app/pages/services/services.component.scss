@@ -7,7 +7,7 @@
     .card {
       background-color: #e6edff;
       height: 200px;
-      min-width: 300px;
+      min-width: 350px;
       border: 1px solid #e6edff;
       border-radius: 23px;
       padding: 30px 20px 10px 20px;
@@ -38,4 +38,8 @@
 
 .arabicDirection {
   direction: ltr !important;
+}
+.bkg-blue{
+  background-color: #031aaf!important;
+  color: #fff;
 }
