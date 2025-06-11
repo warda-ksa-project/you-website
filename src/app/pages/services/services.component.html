@@ -16,31 +16,80 @@
     class="card-container d-flex justify-content-start flex-wrap mt-5 animate__animated animate__backInLeft animate__delay-2s"
   >
     <div class="ng-cont" *ngFor="let item of services">
-      <div
-        [class.maxWidth_350]="item.showDetails"
-        class="card m-2 text-center box-shadow"
-        (mouseover)="showServiceDetails(item.id)"
-         (mouseout)="hideServiceDetails(item.id)"
-      >
-        <ng-container *ngIf="!item.showDetails">
+      <div class="card m-2 text-center box-shadow">
+        <ng-container>
           <div class="w-100">
             <img [src]="item?.image" width="50" alt="" />
           </div>
           <span> {{ item?.name | translate }}</span>
         </ng-container>
-        <ng-container *ngIf="item.showDetails">
-          <div class="w-100">
-            <img [src]="item?.image" width="50" alt="" />
-          </div>
-          <div class="mt-2"[class]="currentLang=='en'?'text-start':'text-end'">
-            <div class="" *ngFor="let details of item.details">
-                  <p *ngIf="details.id==0" class="bold">{{details.name|translate}}</p>
-                  <div class="d-flex justify-content-start">
-                    <p  *ngIf="details.id>0">{{details.name|translate}}</p>
-                  </div>
+        <div
+          class="footer text-start"
+          [class.arabicDirection]="currentLang == 'ar'"
+        >
+          <img
+            (click)="selectedService(item.id)"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+            src="assets/images/arrow-left.svg"
+            width="30"
+            alt=""
+          />
+
+          <span
+            (click)="selectedService(item.id)"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            {{ "services.more" | translate }}</span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <div class="w-100">
+          <h4 class="bold">
+            <img [src]="selectedData?.image" width="50" alt="" />
+            <span> {{ selectedData?.name | translate }}</span>
+          </h4>
+        </div>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+        ></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="asd">
+          <div
+            class="mt-2"
+            [class]="currentLang == 'en' ? 'text-start' : 'text-end'"
+          >
+            <div class="" *ngFor="let details of selectedData?.details">
+              <p *ngIf="details.id == 0" class="bold">
+                {{ details.name | translate }}
+              </p>
+              <div class="d-flex justify-content-start">
+                <p *ngIf="details.id > 0">{{ details.name | translate }}</p>
+              </div>
             </div>
           </div>
-        </ng-container>
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+          {{ "services.close" | translate }}
+        </button>
       </div>
     </div>
   </div>

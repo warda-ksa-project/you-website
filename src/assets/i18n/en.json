@@ -66,7 +66,10 @@
     "s4_2": "Search Engine Optimization (SEO)",
     "s4_3": "Digital marketing campaigns and paid ads",
     "s4_4": "System integration and API development",
-    "s4_5": "24/7 maintenance and technical support"
+    "s4_5": "24/7 maintenance and technical support",
+
+    "more":"See more",
+    "close":"Close"
   },
   "works": {
     "title": "Our Works",
