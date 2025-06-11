@@ -85,6 +85,16 @@ export class ServicesComponent {
         { id: 5, name: 'services.s4_5' },
       ],
     },
+    {
+      id: 0,
+      name: 'services.service_5',
+      image: 'assets/images/s-5.svg',
+    },
+    {
+      id: 1,
+      name: 'services.service_6',
+      image: 'assets/images/s-6.svg',
+    }
   ];
   // showServiceDetails(id: number) {
   //  this.selectedData= this.services.filter((res: any) => {
