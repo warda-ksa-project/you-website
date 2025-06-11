@@ -15,7 +15,7 @@ export class ServicesComponent {
   services: any = [
     {
       id: 0,
-      name: 'services.service_1',
+      name: 'services.service_new_1',
       image: 'assets/images/sv-1.svg',
       showDetails: false,
       details: [
@@ -31,7 +31,7 @@ export class ServicesComponent {
     },
     {
       id: 1,
-      name: 'services.service_2',
+      name: 'services.service_new_2',
       image: 'assets/images/sv-2.svg',
       showDetails: false,
       details: [
@@ -51,7 +51,7 @@ export class ServicesComponent {
     },
     {
       id: 2,
-      name: 'services.service_3',
+      name: 'services.service_new_3',
       image: 'assets/images/sv-3.svg',
       showDetails: false,
       details: [
@@ -71,7 +71,7 @@ export class ServicesComponent {
     },
     {
       id: 3,
-      name: 'services.service_4',
+      name: 'services.service_new_4',
       image: 'assets/images/sv-4.svg',
       showDetails: false,
       details: [
