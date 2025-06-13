@@ -26,7 +26,6 @@ export class NavBarComponent implements AfterViewInit {
   }
 
   toggleLanguage() {
-    window.location.reload()
     this.selectedLang = this.selectedLang === 'en' ? 'ar' : 'en';
     this.LocalStorageService.setItem('lang', this.selectedLang);
       this.change(this.selectedLang);
