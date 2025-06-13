@@ -24,6 +24,7 @@ export class NavBarComponent implements AfterViewInit {
   }
 
   toggleLanguage() {
+    window.location.reload()
     this.selectedLang = this.selectedLang === 'en' ? 'ar' : 'en';
     this.LocalStorageService.setItem('lang', this.selectedLang);
     const html = document.getElementsByTagName('html')[0];
@@ -58,4 +59,12 @@ export class NavBarComponent implements AfterViewInit {
       }
     });
   }
+
+scrollToSection(id: string): void {
+  console.log('id',id)
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+}
 }

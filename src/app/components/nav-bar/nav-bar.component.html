@@ -87,12 +87,29 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="assets/images/slider1.svg" alt="Los Angeles" class="d-block" style="width:100%">
+            <div class="text">
+              <p class="carousel-text-header">{{'nav_bar.slider1-header'|translate}}</p>
+              <p class="carousel-text-desc">{{'nav_bar.slider1-desc'|translate}}</p>
+              <button type="button" class="btn btn-primary contact-btn" (click)="scrollToSection('contact')">
+                {{'nav_bar.contact'|translate}}
+              </button>
+            </div>
           </div>
           <div class="carousel-item">
             <img src="assets/images/slider2.svg" alt="Chicago" class="d-block" style="width:100%">
+            <div class="text">
+              <p class="carousel-text-header">{{'nav_bar.slider1-header'|translate}}</p>
+              <p class="carousel-text-desc">{{'nav_bar.slider1-desc'|translate}}</p>
+              <button class="btn btn-primary contact-btn" (click)="scrollToSection('contact')">{{'nav_bar.contact'|translate}}</button>
+            </div>
           </div>
           <div class="carousel-item">
             <img src="assets/images/slider3.svg" alt="New York" class="d-block" style="width:100%">
+            <div class="text">
+              <p class="carousel-text-header">{{'nav_bar.slider1-header'|translate}}</p>
+              <p class="carousel-text-desc">{{'nav_bar.slider1-desc'|translate}}</p>
+              <button class="btn btn-primary contact-btn" (click)="scrollToSection('contact')">{{'nav_bar.contact'|translate}}</button>
+            </div>
           </div>
         </div>
 

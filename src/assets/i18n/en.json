@@ -1,5 +1,11 @@
 {
   "nav_bar": {
+    "slider1-header": "We Make a Difference with Technology",
+    "slider1-desc": "We provide integrated software solutions that help you grow, innovate, and stand out in your market.",
+    "slider2-header": "",
+    "slider2-desc": "",
+    "slider3-header": "",
+    "slider3-desc": "",
     "arabic": "Arabic",
     "english": "English",
     "home": "Home",
@@ -37,46 +43,40 @@
     "title": "Our Services",
     "p1": "Innovative solutions to digitize your business",
     "p2": "We aim to provide flexible and advanced software solutions that meet local and international market needs, focusing on quality and innovation for mutual success.",
-    "service_new_1":"خدمات التصميم",
-    "service_new_2":"التسويق الإلكتروني",
-    "service_new_3":"تطوير الأعمال",
-    "service_new_4":"تصميم تطبيقات الجوال",
-    "service_new_5":"اختبار البرمجيات",
-    "more_services":"المزيد من الخدمات",
-
+    "service_new_1": "خدمات التصميم",
+    "service_new_2": "التسويق الإلكتروني",
+    "service_new_3": "تطوير الأعمال",
+    "service_new_4": "تصميم تطبيقات الجوال",
+    "service_new_5": "اختبار البرمجيات",
+    "more_services": "المزيد من الخدمات",
     "service_1": "Custom Software Development",
     "service_2": "Website Design and Development",
     "service_3": "Hosting Services",
     "service_4": "Advanced Services",
-
     "s1_1": "We design and develop custom software systems tailored to client needs, including:",
     "s1_2": "Enterprise Resource Planning (ERP) systems",
     "s1_3": "Accounting and invoicing systems",
     "s1_4": "Customer Relationship Management (CRM) systems",
     "s1_5": "Custom applications for health, education, commerce, and more",
-
     "s2_1": "We build modern, fast websites carefully designed to match our client's brand identity:",
     "s2_2": "Corporate and institutional websites",
     "s2_3": "Full-featured e-commerce websites",
     "s2_4": "Educational websites and training platforms",
     "s2_5": "Booking and appointment websites",
     "s2_6": "Marketing landing pages",
-
     "s3_1": "We provide high-performance hosting services that include:",
     "s3_2": "Shared Hosting",
     "s3_3": "Virtual Private Servers (VPS)",
     "s3_4": "Dedicated Servers",
     "s3_5": "Domain registration and official email",
     "s3_6": "Daily backups and 99.9% uptime guarantee",
-
     "s4_1": "Brand identity and visual design (logos, colors, brochures)",
     "s4_2": "Search Engine Optimization (SEO)",
     "s4_3": "Digital marketing campaigns and paid ads",
     "s4_4": "System integration and API development",
     "s4_5": "24/7 maintenance and technical support",
-
-    "more":"See more",
-    "close":"Close"
+    "more": "See more",
+    "close": "Close"
   },
   "works": {
     "title": "Our Works",
@@ -116,14 +116,13 @@
     "p1": "You can contact us through the website contact form, or book a free consultation to discuss your needs and offer the most suitable solutions.",
     "copy_right": "All rights reserved ©"
   },
- "modwana": {
-  "title": "Blog",
-  "p1": "Latest news from our blog and event page",
-  "details": "Discover the latest articles and news in the world of technology, programming, and digital marketing. We provide unique content to help you stay updated and benefit from best practices in the field.",
-  "more": "Read more",
-  "mwd_1": "5 Modern Technologies Revolutionizing Software Development and Changing the Future of Applications",
-  "mwd_2": "5 Modern Technologies Revolutionizing Software Development and Changing the Future of Applications",
-  "mwd_3": "5 Modern Technologies Revolutionizing Software Development and Changing the Future of Applications"
-}
-
+  "modwana": {
+    "title": "Blog",
+    "p1": "Latest news from our blog and event page",
+    "details": "Discover the latest articles and news in the world of technology, programming, and digital marketing. We provide unique content to help you stay updated and benefit from best practices in the field.",
+    "more": "Read more",
+    "mwd_1": "5 Modern Technologies Revolutionizing Software Development and Changing the Future of Applications",
+    "mwd_2": "5 Modern Technologies Revolutionizing Software Development and Changing the Future of Applications",
+    "mwd_3": "5 Modern Technologies Revolutionizing Software Development and Changing the Future of Applications"
+  }
 }
