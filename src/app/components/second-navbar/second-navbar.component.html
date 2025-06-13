@@ -1,32 +1,35 @@
 <div class="second-navbar-congtainer">
   <div class="contnet">
+    <!-- Logo -->
     <div class="logo">
-      <img src="assets/images/second-logo.svg" alt="logo" width="80">
+      <img src="assets/images/second-logo.svg" alt="logo" width="80" />
     </div>
-    <div class="routing-section">
-      <a class="nav-link" [class.active]="router.url == '/home'" href="/home">{{ "nav_bar.home" | translate }}</a>
-      <a class="nav-link" [class.active]="router.url.includes('#about')" href="#about">
-        {{ "nav_bar.about" | translate }}</a>
-      <a class="nav-link" [class.active]="router.url.includes('#services')" href="#services">{{ "nav_bar.services"
-        | translate }}</a>
-      <a class="nav-link" [class.active]="router.url.includes('#works')" href="#works">{{ "nav_bar.works" |
-        translate }}</a>
-      <a class="nav-link" [class.active]="router.url.includes('#partner')" href="#partner">{{ "nav_bar.partner" |
-        translate }}</a>
-      <a class="nav-link" [class.active]="router.url.includes('#contact')" href="#contact">
-        {{ "nav_bar.contact" | translate }}</a>
-    </div>
-    <div class="lang-section" (click)="toggleLanguage()">
-      <span>
-        <span *ngIf="selectedLang=='ar'">
-          {{'nav_bar.english'|translate}}
+
+    <!-- Burger Icon for Mobile -->
+    <button class="burger-btn" (click)="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Collapsible Menu -->
+    <div class="nav-collapse" [class.open]="isMenuOpen">
+      <div class="routing-section">
+        <a class="nav-link" [class.active]="router.url == '/home'" href="/home">{{ "nav_bar.home" | translate }}</a>
+        <a class="nav-link" [class.active]="router.url.includes('#about')" href="#about">{{ "nav_bar.about" | translate }}</a>
+        <a class="nav-link" [class.active]="router.url.includes('#services')" href="#services">{{ "nav_bar.services" | translate }}</a>
+        <a class="nav-link" [class.active]="router.url.includes('#works')" href="#works">{{ "nav_bar.works" | translate }}</a>
+        <a class="nav-link" [class.active]="router.url.includes('#partner')" href="#partner">{{ "nav_bar.partner" | translate }}</a>
+        <a class="nav-link" [class.active]="router.url.includes('#contact')" href="#contact">{{ "nav_bar.contact" | translate }}</a>
+      </div>
+      <div class="lang-section" (click)="toggleLanguage()">
+        <span>
+          <span *ngIf="selectedLang == 'ar'">{{ 'nav_bar.english' | translate }}</span>
+          <span *ngIf="selectedLang == 'en'">{{ 'nav_bar.arabic' | translate }}</span>
         </span>
-        <span *ngIf="selectedLang=='en'">
-          {{'nav_bar.arabic'|translate}}
-        </span>
-      </span>
-      <img *ngIf="selectedLang=='en'" src="assets/images/arab_lang.png" alt="" height="20">
-      <img *ngIf="selectedLang=='ar'" src="assets/images/english_lang.png" alt="" height="20">
+        <img *ngIf="selectedLang == 'en'" src="assets/images/arab_lang.png" alt="" height="20" />
+        <img *ngIf="selectedLang == 'ar'" src="assets/images/english_lang.png" alt="" height="20" />
+      </div>
     </div>
   </div>
 </div>
