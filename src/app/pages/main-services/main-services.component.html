@@ -38,10 +38,7 @@
           <p>{{ card.desc | translate }}</p>
         </div>
         <div class="routing">
-          <a href="#">
-            {{ 'main_services.know_more' | translate }}
-            <img src="assets/images/more.svg" alt="" />
-          </a>
+          <a (click)="goToServicesdetails()">أعرف المزيد  <img src="assets/images/more.svg" alt=""></a>
         </div>
       </div>
     </ng-container>
