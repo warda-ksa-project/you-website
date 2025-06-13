@@ -1,34 +1,41 @@
 <app-second-navbar></app-second-navbar>
+
 <div class="main-services-container">
   <div class="page-details">
     <div class="bread-crump-section">
-      <a routerLink="/home">{{ 'الرئيسية' | translate}}</a>
+      <a routerLink="/home">{{ 'main_services.breadcrumb_home' | translate }}</a>
       <p>/</p>
-      <p>خدماتنا</p>
+      <p>{{ 'main_services.breadcrumb_services' | translate }}</p>
     </div>
+
     <div class="title">
-      <p>ابتكار البرمجيات لتمكين أعمالك</p>
+      <p>{{ 'main_services.page_title' | translate }}</p>
     </div>
+
     <div class="desc">
-      <p>نبني لك المستقبل بتقنيات البرمجة المتطورة</p>
+      <p>{{ 'main_services.page_desc' | translate }}</p>
     </div>
   </div>
+
   <div class="tabs-section">
     <ng-container *ngFor="let tab of tabsList">
-      <p (click)="onTabClick(tab.id)" [class.active-tab]="tab.status">{{tab.name}}</p>
+      <p (click)="onTabClick(tab.id)" [class.active-tab]="tab.status">
+        {{ tab.name | translate }}
+      </p>
     </ng-container>
   </div>
+
   <div class="cards-section">
     <ng-container *ngFor="let card of selectedCards">
       <div class="card-content">
         <div class="img-section">
-          <img [src]="card.img" alt="card-img">
+          <img [src]="card.img" alt="card-img" />
         </div>
         <div class="title">
-          <p>{{card.title}}</p>
+          <p>{{ card.title | translate }}</p>
         </div>
         <div class="desc">
-          <p>{{card.desc}}</p>
+          <p>{{ card.desc | translate }}</p>
         </div>
         <div class="routing">
           <a (click)="goToServicesdetails()">أعرف المزيد  <img src="assets/images/more.svg" alt=""></a>

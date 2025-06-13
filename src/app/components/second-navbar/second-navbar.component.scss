@@ -1,36 +1,111 @@
 .second-navbar-congtainer {
+  background-color: white;
+
   .contnet {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 92px;
     padding: 10px;
+    height: 92px;
+    position: relative;
 
     .logo {
-      img {}
-    }
-
-    .routing-section {
-      display: flex;
-      gap: 20px;
-      align-items: center;
-
-      a {
-        text-decoration: none;
-        color: black;
-        &:hover {
-          color: #141aaf;
-        }
+      img {
+        max-height: 60px;
+        cursor: pointer;
       }
     }
 
-    .lang-section {
-      display: flex;
-      gap: 10px;
-      align-items: center;
+    .burger-btn {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      border: none;
       cursor: pointer;
-      img {
-        border-radius: 4px;
+      padding: 10px;
+
+      span {
+        width: 25px;
+        height: 3px;
+        background: black;
+        display: block;
+      }
+    }
+
+    .nav-collapse {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+      .routing-section {
+        display: flex;
+        gap: 20px;
+
+        a {
+          text-decoration: none;
+          color: black;
+
+          &.active {
+            font-weight: bold;
+            color: #141aaf;
+          }
+
+          &:hover {
+            color: #141aaf;
+          }
+        }
+      }
+
+      .lang-section {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        cursor: pointer;
+
+        img {
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+
+  // Responsive styles
+  @media (max-width: 991px) {
+    .contnet {
+      flex-wrap: wrap;
+      align-items: flex-start;
+
+      .burger-btn {
+        display: flex;
+      }
+
+      .nav-collapse {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 10px;
+        display: none;
+
+        &.open {
+          display: flex;
+          background: white;
+          padding: 25px;
+          border-radius: 0 0 12px 12px;
+        }
+
+        .routing-section {
+          flex-direction: column;
+          width: 100%;
+
+          a {
+            padding: 10px 0;
+          }
+        }
+
+        .lang-section {
+          margin-top: 10px;
+        }
       }
     }
   }
