@@ -8,17 +8,17 @@ import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
 @Component({
   selector: 'app-nav-bar',
   standalone: true,
-  imports: [RouterModule,TranslatePipe,NgIf, NgStyle],
+  imports: [RouterModule, TranslatePipe, NgIf, NgStyle],
   templateUrl: './nav-bar.component.html',
   styleUrl: './nav-bar.component.scss'
 })
-export class NavBarComponent implements AfterViewInit{
-    @ViewChild('carousel') carousel!: ElementRef;
-navBackGround='assets/images/slider1.svg'
+export class NavBarComponent implements AfterViewInit {
+  @ViewChild('carousel') carousel!: ElementRef;
+  navBackGround = 'assets/images/slider1.svg'
   translateService = inject(TranslateServiceService);
-  LocalStorageService =inject(LocalStorageServiceService)
+  LocalStorageService = inject(LocalStorageServiceService)
   selectedLang: string = this.LocalStorageService.getItem('lang') ?? 'en';
-  router=inject(Router)
+  router = inject(Router)
   constructor(@Inject(DOCUMENT) private document: Document) {
     this.defaultLang();
   }
@@ -26,8 +26,11 @@ navBackGround='assets/images/slider1.svg'
   toggleLanguage() {
     this.selectedLang = this.selectedLang === 'en' ? 'ar' : 'en';
     this.LocalStorageService.setItem('lang', this.selectedLang);
-    window.location.reload()
-
+    const html = document.getElementsByTagName('html')[0];
+    const dir = this.selectedLang === 'ar' ? 'rtl' : 'ltr';
+    html.setAttribute('dir', dir);
+    html.setAttribute('lang', this.selectedLang);
+    this.document.body.dir = dir;
   }
 
   defaultLang() {
@@ -50,7 +53,7 @@ navBackGround='assets/images/slider1.svg'
       );
       if (activeImg) {
         console.log('Active image src:', activeImg.src);
-        this.navBackGround= activeImg.src
+        this.navBackGround = activeImg.src
         console.log('Active image alt:', activeImg.alt);
       }
     });

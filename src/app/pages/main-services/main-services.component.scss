@@ -1,0 +1,125 @@
+.main-services-container {
+
+  .page-details {
+    background: url("../../../assets/images/CTA.svg") no-repeat;
+    padding: 60px 20px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .bread-crump-section {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+
+      p {
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+
+    .title {
+      p {
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+
+    .desc {
+      p {
+        color: white;
+        font-size: 36px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .tabs-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-block: 20px;
+    gap: 20px;
+
+    p {
+      cursor: pointer;
+      padding: 8px 16px;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+
+      &.active-tab {
+        background-color: #141aaf; // Blue background
+        color: white;
+      }
+
+      &:hover {
+        background-color: #e0e7ff;
+      }
+    }
+  }
+
+  .cards-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card-content {
+      min-height: 359px;
+      border-radius: 24px;
+      border: 1px solid #E6E6E6;
+      padding: 15px;
+      width: 282px;
+      margin-bottom: 30px;
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+
+      .img-section {
+        img {}
+      }
+
+      .title {
+        p {
+          color: #000000;
+          font-size: 20px;
+          font-weight: 600;
+        }
+      }
+
+      .desc {
+        p {
+          color: #808080;
+          font-size: 13px;
+          font-weight: 500;
+        }
+      }
+
+      .routing {
+        align-self: flex-end;
+
+        a {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          text-decoration: none;
+          color: #031AAF;
+        }
+      }
+    }
+  }
+}
