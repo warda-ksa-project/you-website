@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { SecondNavbarComponent } from "../../components/second-navbar/second-navbar.component";
 import { TranslatePipe } from '@ngx-translate/core';
 import { NgFor, NgIf } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-main-services',
@@ -13,7 +13,7 @@ import { RouterModule } from '@angular/router';
 })
 
 export class MainServicesComponent {
-
+  router =inject(Router)
   tabsList = [
     { id: '1', name: 'development', status: true },
     { id: '2', name: 'hosting', status: false },
@@ -71,4 +71,7 @@ export class MainServicesComponent {
     }
   }
 
+  goToServicesdetails(){
+    this.router.navigateByUrl('our-services/details')
+  }
 }
