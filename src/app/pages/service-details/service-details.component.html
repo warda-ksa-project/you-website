@@ -1,122 +1,107 @@
-  <app-second-navbar></app-second-navbar>
+<app-second-navbar></app-second-navbar>
 
-  <div class="main-services-container">
+<div class="main-services-container">
 
   <div class="page-details">
     <div class="bread-crump-section">
-      <a routerLink="/home">{{ 'الرئيسية' | translate}}</a>
+      <a routerLink="/home">{{ 'main_services.breadcrumb_home' | translate }}</a>
       <p>/</p>
-      <p>خدماتنا</p>
-       <p>/</p>
-      <p>تصميم المواقع</p>
+      <p>{{ 'main_services.breadcrumb_services' | translate }}</p>
+      <p>/</p>
+      <p>{{ 'service_details.breadcrumb_design' | translate }}</p>
     </div>
+
     <div class="title">
-      <p> تصميم مواقع تسبق توقعاتك</p>
+      <p>{{ 'service_details.page_title' | translate }}</p>
     </div>
+
     <div class="desc">
-      <p>مواقع سريعة، عصرية، وفعالة... مصممة لتُبرز علامتك وتحقّق أهدافك</p>
+      <p>{{ 'service_details.page_desc' | translate }}</p>
     </div>
   </div>
 
-  <div class="container" >
-     <div class="info d-flex justify-content-start flex-wrap mt-5">
-        <div class="text">
-             <p class="title">{{'تصميم إبداعي يحوّل الأفكار إلى واقع'}}</p>
-         <p class="desc"> {{'من الهوية البصرية إلى تجربة المستخدم… نقدم حلول تصميم تعكس احترافك وتُبرز علامتك بأعلى جودة'}}</p>
-   
-        </div>
-       <div class="img">
-                <img src="assets/images/our-design.svg" alt="">
-
-       </div>
+  <div class="you mt-5 d-flex justify-content-start flex-wrap">
+    <div class="text-you flex-grow-1">
+      {{ 'service_details.you_section_title' | translate }}
     </div>
-    <div class="mt-5">
-       <div class="text-center">
-         <p class="fz-18">{{'مميزاتنا'}}</p>
-        <p class="fz-35">{{'لماذا تصميم مواقعنا يستحق ثقتك؟'}}</p>
-       </div>
-        <div class="mt-3 d-flex justify-content-start flex-wrap">
-            <div class="card box-shadow">
-                <div class="w-100 text-center">
-                    <img src="assets/images/tick-circle.svg" alt="">
-                </div>
-                <p class="bold">{{'تصميم مخصص لهويتك'}}</p>
-                <p class="desc">{{'نبتكر واجهات تعكس شخصية علامتك بدقة وتترك انطباعًا لا يُنسى.'}}</p>
-            </div>
-            <div class="card box-shadow">
-                <div class="w-100 text-center">
-                    <img src="assets/images/tick-circle.svg" alt="">
-                </div>
-                <p class="bold">{{'تجربة مستخدم ذكية'}}</p>
-                <p class="desc">{{'نصمم بتجربة مدروسة تجعل التصفح سهلًا وسلسًا لعملائك'}}</p>
-            </div>
-            <div class="card box-shadow">
-                <div class="w-100 text-center">
-                    <img src="assets/images/tick-circle.svg" alt="">
-                </div>
-                <p class="bold">{{' أداء عالي وسرعة استجابة'}}</p>
-                <p class="desc">{{'مواقع سريعة وآمنة تعمل بكفاءة على كل الأجهزة والمتصفحات'}}</p>
-            </div>
-            <div class="card box-shadow">
-                <div class="w-100 text-center">
-                    <img src="assets/images/tick-circle.svg" alt="">
-                </div>
-                <p class="bold">{{' دعم واستمرارية '}}</p>
-                <p class="desc">{{'نرافقك بعد التسليم لضمان استقرار موقعك وتطوره المستمر'}}</p>
-            </div>
+    <div class="flex-grow-1">
+      <div class="d-flex justify-content-start flex-wrap">
+        <div class="card-col">
+          <p class="bold">{{ 'service_details.highly_experienced_team_title' | translate }}</p>
+          <p class="desc">{{ 'service_details.highly_experienced_team_desc' | translate }}</p>
         </div>
-    </div>
-    <div class="mt-5">
-        <div class="text-center mb-4">
-                    <p class="bold fz-35">{{'أدوات وتكنولوجيا بناء مواقع الويب'}}</p>
-
+        <div class="card-col">
+          <p class="bold">{{ 'service_details.modern_interactive_sites_title' | translate }}</p>
+          <p class="desc">{{ 'service_details.modern_interactive_sites_desc' | translate }}</p>
         </div>
-        <img src="assets/images/tools.svg" alt="">
-    </div>
-    <div class="mt-5">
-        <p class="fz-35 bold">{{'خطوات أساسية لتصميم موقع الكتروني ناجح'}}</p>
-        <div class="mt-4 d-flex justify-content-start flex-wrap">
-            <div class="card-steps box-shadow color-1">
-                <p class="bold">{{'تحديد متطلبات المشروع'}}</p>
-                <p class="dsc">{{'جمع المتطلبات الوظيفية وغير الوظيفية.'}}</p>
-            </div>
-            <div class="card-steps box-shadow color-2">
-                <p class="bold">{{'اختيار التكنولوجيا المناسبة'}}</p>
-                <p class="dsc">{{'اختيار تقنيات التطوير (HTML، CSS، JavaScript، وأطر العمل مثل React أو Angular أو Vue).'}}</p>
-            </div>
-             <div class="card-steps box-shadow color-3">
-                <p class="bold">{{'تصميم بنية قاعدة البيانات'}}</p>
-                <p class="dsc">{{'اختيار نوع قاعدة البيانات (SQL أو NoSQL) وتصميم الجداول والعلاقات'}}</p>
-            </div>
-             <div class="card-steps box-shadow color-2">
-                <p class="bold">{{'تطوير الهيكل الأساسي (Backend)'}}</p>
-                <p class="dsc">{{'تطوير واجهات برمجة التطبيقات (APIs) والتأكد من أداء وأمان العمليات الأساسية'}}</p>
-            </div>
-            <div class="card-steps box-shadow color-3">
-                <p class="bold">{{'تصميم وتطوير الواجهة الأمامية (Frontend)'}}</p>
-                <p class="dsc">{{' استخدام HTML و CSS و JavaScript لتطوير واجهة المستخدم وربطها بالهيكل الأساسي'}}</p>
-            </div>
-               <div class="card-steps box-shadow color-1">
-                <p class="bold">{{'الاختبار والتحقق'}}</p>
-                <p class="dsc">{{'إجراء اختبارات شاملة باستخدام أدوات الاختبار الآلي واختبار الوحدات'}}</p>
-            </div>
-             <div class="card-steps box-shadow color-3">
-                <p class="bold">{{'تحسين الأداء'}}</p>
-                <p class="dsc">{{'تحليل الأداء باستخدام أدوات مثل Google Lighthouse وتحسين وقت التحميل والاستجابة.'}}</p>
-            </div>
-              <div class="card-steps box-shadow color-1">
-                <p class="bold">{{'الأمان'}}</p>
-                <p class="dsc">{{'تأمين الموقع ضد التهديدات الشائعة واستخدام HTTPS وتشفير البيانات'}}</p>
-            </div>
-             <div class="card-steps box-shadow color-2">
-                <p class="bold">{{'الإطلاق والنشر'}}</p>
-                <p class="dsc">{{'نشر الموقع على خادم الإنتاج وضمان إعداد النسخ الاحتياطي والاستعادة.'}}</p>
-            </div>
-               <div class="card-steps box-shadow color-1">
-                <p class="bold">{{' المراقبة والصيانة'}}</p>
-                <p class="dsc">{{'مراقبة أداء الموقع واستقراره وتحديثه بانتظام لضمان الاستمرارية والتحسين.'}}</p>
-            </div>
+        <div class="card-col">
+          <p class="bold">{{ 'service_details.smooth_platform_integration_title' | translate }}</p>
+          <p class="desc">{{ 'service_details.smooth_platform_integration_desc' | translate }}</p>
         </div>
+        <div class="card-col">
+          <p class="bold">{{ 'service_details.credibility_impression_title' | translate }}</p>
+          <p class="desc">{{ 'service_details.credibility_impression_desc' | translate }}</p>
+        </div>
+      </div>
+      <div class="w-100 mt-3">
+        <img src="assets/images/you-frame.svg" width="100%" alt="">
+      </div>
     </div>
   </div>
+
+  <div class="container">
+    <div class="mt-5">
+      <div class="text-center mb-4">
+        <p class="bold fz-35">{{ 'service_details.tools_tech_title' | translate }}</p>
+      </div>
+      <img src="assets/images/tools.svg" width="100%" alt="">
+    </div>
+
+    <div class="mt-5 mb-5">
+      <p class="fz-35 bold">{{ 'service_details.steps_title' | translate }}</p>
+      <div class="mt-4 d-flex justify-content-start flex-wrap">
+        <div class="card-steps box-shadow color-1">
+          <p class="bold">{{ 'service_details.step_1_title' | translate }}</p>
+          <p class="dsc">{{ 'service_details.step_1_desc' | translate }}</p>
+        </div>
+        <div class="card-steps box-shadow color-2">
+          <p class="bold">{{ 'service_details.step_2_title' | translate }}</p>
+          <p class="dsc">{{ 'service_details.step_2_desc' | translate }}</p>
+        </div>
+        <div class="card-steps box-shadow color-3">
+          <p class="bold">{{ 'service_details.step_3_title' | translate }}</p>
+          <p class="dsc">{{ 'service_details.step_3_desc' | translate }}</p>
+        </div>
+        <div class="card-steps box-shadow color-2">
+          <p class="bold">{{ 'service_details.step_4_title' | translate }}</p>
+          <p class="dsc">{{ 'service_details.step_4_desc' | translate }}</p>
+        </div>
+        <div class="card-steps box-shadow color-3">
+          <p class="bold">{{ 'service_details.step_5_title' | translate }}</p>
+          <p class="dsc">{{ 'service_details.step_5_desc' | translate }}</p>
+        </div>
+        <div class="card-steps box-shadow color-1">
+          <p class="bold">{{ 'service_details.step_6_title' | translate }}</p>
+          <p class="dsc">{{ 'service_details.step_6_desc' | translate }}</p>
+        </div>
+        <div class="card-steps box-shadow color-3">
+          <p class="bold">{{ 'service_details.step_7_title' | translate }}</p>
+          <p class="dsc">{{ 'service_details.step_7_desc' | translate }}</p>
+        </div>
+        <div class="card-steps box-shadow color-1">
+          <p class="bold">{{ 'service_details.step_8_title' | translate }}</p>
+          <p class="dsc">{{ 'service_details.step_8_desc' | translate }}</p>
+        </div>
+        <div class="card-steps box-shadow color-2">
+          <p class="bold">{{ 'service_details.step_9_title' | translate }}</p>
+          <p class="dsc">{{ 'service_details.step_9_desc' | translate }}</p>
+        </div>
+        <div class="card-steps box-shadow color-1">
+          <p class="bold">{{ 'service_details.step_10_title' | translate }}</p>
+          <p class="dsc">{{ 'service_details.step_10_desc' | translate }}</p>
+        </div>
+      </div>
+    </div>
   </div>
+
+</div>

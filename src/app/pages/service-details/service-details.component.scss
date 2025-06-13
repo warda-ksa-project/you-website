@@ -1,5 +1,4 @@
 .main-services-container {
-
     .page-details {
         background: url("../../../assets/images/CTA.svg") no-repeat;
         padding: 60px 20px;
@@ -52,14 +51,18 @@
 
             .text {
                 min-width: 350px;
-                width: 40%;
+                width: 50%;
 
                 p.title {
+                    width: 80%;
                     font-size: 48px;
                     font-weight: 700;
                 }
 
                 p.desc {
+                    min-width: 300px;
+                    width: 80%;
+
                     font-size: 22px;
                     font-weight: 400;
                     color: #727272
@@ -67,9 +70,13 @@
             }
 
             div.img {
-                width: 60%;
+                width: 50%;
                 display: flex;
                 justify-content: center;
+
+                img {
+                    width: 100%;
+                }
             }
         }
 
@@ -81,6 +88,7 @@
             padding: 10px;
             border: unset;
             margin: 10px;
+            flex-grow: 1;
 
             .bold {
                 font-size: 20px;
@@ -93,10 +101,12 @@
             }
         }
 
+
         .card-steps {
             border-radius: 16px;
             margin: 20px 10px;
             padding: 10px;
+            min-width: 300px;
 
             .bold {
                 font-size: 20px;
@@ -108,25 +118,52 @@
             }
         }
     }
+
+    .you {
+        background-color: #E6E8F7;
+        padding: 20px;
+
+        div.text-you {
+            background-color: #02106B;
+            color: #fff;
+            border-radius: 24px;
+            margin: 0px 10px;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: 800;
+            width: 175px;
+        }
+
+        .card-col {
+            width: 300px;
+            margin: 5px;
+            flex-grow: 1;
+            .desc {
+                color: #808080;
+                width: 90%;
+            }
+        }
+
+    }
 }
 
 .color-1 {
     background-color: #E6E8F7;
-    width: 250px;
-    flex-grow: -1;
+    // width: 250px;
+    flex-grow: 1;
 }
 
 .color-2 {
     background-color: #FAF4E9;
-    width: 506px;
-    flex-grow: -1;
+    // width: 506px;
+    flex-grow: 1;
 
 }
 
 .color-3 {
     background-color: #EEEEEE;
-    width: 400px;
-    flex-grow: -1;
+    // width: 400px;
+    flex-grow: 1;
 
 }
 
