@@ -1,5 +1,6 @@
 import { NgFor, NgIf } from '@angular/common';
 import { Component, inject } from '@angular/core';
+import { Router } from '@angular/router';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-services',
@@ -11,6 +12,7 @@ import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 export class ServicesComponent {
   private translate = inject(TranslateService);
   currentLang = this.translate.currentLang;
+  route = inject(Router)
   selectedData: any;
   services: any = [
     {
@@ -120,10 +122,9 @@ export class ServicesComponent {
   //   });
   // }
   selectedService(id: number) {
-    if(id==5)
-      alert('routing')
+    if (id == 5)
+      this.route.navigate(['our-services']);
     else
-    this.selectedData = this.services[id];
-
+      this.selectedData = this.services[id];
   }
 }

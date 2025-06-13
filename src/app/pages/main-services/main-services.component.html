@@ -1,0 +1,39 @@
+<app-second-navbar></app-second-navbar>
+<div class="main-services-container">
+  <div class="page-details">
+    <div class="bread-crump-section">
+      <a routerLink="/home">{{ 'الرئيسية' | translate}}</a>
+      <p>/</p>
+      <p>خدماتنا</p>
+    </div>
+    <div class="title">
+      <p>ابتكار البرمجيات لتمكين أعمالك</p>
+    </div>
+    <div class="desc">
+      <p>نبني لك المستقبل بتقنيات البرمجة المتطورة</p>
+    </div>
+  </div>
+  <div class="tabs-section">
+    <ng-container *ngFor="let tab of tabsList">
+      <p (click)="onTabClick(tab.id)" [class.active-tab]="tab.status">{{tab.name}}</p>
+    </ng-container>
+  </div>
+  <div class="cards-section">
+    <ng-container *ngFor="let card of selectedCards">
+      <div class="card-content">
+        <div class="img-section">
+          <img [src]="card.img" alt="card-img">
+        </div>
+        <div class="title">
+          <p>{{card.title}}</p>
+        </div>
+        <div class="desc">
+          <p>{{card.desc}}</p>
+        </div>
+        <div class="routing">
+          <a href="#">أعرف المزيد  <img src="assets/images/more.svg" alt=""></a>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>
