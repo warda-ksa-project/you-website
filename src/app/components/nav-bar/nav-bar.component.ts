@@ -3,7 +3,7 @@ import { Router, RouterModule } from '@angular/router';
 import { TranslateServiceService } from '../../services/translate-service.service';
 import { DOCUMENT, NgIf, NgStyle } from '@angular/common';
 import { LocalStorageServiceService } from '../../services/local-storage-service.service';
-import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
+import { TranslateModule, TranslatePipe, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-nav-bar',
@@ -18,7 +18,9 @@ export class NavBarComponent implements AfterViewInit {
   translateService = inject(TranslateServiceService);
   LocalStorageService = inject(LocalStorageServiceService)
   selectedLang: string = this.LocalStorageService.getItem('lang') ?? 'en';
-  router = inject(Router)
+  router = inject(Router);
+    translationService = inject(TranslateService);
+
   constructor(@Inject(DOCUMENT) private document: Document) {
     this.defaultLang();
   }
@@ -26,6 +28,7 @@ export class NavBarComponent implements AfterViewInit {
   toggleLanguage() {
     this.selectedLang = this.selectedLang === 'en' ? 'ar' : 'en';
     this.LocalStorageService.setItem('lang', this.selectedLang);
+      this.change(this.selectedLang);
     const html = document.getElementsByTagName('html')[0];
     const dir = this.selectedLang === 'ar' ? 'rtl' : 'ltr';
     html.setAttribute('dir', dir);
@@ -38,6 +41,11 @@ export class NavBarComponent implements AfterViewInit {
     this.document.body.dir = this.selectedLang === 'ar' ? 'rtl' : 'ltr';
     this.document.documentElement.setAttribute('lang', this.selectedLang);
     this.document.documentElement.setAttribute('dir', this.selectedLang === 'ar' ? 'rtl' : 'ltr');
+  }
+
+   change(language: string) {
+    this.translationService.use(language);
+    localStorage.setItem('lang', language);
   }
 
 

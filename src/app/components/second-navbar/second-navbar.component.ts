@@ -3,12 +3,12 @@ import { Component, Inject, inject } from '@angular/core';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { LocalStorageServiceService } from '../../services/local-storage-service.service';
 import { TranslateServiceService } from '../../services/translate-service.service';
-import { Router } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-second-navbar',
   standalone: true,
-  imports: [TranslatePipe, NgIf],
+  imports: [TranslatePipe, NgIf , RouterModule],
   templateUrl: './second-navbar.component.html',
   styleUrl: './second-navbar.component.scss'
 })
