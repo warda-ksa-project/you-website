@@ -23,95 +23,96 @@ export class MainServicesComponent {
 
   selectedCards: any;
 
-  tabOne = [
-    {
-      id: 1,
-      img: 'assets/images/services/tab-1-1.svg',
-      title: 'main_services.tab1_card1_title',
-      desc: 'main_services.card_description'
-    },
-    {
-      id: 2,
-      img: 'assets/images/services/tab-1-2.svg',
-      title: 'main_services.tab1_card2_title',
-      desc: 'main_services.card_description'
-    }
-  ];
+ tabOne = [
+  {
+    id: 1,
+    img: 'assets/images/services/tab-1-1.svg',
+    title: 'main_services.tab1_card1_title',
+    desc: 'main_services.tab1_card1_desc'
+  },
+  {
+    id: 2,
+    img: 'assets/images/services/tab-1-2.svg',
+    title: 'main_services.tab1_card2_title',
+    desc: 'main_services.tab1_card2_desc'
+  }
+];
 
-  tabTwo = [
-    {
-      id: 1,
-      img: 'assets/images/services/tab-2-1.svg',
-      title: 'main_services.tab2_card1_title',
-      desc: 'main_services.card_description'
-    },
-    {
-      id: 2,
-      img: 'assets/images/services/tab-2-2.svg',
-      title: 'main_services.tab2_card2_title',
-      desc: 'main_services.card_description'
-    },
-    {
-      id: 3,
-      img: 'assets/images/services/tab-2-3.svg',
-      title: 'main_services.tab2_card3_title',
-      desc: 'main_services.card_description'
-    }
-  ];
+tabTwo = [
+  {
+    id: 1,
+    img: 'assets/images/services/tab-2-1.svg',
+    title: 'main_services.tab2_card1_title',
+    desc: 'main_services.tab2_card1_desc'
+  },
+  {
+    id: 2,
+    img: 'assets/images/services/tab-2-2.svg',
+    title: 'main_services.tab2_card2_title',
+    desc: 'main_services.tab2_card2_desc'
+  },
+  {
+    id: 3,
+    img: 'assets/images/services/tab-2-3.svg',
+    title: 'main_services.tab2_card3_title',
+    desc: 'main_services.tab2_card3_desc'
+  }
+];
 
-  tabThree = [
-    {
-      id: 1,
-      img: 'assets/images/services/tab-3-1.svg',
-      title: 'main_services.tab3_card1_title',
-      desc: 'main_services.card_description'
-    },
-    {
-      id: 2,
-      img: 'assets/images/services/tab-3-2.svg',
-      title: 'main_services.tab3_card2_title',
-      desc: 'main_services.card_description'
-    }
-  ];
+tabThree = [
+  {
+    id: 1,
+    img: 'assets/images/services/tab-3-1.svg',
+    title: 'main_services.tab3_card1_title',
+    desc: 'main_services.tab3_card1_desc'
+  },
+  {
+    id: 2,
+    img: 'assets/images/services/tab-3-2.svg',
+    title: 'main_services.tab3_card2_title',
+    desc: 'main_services.tab3_card2_desc'
+  }
+];
 
-  tabFour = [
-    {
-      id: 1,
-      img: 'assets/images/services/tab-4-1.svg',
-      title: 'main_services.tab4_card1_title',
-      desc: 'main_services.card_description'
-    },
-    {
-      id: 2,
-      img: 'assets/images/services/tab-4-2.svg',
-      title: 'main_services.tab4_card2_title',
-      desc: 'main_services.card_description'
-    },
-    {
-      id: 3,
-      img: 'assets/images/services/tab-4-3.svg',
-      title: 'main_services.tab4_card3_title',
-      desc: 'main_services.card_description'
-    },
-    {
-      id: 4,
-      img: 'assets/images/services/tab-4-4.svg',
-      title: 'main_services.tab4_card4_title',
-      desc: 'main_services.card_description'
-    },
-    {
-      id: 5,
-      img: 'assets/images/services/tab-4-5.svg',
-      title: 'main_services.tab4_card5_title',
-      desc: 'main_services.card_description'
-    },
-    {
-      id: 6,
-      img: 'assets/images/services/tab-4-6.svg',
-      title: 'main_services.tab4_card6_title',
-      desc: 'main_services.card_description'
-    }
-  ];
+tabFour = [
+  {
+    id: 1,
+    img: 'assets/images/services/tab-4-1.svg',
+    title: 'main_services.tab4_card1_title',
+    desc: 'main_services.tab4_card1_desc'
+  },
+  {
+    id: 2,
+    img: 'assets/images/services/tab-4-2.svg',
+    title: 'main_services.tab4_card2_title',
+    desc: 'main_services.tab4_card2_desc'
+  },
+  {
+    id: 3,
+    img: 'assets/images/services/tab-4-3.svg',
+    title: 'main_services.tab4_card3_title',
+    desc: 'main_services.tab4_card3_desc'
+  },
+  {
+    id: 4,
+    img: 'assets/images/services/tab-4-4.svg',
+    title: 'main_services.tab4_card4_title',
+    desc: 'main_services.tab4_card4_desc'
+  },
+  {
+    id: 5,
+    img: 'assets/images/services/tab-4-5.svg',
+    title: 'main_services.tab4_card5_title',
+    desc: 'main_services.tab4_card5_desc'
+  },
+  {
+    id: 6,
+    img: 'assets/images/services/tab-4-6.svg',
+    title: 'main_services.tab4_card6_title',
+    desc: 'main_services.tab4_card6_desc'
+  }
+];
+
 
   ngOnInit(): void {
     this.selectedCards = this.tabOne;
