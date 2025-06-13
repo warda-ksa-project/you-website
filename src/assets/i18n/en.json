@@ -116,13 +116,14 @@
     "p1": "You can contact us through the website contact form, or book a free consultation to discuss your needs and offer the most suitable solutions.",
     "copy_right": "All rights reserved ©"
   },
-  "modwana":{
-    "title":"Modwana",
-    "p1":"",
-    "details":"",
-    "more":"Read more",
-    "mwd_1":"",
-    "mwd_2":"",
-    "mwd_3":""
-  }
+ "modwana": {
+  "title": "Blog",
+  "p1": "Latest news from our blog and event page",
+  "details": "Discover the latest articles and news in the world of technology, programming, and digital marketing. We provide unique content to help you stay updated and benefit from best practices in the field.",
+  "more": "Read more",
+  "mwd_1": "5 Modern Technologies Revolutionizing Software Development and Changing the Future of Applications",
+  "mwd_2": "5 Modern Technologies Revolutionizing Software Development and Changing the Future of Applications",
+  "mwd_3": "5 Modern Technologies Revolutionizing Software Development and Changing the Future of Applications"
+}
+
 }
