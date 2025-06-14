@@ -1,13 +1,12 @@
 import { Component, inject } from '@angular/core';
-import { SecondNavbarComponent } from "../../components/second-navbar/second-navbar.component";
 import { TranslatePipe } from '@ngx-translate/core';
-import { NgFor, NgIf } from '@angular/common';
+import { NgFor } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-main-services',
   standalone: true,
-  imports: [SecondNavbarComponent, TranslatePipe, NgFor, NgIf, RouterModule],
+  imports: [ TranslatePipe, NgFor, RouterModule],
   templateUrl: './main-services.component.html',
   styleUrl: './main-services.component.scss'
 })

@@ -9,10 +9,10 @@ import { Router, RouterModule } from '@angular/router';
   selector: 'app-second-navbar',
   standalone: true,
   imports: [TranslatePipe, NgIf , RouterModule],
-  templateUrl: './second-navbar.component.html',
-  styleUrl: './second-navbar.component.scss'
+  templateUrl: './navbar.component.html',
+  styleUrl: './navbar.component.scss'
 })
-export class SecondNavbarComponent {
+export class NavbarComponent {
 
   translateService = inject(TranslateServiceService);
   LocalStorageService = inject(LocalStorageServiceService);

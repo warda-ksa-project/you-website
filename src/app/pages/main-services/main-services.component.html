@@ -1,5 +1,3 @@
-<app-second-navbar></app-second-navbar>
-
 <div class="main-services-container">
   <div class="page-details">
     <div class="bread-crump-section">
@@ -25,8 +23,9 @@
     </ng-container>
   </div>
 
-  <div class="cards-section">
-    <ng-container *ngFor="let card of selectedCards">
+ <div class="container cards-section">
+  <div class="row justify-content-center">
+    <div class="col-lg-3 col-md-6 col-sm-12 mb-4" *ngFor="let card of selectedCards">
       <div class="card-content">
         <div class="img-section">
           <img [src]="card.img" alt="card-img" />
@@ -38,9 +37,25 @@
           <p>{{ card.desc | translate }}</p>
         </div>
         <div class="routing">
-          <a (click)="goToServicesdetails()">أعرف المزيد  <img src="assets/images/more.svg" alt=""></a>
+          <a (click)="goToServicesdetails()">أعرف المزيد <img src="assets/images/more.svg" alt="" /></a>
         </div>
       </div>
-    </ng-container>
+    </div>
+  </div>
+</div>
+
+
+  <div class="details-section container">
+    <div class="title">
+      <button class="take-step-btn">خذ خطو الان </button>
+      <p>دعونا ننشئ مشروعك الكبير القادم معًا</p>
+    </div>
+    <div class="desc">
+      <p>لنعمل معًا لتحويل رؤيتك إلى واقع. تواصل معنا اليوم لحجز استشارة واتخاذ الخطوة الأولى نحو تحقيق إنجاز مذهل معًا.
+        هدفنا الأسمى هو تحقيق نتائج تفوق توقعاتك.</p>
+      <a class="contact-btn" href="https://wa.me/201234567890" target="_blank" aria-label="Contact us on WhatsApp">
+        {{'nav_bar.contact'|translate}}
+      </a>
+    </div>
   </div>
 </div>

@@ -14,39 +14,33 @@
     </div>
   </div>
   <div
-    class="card-container d-flex justify-content-start flex-wrap mt-5 animate__animated animate__backInLeft animate__delay-2s"
-  >
-    <div class="ng-cont flex-grow-1" *ngFor="let item of services">
-      <div (click)="selectedService(item?.id)" [class.bkg-blue]="item?.id==5" class="card  m-2 text-center box-shadow">
-        <ng-container>
-          <div class="w-100">
+    class="card-container d-flex justify-content-start flex-wrap mt-5 animate__animated animate__backInLeft animate__delay-2s">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4" *ngFor="let item of services">
+        <div (click)="selectedService(item?.id)" [class.bkg-blue]="item?.id == 5"
+          class="card text-center box-shadow h-100">
+          <div class="w-100 p-3">
             <img [src]="item?.image" width="50" alt="" />
           </div>
-          <span> {{ item?.name | translate }}</span>
-        </ng-container>
-        <div *ngIf="item?.id!==5"
-          class="footer text-start"
-          [class.arabicDirection]="currentLang == 'ar'"
-        >
-          <img
-            (click)="selectedService(item.id)"
-            data-bs-toggle="modal"
-            data-bs-target="#myModal"
-            src="assets/images/arrow-left.svg"
-            width="30"
-            alt=""
-          />
 
-          <span
-            (click)="selectedService(item.id)"
-            data-bs-toggle="modal"
-            data-bs-target="#myModal"
-          >
-            {{ "services.more" | translate }}</span
-          >
+          <div class="card-body">
+            <span [ngClass]="{'read-more': item?.id == 5}"> {{ item?.name | translate }}</span>
+            <p>{{ item?.desc | translate }}</p>
+          </div>
+
+          <div *ngIf="item?.id !== 5" class="footer text-start p-3" [class.arabicDirection]="currentLang == 'ar'">
+            <img (click)="selectedService(item.id)" data-bs-toggle="modal" data-bs-target="#myModal"
+              src="assets/images/arrow-left.svg" width="30" alt="" />
+
+            <span (click)="selectedService(item.id)"  data-bs-toggle="modal" data-bs-target="#myModal">
+              {{ "services.more" | translate }}
+            </span>
+          </div>
         </div>
       </div>
     </div>
+
+
   </div>
 </div>
 <div class="modal fade" id="myModal">
@@ -60,20 +54,13 @@
             <span> {{ selectedData?.name | translate }}</span>
           </h4>
         </div>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-        ></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       <!-- Modal body -->
       <div class="modal-body">
         <div class="asd">
-          <div
-            class="mt-2"
-            [class]="currentLang == 'en' ? 'text-start' : 'text-end'"
-          >
+          <div class="mt-2" [class]="currentLang == 'en' ? 'text-start' : 'text-end'">
             <div class="" *ngFor="let details of selectedData?.details">
               <p *ngIf="details.id == 0" class="bold">
                 {{ details.name | translate }}

@@ -6,13 +6,13 @@ import { LocalStorageServiceService } from '../../services/local-storage-service
 import { TranslateModule, TranslatePipe, TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-nav-bar',
+  selector: 'app-slider',
   standalone: true,
   imports: [RouterModule, TranslatePipe, NgIf, NgStyle],
-  templateUrl: './nav-bar.component.html',
-  styleUrl: './nav-bar.component.scss'
+  templateUrl: './slider.component.html',
+  styleUrl: './slider.component.scss'
 })
-export class NavBarComponent implements AfterViewInit {
+export class SliderComponent implements AfterViewInit {
   @ViewChild('carousel') carousel!: ElementRef;
   navBackGround = 'assets/images/slider1.svg'
   translateService = inject(TranslateServiceService);

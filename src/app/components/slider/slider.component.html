@@ -1,5 +1,5 @@
 <div class="bk-video">
-  <nav [ngStyle]="{ 'background-image': 'url(' + navBackGround + ')' }" class="navbar navbar-expand-lg fixed-top">
+  <!-- <nav [ngStyle]="{ 'background-image': 'url(' + navBackGround + ')' }" class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand animate__animated animate__heartBeat" routerLink="/">
         <img src="assets/images/white_logo.svg" height="20" alt="" />
@@ -61,10 +61,7 @@
       <img *ngIf="selectedLang=='en'" src="assets/images/arab_lang.png" alt="" height="20">
       <img *ngIf="selectedLang=='ar'" src="assets/images/english_lang.png" alt="" height="20">
     </div>
-    <!-- <button class="lang-btn" (click)="toggleLanguage()">
-      click
-    </button> -->
-  </nav>
+  </nav> -->
   <div class="info-container">
     <div class="info animate__animated animate__fadeInDown">
       <!-- <p class="text-info1">{{ "nav_bar.info1" | translate }}</p>
@@ -90,9 +87,10 @@
             <div class="text">
               <p class="carousel-text-header">{{'nav_bar.slider1-header'|translate}}</p>
               <p class="carousel-text-desc">{{'nav_bar.slider1-desc'|translate}}</p>
-              <button type="button" class="btn btn-primary contact-btn" (click)="scrollToSection('contact')">
+              <a class="contact-btn" href="https://wa.me/201234567890" target="_blank"
+                aria-label="Contact us on WhatsApp" (click)="scrollToSection('contact')">
                 {{'nav_bar.contact'|translate}}
-              </button>
+              </a>
             </div>
           </div>
           <div class="carousel-item">
@@ -100,7 +98,10 @@
             <div class="text">
               <p class="carousel-text-header">{{'nav_bar.slider2-header'|translate}}</p>
               <p class="carousel-text-desc">{{'nav_bar.slider2-desc'|translate}}</p>
-              <button class="btn btn-primary contact-btn" (click)="scrollToSection('contact')">{{'nav_bar.contact'|translate}}</button>
+              <a class="contact-btn" href="https://wa.me/201234567890" target="_blank"
+                aria-label="Contact us on WhatsApp" (click)="scrollToSection('contact')">
+                {{'nav_bar.contact'|translate}}
+              </a>
             </div>
           </div>
           <div class="carousel-item">
@@ -108,7 +109,10 @@
             <div class="text">
               <p class="carousel-text-header">{{'nav_bar.slider3-header'|translate}}</p>
               <p class="carousel-text-desc">{{'nav_bar.slider3-desc'|translate}}</p>
-              <button class="btn btn-primary contact-btn" (click)="scrollToSection('contact')">{{'nav_bar.contact'|translate}}</button>
+              <a class="contact-btn" href="https://wa.me/201234567890" target="_blank"
+                aria-label="Contact us on WhatsApp" (click)="scrollToSection('contact')">
+                {{'nav_bar.contact'|translate}}
+              </a>
             </div>
           </div>
         </div>
