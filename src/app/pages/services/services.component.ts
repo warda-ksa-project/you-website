@@ -1,11 +1,11 @@
-import { NgFor, NgIf } from '@angular/common';
+import { NgClass, NgFor, NgIf } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-services',
   standalone: true,
-  imports: [NgFor, TranslatePipe, NgIf],
+  imports: [NgFor, TranslatePipe, NgIf , NgClass],
   templateUrl: './services.component.html',
   styleUrl: './services.component.scss',
 })
@@ -20,6 +20,7 @@ export class ServicesComponent {
       name: 'services.service_new_1',
       image: 'assets/images/sv-1.svg',
       showDetails: false,
+      desc: 'main_services.tab3_card2_desc',
       details: [
         { id: 0, name: 'services.s1_1' },
         { id: 1, name: 'services.s1_2' },
@@ -36,6 +37,7 @@ export class ServicesComponent {
       name: 'services.service_new_2',
       image: 'assets/images/sv-2.svg',
       showDetails: false,
+      desc: 'main_services.tab3_card1_desc',
       details: [
         { id: 0, name: 'services.s2_1' },
         { id: 1, name: 'services.s2_2' },
@@ -56,6 +58,7 @@ export class ServicesComponent {
       name: 'services.service_new_3',
       image: 'assets/images/sv-3.svg',
       showDetails: false,
+      desc: 'main_services.tab4_card5_desc',
       details: [
         { id: 0, name: 'services.s3_1' },
         { id: 1, name: 'services.s3_2' },
@@ -76,6 +79,7 @@ export class ServicesComponent {
       name: 'services.service_new_4',
       image: 'assets/images/sv-4.svg',
       showDetails: false,
+      desc: 'main_services.tab1_card2_desc',
       details: [
         { id: 1, name: 'services.s4_1' },
         { id: 2, name: 'services.s4_2' },
@@ -92,6 +96,7 @@ export class ServicesComponent {
       name: 'services.service_new_5',
       image: 'assets/images/sv-5.svg',
       showDetails: false,
+      desc: 'main_services.tab4_card3_desc',
       details: [
         { id: 1, name: 'services.s4_1' },
         { id: 2, name: 'services.s4_2' },

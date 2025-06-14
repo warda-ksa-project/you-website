@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavBarComponent } from '../../components/nav-bar/nav-bar.component';
+import { SliderComponent } from '../../components/slider/slider.component';
 import { RouterOutlet } from '@angular/router';
 import { ServicesComponent } from "../services/services.component";
 import { ContactHintComponent } from "../contact-hint/contact-hint.component";
@@ -11,7 +11,7 @@ import { MdownaComponent } from "../mdowna/mdowna.component";
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavBarComponent, WorksComponent, ServicesComponent, ContactHintComponent, AboutUsComponent, PartnerComponent, MdownaComponent],
+  imports: [SliderComponent, WorksComponent, ServicesComponent, ContactHintComponent, AboutUsComponent, PartnerComponent, MdownaComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

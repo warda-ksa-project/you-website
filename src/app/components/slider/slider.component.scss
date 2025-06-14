@@ -131,9 +131,11 @@ div.bk-video {
       background-color: #031AAF;
       color: #fff;
       border-radius: 16px;
-      padding: 5px 35px;
-      margin-top: 40px;
+      padding: 8px 35px;
       cursor: pointer;
+      text-decoration: none;
+      position: relative;
+      top: 4rem;
     }
 
   }

@@ -1,19 +1,28 @@
 <div class="second-navbar-congtainer">
   <div class="contnet">
-    <!-- Logo -->
-    <div class="logo" routerLink="/home">
-      <img src="assets/images/second-logo.svg" alt="logo" width="80" />
+    <!-- ✅ Header Row (only for mobile) -->
+    <div class="mobile-header">
+      <!-- Mobile Logo -->
+      <div class="logo" routerLink="/home">
+        <img src="assets/images/second-logo.svg" alt="logo" width="80" />
+      </div>
+
+      <!-- Burger Icon -->
+      <button class="burger-btn" (click)="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
 
-    <!-- Burger Icon for Mobile -->
-    <button class="burger-btn" (click)="toggleMenu()">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
+    <!-- Main Nav Items -->
+    <div class="nav-items" [class.open]="isMenuOpen">
+      <!-- Desktop Logo -->
+      <div class="logo desktop-logo" routerLink="/home">
+        <img src="assets/images/second-logo.svg" alt="logo" width="80" />
+      </div>
 
-    <!-- Collapsible Menu -->
-    <div class="nav-collapse" [class.open]="isMenuOpen">
+      <!-- Routing Links -->
       <div class="routing-section">
         <a class="nav-link" [class.active]="router.url == '/home'" href="/home">{{ "nav_bar.home" | translate }}</a>
         <a class="nav-link" [class.active]="router.url.includes('#about')" href="#about">{{ "nav_bar.about" | translate }}</a>
@@ -22,13 +31,15 @@
         <a class="nav-link" [class.active]="router.url.includes('#partner')" href="#partner">{{ "nav_bar.partner" | translate }}</a>
         <a class="nav-link" [class.active]="router.url.includes('#contact')" href="#contact">{{ "nav_bar.contact" | translate }}</a>
       </div>
+
+      <!-- Lang -->
       <div class="lang-section" (click)="toggleLanguage()">
         <span>
-          <span *ngIf="selectedLang == 'ar'">{{ 'nav_bar.english' | translate }}</span>
-          <span *ngIf="selectedLang == 'en'">{{ 'nav_bar.arabic' | translate }}</span>
+          <span *ngIf="selectedLang == 'ar'">English</span>
+          <span *ngIf="selectedLang == 'en'">العربية</span>
         </span>
-        <img *ngIf="selectedLang == 'en'" src="assets/images/arab_lang.png" alt="" height="20" />
-        <img *ngIf="selectedLang == 'ar'" src="assets/images/english_lang.png" alt="" height="20" />
+        <img *ngIf="selectedLang == 'en'" src="assets/images/arab_lang.png" alt="" />
+        <img *ngIf="selectedLang == 'ar'" src="assets/images/english_lang.png" alt="" />
       </div>
     </div>
   </div>
