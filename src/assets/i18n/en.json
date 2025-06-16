@@ -1,301 +1,351 @@
 {
-    "serv": {
-      "breadCrumb": {
-        "home": "Home",
-        "service": "Our Services",
-        "web_design": "Web Design",
-        "mobile_app": "Mobile Apps",
-        "hosting": "Private Hosting",
-        "web_hosting": "Web Hosting",
-        "server_management": "Server Management",
-        "digital_marketing": "Digital Marketing",
-        "design_services": "Design Services"
+  "serv": {
+    "breadCrumb": {
+      "analytics": "Technical Analysis",
+      "home": "Home",
+      "service": "Our Services",
+      "web_design": "Web Design",
+      "mobile_app": "Mobile Apps",
+      "hosting": "Private Hosting",
+      "web_hosting": "Web Hosting",
+      "server_management": "Server Management",
+      "digital_marketing": "Digital Marketing",
+      "design_services": "Design Services"
+    },
+    "analytics": {
+      "title": "Deeper Insights, Smarter Decisions",
+      "desc": "We analyze your data expertly, transforming numbers into strategic insights that help you make informed decisions and drive your business toward success.",
+      "section1": {
+        "title": "We Visualize Your Data with Confidence to Enable Informed Decisions",
+        "desc": "We analyze your data with strategic vision, giving your decisions precise accuracy and translating your indicators into clear steps that support your growth with confidence and intelligence."
       },
-      "web_design": {
-        "title": "We Design Websites Beyond Expectations",
-        "desc": "Fast, modern, and effective websites—crafted to elevate your brand and achieve your goals.",
-        "section1": {
-          "title": "Creative Design That Turns Ideas Into Reality",
-          "desc": "From brand identity to user experience—our design solutions reflect your professionalism and make your brand stand out with top-tier quality."
-        },
-        "section2": {
-          "title": "Why Our Web Design Deserves Your Trust",
-          "data": {
-            "title1": "Custom Design for Your Brand",
-            "desc1": "We craft interfaces that reflect your brand’s personality and leave a lasting impression.",
-            "title2": "Smart User Experience",
-            "desc2": "Thoughtfully designed experiences that ensure smooth, intuitive navigation for your users.",
-            "title3": "High Performance & Responsiveness",
-            "desc3": "Fast, secure websites optimized for all devices and browsers.",
-            "title4": "Ongoing Support & Stability",
-            "desc4": "We stay with you post-launch to ensure your site remains stable and continues to grow."
-          }
-        },
-        "section3": {
-          "title": "Why YOU is the Perfect Choice for Web Design",
-          "data": {
-            "title1": "Expert Team",
-            "desc1": "Our team of top-tier designers and developers blend creativity with technical skill to bring your vision to life.",
-            "title2": "Modern & Interactive Sites",
-            "desc2": "We build flexible, easy-to-update websites using the latest technologies for peak performance and user experience.",
-            "title3": "Seamless Platform Integration",
-            "desc3": "We connect your site professionally with social media and marketing tools to boost visibility and engagement.",
-            "title4": "Credibility That Leaves a Mark",
-            "desc4": "We enhance your online presence with trust elements like testimonials, reviews, and certifications to support your brand’s image."
-          }
-        },
-        "section4": {
-          "title": "Key Steps to a Successful Website",
-          "data": {
-            "title1": "Project Requirements",
-            "desc1": "Gather both functional and non-functional requirements.",
-            "title2": "Choosing the Right Technology",
-            "desc2": "Select tech stacks like HTML, CSS, JavaScript, and frameworks like React, Angular, or Vue.",
-            "title3": "Database Design",
-            "desc3": "Design the data structure and choose between SQL or NoSQL based on project needs.",
-            "title4": "Backend Development",
-            "desc4": "Build APIs and ensure performance and security of core operations.",
-            "title5": "Frontend Development",
-            "desc5": "Use HTML, CSS, and JS to create the UI and connect it to backend services.",
-            "title6": "Testing & Validation",
-            "desc6": "Run comprehensive testing with automated tools and unit tests.",
-            "title7": "Performance Optimization",
-            "desc7": "Use tools like Google Lighthouse to enhance loading speed and responsiveness.",
-            "title8": "Security",
-            "desc8": "Protect against threats with HTTPS, data encryption, and best security practices.",
-            "title9": "Deployment",
-            "desc9": "Deploy the site on production servers and set up backups and recovery protocols.",
-            "title10": "Monitoring & Maintenance",
-            "desc10": "Continuously monitor performance and apply updates to ensure stability and improvements."
-          }
+      "section2": {
+        "title": "Why is YOU’s Technical Analysis Service Your Smart Choice?",
+        "data": {
+          "title1": "Analytical Accuracy",
+          "desc1": "We deliver insights based on reliable data and advanced analytical models to support your decisions with clarity and confidence.",
+          "title2": "Comprehensive Market Vision",
+          "desc2": "We cover markets from multiple angles, giving you a complete view of market trends and movements.",
+          "title3": "Reports Tailored to Your Goals",
+          "desc3": "We prepare analytical reports aligned with your strategy, equipping you with effective tools for smart planning and action.",
+          "title4": "Real-Time Updates",
+          "desc4": "We keep you constantly informed about market movements through timely and accurate real-time updates."
         }
       },
-      "mobile_app": {
-        "title": "From Idea to Impactful App",
-        "desc": "Mobile apps that take your business to the next level.",
-        "section1": {
-          "title": "Visual Innovation That Leaves a Lasting Impression",
-          "desc": "We transform your vision into a standout design that captures attention and authentically represents your brand."
-        },
-        "section2": {
-          "title": "Why Our Mobile App Design Is the Smart Choice",
-          "data": {
-            "title1": "Reliable & Secure Hosting",
-            "desc1": "We offer fast, modern hosting environments with top-tier security standards.",
-            "title2": "Attractive & User-Friendly Design",
-            "desc2": "We create professional interfaces that reflect your brand and ensure smooth user experiences.",
-            "title3": "24/7 Technical Support",
-            "desc3": "Round-the-clock support to solve any issue promptly and efficiently.",
-            "title4": "Continuous Upgrades",
-            "desc4": "Your app stays up-to-date with the latest technologies to remain competitive."
-          }
-        },
-        "section4": {
-          "title": "Steps to Build an App That Delivers Results",
-          "data": {
-            "title1": "Planning Stage",
-            "desc1": "Define your app’s goals and understand your target audience to tailor the experience precisely.",
-            "title2": "UI/UX Design",
-            "desc2": "Turn ideas into sleek, intuitive designs that represent your brand and ensure usability.",
-            "title3": "Wireframing",
-            "desc3": "Build a structural blueprint of the app to plan screen layout and smooth navigation."
-          }
+      "section3": {
+        "title": "Why Choose YOU for Technical Analysis Services?",
+        "data": {
+          "title1": "Extensive Experience",
+          "desc1": "The YOU team includes elite analysts with deep expertise in financial markets, providing you with accurate insights and trusted advice.",
+          "title2": "Advanced Tools and Technologies",
+          "desc2": "We use the latest technologies and analytical tools to ensure accurate data that helps you make informed decisions.",
+          "title3": "Continuous Support",
+          "desc3": "We offer 24/7 technical support to assist you with any inquiry or analytical need.",
+          "title4": "Customized Service",
+          "desc4": "We design reports and technical analyses tailored to your business nature and specific needs, ensuring the highest levels of accuracy and relevance."
         }
       },
-      "hosting": {
-        "title": "Trust, Security, Speed — In Every Click",
-        "desc": "Always ready, lightning-fast response, and unmatched security.",
-        "section1": {
-          "title": "Your Private Server, Performance That Matches Your Ambition",
-          "desc": "We shape your digital presence with a visual experience that reflects your brand and leaves a lasting impression on every visitor."
-        },
-        "section2": {
-          "title": "What Makes YOU’s Private Server Stand Out",
-          "data": {
-            "title1": "High-Speed Performance",
-            "desc1": "Blazing-fast operations powered by strong processors and dedicated resources.",
-            "title2": "Robust Data Security",
-            "desc2": "Secure storage systems that ensure easy and safe data retrieval.",
-            "title3": "Full Customization",
-            "desc3": "Freedom to configure everything from OS to apps and resources.",
-            "title4": "24/7 Tech Support",
-            "desc4": "A dedicated support team available anytime to resolve issues quickly and efficiently."
-          }
-        },
-        "section3": {
-          "title": "Why YOU Is the Best Choice for Private Servers",
-          "data": {
-            "title1": "Unmatched Performance",
-            "desc1": "Get fully dedicated resources for ultra-fast, stable operations with no sharing.",
-            "title2": "Absolute Security",
-            "desc2": "Full control over security settings and encryption to protect your data.",
-            "title3": "Tailored to Your Needs",
-            "desc3": "Customize your server setup—from OS to apps—to match your exact requirements.",
-            "title4": "24/7 Technical Support",
-            "desc4": "A specialized team ensures your business runs smoothly around the clock."
-          }
-        }
-      },
-      "web_hosting": {
-        "title": "Trust, Security, Speed — In Every Click",
-        "desc": "Always available, fast response, and unlimited security.",
-        "section1": {
-          "title": "Stable and Fast Hosting That Elevates Your Content",
-          "desc": "We build your digital presence with a design that reflects your identity and leaves a lasting impression with every visit."
-        },
-        "section2": {
-          "title": "Why Our Hosting is the Smart Infrastructure for Your Website?",
-          "data": {
-            "title1": "Reliable Security",
-            "desc1": "We offer strong protection including encryption and continuous monitoring to safeguard your data.",
-            "title2": "Fast and Stable Performance",
-            "desc2": "Powerful servers ensure fast loading and continuous stability for your website.",
-            "title3": "Flexibility as You Grow",
-            "desc3": "Customizable plans that scale with your project without complexity.",
-            "title4": "Continuous Technical Support",
-            "desc4": "A dedicated team always ready to solve your issues quickly and professionally."
-          }
-        },
-        "section4": {
-          "title": "Web Hosting Made Simple: How It Works?",
-          "data": {
-            "title1": "Reliable Cloud Infrastructure",
-            "desc1": "Our hosting relies on global data centers managed with cloud computing technologies, ensuring high performance and secure data storage.",
-            "title2": "Domain Registration",
-            "desc2": "We begin by registering your domain name to serve as your digital address pointing directly to your hosted site.",
-            "title3": "Resource Allocation",
-            "desc3": "We provide you with suitable server resources—storage, RAM, and processing—according to your website’s size and needs.",
-            "title4": "Website File Upload",
-            "desc4": "Upload your website files easily via the control panel or FTP, and get your site online.",
-            "title5": "Database Setup",
-            "desc5": "We organize strong databases (like MySQL) to hold your data and ensure fast and secure interactions.",
-            "title6": "Server Configuration",
-            "desc6": "We configure the server using tools like Apache or Nginx for efficient response and stable performance.",
-            "title7": "Website Launch and Visitor Access",
-            "desc7": "Once set up, your site becomes live and responsive to any browser requests using your custom domain.",
-            "title8": "Ongoing Management and Maintenance",
-            "desc8": "We provide regular updates, backups, and quick solutions to any issues to ensure uninterrupted performance."
-          }
-        }
-      },
-      "server_management": {
-        "title": "Complete Control. Unlimited Performance.",
-        "desc": "We manage your servers with high efficiency to ensure business stability and data security at all times.",
-        "section1": {
-          "title": "Full Control. Higher Security. Continuous Support.",
-          "desc": "We efficiently manage your digital infrastructure to provide you with constant stability and performance that reinforces your clients’ trust at every connection."
-        },
-        "section2": {
-          "title": "For Uninterrupted Operations... Choose Server Management by YOU",
-          "data": {
-            "title1": "Better Responsiveness",
-            "desc1": "We help enhance your website’s responsiveness to users, increasing their satisfaction and loyalty.",
-            "title2": "Quality Improvement",
-            "desc2": "We implement top testing and quality assurance methods to ensure error-free applications.",
-            "title3": "Advanced Security",
-            "desc3": "We prioritize protecting your data and applications from threats and breaches.",
-            "title4": "Sustainable Support",
-            "desc4": "We’re always here to help—24/7 support for any issue or inquiry."
-          }
-        },
-        "section3": {
-          "title": "Why YOU is Your Ideal Server Management Partner?",
-          "data": {
-            "title1": "Accelerated Development",
-            "desc1": "Our service helps you reduce the time needed to develop and deploy apps by integrating DevOps practices for quick, efficient results.",
-            "title2": "Increased Stability",
-            "desc2": "Through DevOps strategies, we boost your application stability, reduce errors, and deliver reliable performance.",
-            "title3": "Enhanced Security",
-            "desc3": "We ensure top-level security by applying the latest advanced security practices to your apps and data.",
-            "title4": "Effective Integration",
-            "desc4": "Our service allows seamless and efficient integration of various tools and technologies, including apps, databases, and management systems."
-          }
-        },
-        "section4": {
-          "title": "",
-          "data": {
-            "title1": "Planning",
-            "desc1": "We begin by analyzing your project requirements and drafting a comprehensive development plan that ensures the desired goals are met efficiently.",
-            "title2": "Development",
-            "desc2": "Our specialized programming teams build apps and software using the latest advanced tools and technologies for optimal results.",
-            "title3": "Testing",
-            "desc3": "We carefully test apps to ensure no flaws and deliver the highest levels of quality and security.",
-            "title4": "Deployment",
-            "desc4": "After testing, we deploy the applications into production environments securely and reliably for smooth operation.",
-            "title5": "Monitoring",
-            "desc5": "We continuously monitor application performance to detect issues instantly and provide the necessary support to ensure continuity."
-          }
-        }
-      },
-      "digital_marketing": {
-        "title": "From Visibility to Impact",
-        "desc": "We plan, execute, and analyze to deliver tangible results—building you a digital presence that drives growth and boosts customer loyalty.",
-        "section1": {
-          "title": "We Elevate Your Brand with Confidence and Lasting Impact",
-          "desc": "We craft your digital campaigns with refined taste, giving your brand an elegant presence and thoughtful reach that leaves a long-lasting impression."
-        },
-        "section2": {
-          "title": "Step by Step Toward Your Audience",
-          "data": {
-            "title1": "Precisely Targeted Reach",
-            "desc1": "We deliver your message directly to your ideal audience to maximize ROI.",
-            "title2": "Accurate Analytics",
-            "desc2": "We monitor performance in real-time to support informed decision-making.",
-            "title3": "Content That Reflects You",
-            "desc3": "We create content that reflects your brand identity and drives engagement.",
-            "title4": "Flexible Strategies",
-            "desc4": "We develop adaptive plans that respond to market changes and support your ongoing growth."
-          }
-        },
-        "section3": {
-          "title": "Why YOU is Your Ideal Digital Marketing Partner?",
-          "data": {
-            "title1": "Extensive Experience",
-            "desc1": "With years of practical experience in digital marketing and e-commerce, we offer precise solutions tailored to your needs and goals.",
-            "title2": "All-in-One Services",
-            "desc2": "From SEO and paid ads to social media marketing and content writing—all under one roof.",
-            "title3": "Strategies Designed for You",
-            "desc3": "We understand the uniqueness of each business and craft custom strategies that reflect your identity and effectively target your audience.",
-            "title4": "Modern Technologies",
-            "desc4": "We use advanced marketing tools to optimize campaign performance and guarantee the best results."
-          }
-        }
-      },
-      "design_services": {
-        "title": "From Visibility to Impact",
-        "desc": "We design your vision… and turn ideas into an unforgettable visual experience.",
-        "section1": {
-          "title": "We Design a Visual Identity That Inspires and Leaves a Mark",
-          "desc": "We craft your visual identity with refined aesthetics, giving your brand a distinctive presence and a visual impact that clearly and creatively reflects your vision."
-        },
-        "section2": {
-          "title": "Why YOU Design Service Stands Out",
-          "data": {
-            "title1": "Trendy Designs That Suit Your Audience",
-            "desc1": "We keep up with the latest trends to highlight your brand in a striking way.",
-            "title2": "Complete Visual Identity",
-            "desc": "We design every element to precisely express your brand's essence.",
-            "title3": "Flexible Customization",
-            "desc3": "We offer editable designs tailored to your specific needs.",
-            "title4": "High Quality",
-            "desc4": "We ensure professional execution and attention to every detail."
-          }
-        },
-        "section3": {
-          "title": "Why YOU is Your Best Choice for Design Services",
-          "data": {
-            "title1": "Expertise & Professionalism",
-            "desc1": "Our team of professional designers combines experience with passion, delivering eye-catching designs that last.",
-            "title2": "Modern Technology",
-            "desc2": "Our use of cutting-edge tools ensures you get fresh, efficient designs that stay ahead of trends.",
-            "title3": "Continuous Analysis & Evaluation",
-            "desc3": "We constantly review and refine our designs to ensure the best outcomes.",
-            "title4": "Proven Track Record",
-            "desc4": "We’re proud of our history full of successes and achievements with clients, making us your trusted partner for every design challenge."
-          }
+      "section4": {
+        "title": "Steps for Establishing Technical Support Service at YOU",
+        "data": {
+          "title1": "Needs Analysis",
+          "desc1": "We start by understanding the nature of the client’s business and target markets to define the scope of analysis accurately.",
+          "title2": "Data Collection",
+          "desc2": "We extract historical and real-time data from reliable sources to ensure output accuracy.",
+          "title3": "Advanced Analysis",
+          "desc3": "We apply advanced technical analysis tools and techniques to turn data into actionable insights.",
+          "title4": "Report Preparation",
+          "desc4": "We prepare detailed reports that meet the client’s needs and support their investment decisions.",
+          "title5": "Delivery and Support",
+          "desc5": "We deliver reports on time with ongoing follow-up for any inquiries or additional needs."
         }
       }
     },
+    "web_design": {
+      "title": "We Design Websites Beyond Expectations",
+      "desc": "Fast, modern, and effective websites—crafted to elevate your brand and achieve your goals.",
+      "section1": {
+        "title": "Creative Design That Turns Ideas Into Reality",
+        "desc": "From brand identity to user experience—our design solutions reflect your professionalism and make your brand stand out with top-tier quality."
+      },
+      "section2": {
+        "title": "Why Our Web Design Deserves Your Trust",
+        "data": {
+          "title1": "Custom Design for Your Brand",
+          "desc1": "We craft interfaces that reflect your brand’s personality and leave a lasting impression.",
+          "title2": "Smart User Experience",
+          "desc2": "Thoughtfully designed experiences that ensure smooth, intuitive navigation for your users.",
+          "title3": "High Performance & Responsiveness",
+          "desc3": "Fast, secure websites optimized for all devices and browsers.",
+          "title4": "Ongoing Support & Stability",
+          "desc4": "We stay with you post-launch to ensure your site remains stable and continues to grow."
+        }
+      },
+      "section3": {
+        "title": "Why YOU is the Perfect Choice for Web Design",
+        "data": {
+          "title1": "Expert Team",
+          "desc1": "Our team of top-tier designers and developers blend creativity with technical skill to bring your vision to life.",
+          "title2": "Modern & Interactive Sites",
+          "desc2": "We build flexible, easy-to-update websites using the latest technologies for peak performance and user experience.",
+          "title3": "Seamless Platform Integration",
+          "desc3": "We connect your site professionally with social media and marketing tools to boost visibility and engagement.",
+          "title4": "Credibility That Leaves a Mark",
+          "desc4": "We enhance your online presence with trust elements like testimonials, reviews, and certifications to support your brand’s image."
+        }
+      },
+      "section4": {
+        "title": "Key Steps to a Successful Website",
+        "data": {
+          "title1": "Project Requirements",
+          "desc1": "Gather both functional and non-functional requirements.",
+          "title2": "Choosing the Right Technology",
+          "desc2": "Select tech stacks like HTML, CSS, JavaScript, and frameworks like React, Angular, or Vue.",
+          "title3": "Database Design",
+          "desc3": "Design the data structure and choose between SQL or NoSQL based on project needs.",
+          "title4": "Backend Development",
+          "desc4": "Build APIs and ensure performance and security of core operations.",
+          "title5": "Frontend Development",
+          "desc5": "Use HTML, CSS, and JS to create the UI and connect it to backend services.",
+          "title6": "Testing & Validation",
+          "desc6": "Run comprehensive testing with automated tools and unit tests.",
+          "title7": "Performance Optimization",
+          "desc7": "Use tools like Google Lighthouse to enhance loading speed and responsiveness.",
+          "title8": "Security",
+          "desc8": "Protect against threats with HTTPS, data encryption, and best security practices.",
+          "title9": "Deployment",
+          "desc9": "Deploy the site on production servers and set up backups and recovery protocols.",
+          "title10": "Monitoring & Maintenance",
+          "desc10": "Continuously monitor performance and apply updates to ensure stability and improvements."
+        }
+      }
+    },
+    "mobile_app": {
+      "title": "From Idea to Impactful App",
+      "desc": "Mobile apps that take your business to the next level.",
+      "section1": {
+        "title": "Visual Innovation That Leaves a Lasting Impression",
+        "desc": "We transform your vision into a standout design that captures attention and authentically represents your brand."
+      },
+      "section2": {
+        "title": "Why Our Mobile App Design Is the Smart Choice",
+        "data": {
+          "title1": "Reliable & Secure Hosting",
+          "desc1": "We offer fast, modern hosting environments with top-tier security standards.",
+          "title2": "Attractive & User-Friendly Design",
+          "desc2": "We create professional interfaces that reflect your brand and ensure smooth user experiences.",
+          "title3": "24/7 Technical Support",
+          "desc3": "Round-the-clock support to solve any issue promptly and efficiently.",
+          "title4": "Continuous Upgrades",
+          "desc4": "Your app stays up-to-date with the latest technologies to remain competitive."
+        }
+      },
+      "section4": {
+        "title": "Steps to Build an App That Delivers Results",
+        "data": {
+          "title1": "Planning Stage",
+          "desc1": "Define your app’s goals and understand your target audience to tailor the experience precisely.",
+          "title2": "UI/UX Design",
+          "desc2": "Turn ideas into sleek, intuitive designs that represent your brand and ensure usability.",
+          "title3": "Wireframing",
+          "desc3": "Build a structural blueprint of the app to plan screen layout and smooth navigation."
+        }
+      }
+    },
+    "hosting": {
+      "title": "Trust, Security, Speed — In Every Click",
+      "desc": "Always ready, lightning-fast response, and unmatched security.",
+      "section1": {
+        "title": "Your Private Server, Performance That Matches Your Ambition",
+        "desc": "We shape your digital presence with a visual experience that reflects your brand and leaves a lasting impression on every visitor."
+      },
+      "section2": {
+        "title": "What Makes YOU’s Private Server Stand Out",
+        "data": {
+          "title1": "High-Speed Performance",
+          "desc1": "Blazing-fast operations powered by strong processors and dedicated resources.",
+          "title2": "Robust Data Security",
+          "desc2": "Secure storage systems that ensure easy and safe data retrieval.",
+          "title3": "Full Customization",
+          "desc3": "Freedom to configure everything from OS to apps and resources.",
+          "title4": "24/7 Tech Support",
+          "desc4": "A dedicated support team available anytime to resolve issues quickly and efficiently."
+        }
+      },
+      "section3": {
+        "title": "Why YOU Is the Best Choice for Private Servers",
+        "data": {
+          "title1": "Unmatched Performance",
+          "desc1": "Get fully dedicated resources for ultra-fast, stable operations with no sharing.",
+          "title2": "Absolute Security",
+          "desc2": "Full control over security settings and encryption to protect your data.",
+          "title3": "Tailored to Your Needs",
+          "desc3": "Customize your server setup—from OS to apps—to match your exact requirements.",
+          "title4": "24/7 Technical Support",
+          "desc4": "A specialized team ensures your business runs smoothly around the clock."
+        }
+      }
+    },
+    "web_hosting": {
+      "title": "Trust, Security, Speed — In Every Click",
+      "desc": "Always available, fast response, and unlimited security.",
+      "section1": {
+        "title": "Stable and Fast Hosting That Elevates Your Content",
+        "desc": "We build your digital presence with a design that reflects your identity and leaves a lasting impression with every visit."
+      },
+      "section2": {
+        "title": "Why Our Hosting is the Smart Infrastructure for Your Website?",
+        "data": {
+          "title1": "Reliable Security",
+          "desc1": "We offer strong protection including encryption and continuous monitoring to safeguard your data.",
+          "title2": "Fast and Stable Performance",
+          "desc2": "Powerful servers ensure fast loading and continuous stability for your website.",
+          "title3": "Flexibility as You Grow",
+          "desc3": "Customizable plans that scale with your project without complexity.",
+          "title4": "Continuous Technical Support",
+          "desc4": "A dedicated team always ready to solve your issues quickly and professionally."
+        }
+      },
+      "section4": {
+        "title": "Web Hosting Made Simple: How It Works?",
+        "data": {
+          "title1": "Reliable Cloud Infrastructure",
+          "desc1": "Our hosting relies on global data centers managed with cloud computing technologies, ensuring high performance and secure data storage.",
+          "title2": "Domain Registration",
+          "desc2": "We begin by registering your domain name to serve as your digital address pointing directly to your hosted site.",
+          "title3": "Resource Allocation",
+          "desc3": "We provide you with suitable server resources—storage, RAM, and processing—according to your website’s size and needs.",
+          "title4": "Website File Upload",
+          "desc4": "Upload your website files easily via the control panel or FTP, and get your site online.",
+          "title5": "Database Setup",
+          "desc5": "We organize strong databases (like MySQL) to hold your data and ensure fast and secure interactions.",
+          "title6": "Server Configuration",
+          "desc6": "We configure the server using tools like Apache or Nginx for efficient response and stable performance.",
+          "title7": "Website Launch and Visitor Access",
+          "desc7": "Once set up, your site becomes live and responsive to any browser requests using your custom domain.",
+          "title8": "Ongoing Management and Maintenance",
+          "desc8": "We provide regular updates, backups, and quick solutions to any issues to ensure uninterrupted performance."
+        }
+      }
+    },
+    "server_management": {
+      "title": "Complete Control. Unlimited Performance.",
+      "desc": "We manage your servers with high efficiency to ensure business stability and data security at all times.",
+      "section1": {
+        "title": "Full Control. Higher Security. Continuous Support.",
+        "desc": "We efficiently manage your digital infrastructure to provide you with constant stability and performance that reinforces your clients’ trust at every connection."
+      },
+      "section2": {
+        "title": "For Uninterrupted Operations... Choose Server Management by YOU",
+        "data": {
+          "title1": "Better Responsiveness",
+          "desc1": "We help enhance your website’s responsiveness to users, increasing their satisfaction and loyalty.",
+          "title2": "Quality Improvement",
+          "desc2": "We implement top testing and quality assurance methods to ensure error-free applications.",
+          "title3": "Advanced Security",
+          "desc3": "We prioritize protecting your data and applications from threats and breaches.",
+          "title4": "Sustainable Support",
+          "desc4": "We’re always here to help—24/7 support for any issue or inquiry."
+        }
+      },
+      "section3": {
+        "title": "Why YOU is Your Ideal Server Management Partner?",
+        "data": {
+          "title1": "Accelerated Development",
+          "desc1": "Our service helps you reduce the time needed to develop and deploy apps by integrating DevOps practices for quick, efficient results.",
+          "title2": "Increased Stability",
+          "desc2": "Through DevOps strategies, we boost your application stability, reduce errors, and deliver reliable performance.",
+          "title3": "Enhanced Security",
+          "desc3": "We ensure top-level security by applying the latest advanced security practices to your apps and data.",
+          "title4": "Effective Integration",
+          "desc4": "Our service allows seamless and efficient integration of various tools and technologies, including apps, databases, and management systems."
+        }
+      },
+      "section4": {
+        "title": "",
+        "data": {
+          "title1": "Planning",
+          "desc1": "We begin by analyzing your project requirements and drafting a comprehensive development plan that ensures the desired goals are met efficiently.",
+          "title2": "Development",
+          "desc2": "Our specialized programming teams build apps and software using the latest advanced tools and technologies for optimal results.",
+          "title3": "Testing",
+          "desc3": "We carefully test apps to ensure no flaws and deliver the highest levels of quality and security.",
+          "title4": "Deployment",
+          "desc4": "After testing, we deploy the applications into production environments securely and reliably for smooth operation.",
+          "title5": "Monitoring",
+          "desc5": "We continuously monitor application performance to detect issues instantly and provide the necessary support to ensure continuity."
+        }
+      }
+    },
+    "digital_marketing": {
+      "title": "From Visibility to Impact",
+      "desc": "We plan, execute, and analyze to deliver tangible results—building you a digital presence that drives growth and boosts customer loyalty.",
+      "section1": {
+        "title": "We Elevate Your Brand with Confidence and Lasting Impact",
+        "desc": "We craft your digital campaigns with refined taste, giving your brand an elegant presence and thoughtful reach that leaves a long-lasting impression."
+      },
+      "section2": {
+        "title": "Step by Step Toward Your Audience",
+        "data": {
+          "title1": "Precisely Targeted Reach",
+          "desc1": "We deliver your message directly to your ideal audience to maximize ROI.",
+          "title2": "Accurate Analytics",
+          "desc2": "We monitor performance in real-time to support informed decision-making.",
+          "title3": "Content That Reflects You",
+          "desc3": "We create content that reflects your brand identity and drives engagement.",
+          "title4": "Flexible Strategies",
+          "desc4": "We develop adaptive plans that respond to market changes and support your ongoing growth."
+        }
+      },
+      "section3": {
+        "title": "Why YOU is Your Ideal Digital Marketing Partner?",
+        "data": {
+          "title1": "Extensive Experience",
+          "desc1": "With years of practical experience in digital marketing and e-commerce, we offer precise solutions tailored to your needs and goals.",
+          "title2": "All-in-One Services",
+          "desc2": "From SEO and paid ads to social media marketing and content writing—all under one roof.",
+          "title3": "Strategies Designed for You",
+          "desc3": "We understand the uniqueness of each business and craft custom strategies that reflect your identity and effectively target your audience.",
+          "title4": "Modern Technologies",
+          "desc4": "We use advanced marketing tools to optimize campaign performance and guarantee the best results."
+        }
+      }
+    },
+    "design_services": {
+      "title": "From Visibility to Impact",
+      "desc": "We design your vision… and turn ideas into an unforgettable visual experience.",
+      "section1": {
+        "title": "We Design a Visual Identity That Inspires and Leaves a Mark",
+        "desc": "We craft your visual identity with refined aesthetics, giving your brand a distinctive presence and a visual impact that clearly and creatively reflects your vision."
+      },
+      "section2": {
+        "title": "Why YOU Design Service Stands Out",
+        "data": {
+          "title1": "Trendy Designs That Suit Your Audience",
+          "desc1": "We keep up with the latest trends to highlight your brand in a striking way.",
+          "title2": "Complete Visual Identity",
+          "desc": "We design every element to precisely express your brand's essence.",
+          "title3": "Flexible Customization",
+          "desc3": "We offer editable designs tailored to your specific needs.",
+          "title4": "High Quality",
+          "desc4": "We ensure professional execution and attention to every detail."
+        }
+      },
+      "section3": {
+        "title": "Why YOU is Your Best Choice for Design Services",
+        "data": {
+          "title1": "Expertise & Professionalism",
+          "desc1": "Our team of professional designers combines experience with passion, delivering eye-catching designs that last.",
+          "title2": "Modern Technology",
+          "desc2": "Our use of cutting-edge tools ensures you get fresh, efficient designs that stay ahead of trends.",
+          "title3": "Continuous Analysis & Evaluation",
+          "desc3": "We constantly review and refine our designs to ensure the best outcomes.",
+          "title4": "Proven Track Record",
+          "desc4": "We’re proud of our history full of successes and achievements with clients, making us your trusted partner for every design challenge."
+        }
+      }
+    }
+  },
   "nav_bar": {
     "slider1-header": "We Make a Difference with Technology",
     "slider1-desc": "We provide integrated software solutions that help you grow, innovate, and stand out in your market.",
