@@ -281,7 +281,7 @@ export class YouAllServicesService {
         ]
       },
       thirdSection: {
-        img: 'assets/images/Frame 2147225349 copy 3.svg',
+        img: 'assets/images/Frame2147225349copy3.svg',
         title: 'serv.design_services.section3.title',
         data: [
           { title: 'serv.design_services.section3.data.title1', desc: 'serv.design_services.section3.data.desc1' },
