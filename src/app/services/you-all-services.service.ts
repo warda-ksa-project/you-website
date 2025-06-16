@@ -74,7 +74,7 @@ export class YouAllServicesService {
       firstSection: {
         title: 'serv.mobile_app.section1.title',
         desc: 'serv.mobile_app.section1.desc',
-        img: 'assets/images/Group 1171278441.svg',
+        img: 'assets/images/Group1171278441.svg',
       },
       secondSection: {
         title: 'serv.mobile_app.section2.title',
@@ -109,7 +109,7 @@ export class YouAllServicesService {
       firstSection: {
         title: 'serv.hosting.section1.title',
         desc: 'serv.hosting.section1.desc',
-        img: 'assets/images/Group 1171278442.svg',
+        img: 'assets/images/Group1171278442.svg',
       },
       secondSection: {
         title: 'serv.hosting.section2.title',
@@ -121,7 +121,7 @@ export class YouAllServicesService {
         ]
       },
       thirdSection: {
-        img: 'assets/images/Frame 2147225349 copy.svg',
+        img: 'assets/images/Frame2147225349copy.svg',
         title: 'serv.hosting.section3.title',
         data: [
           { title: 'serv.hosting.section3.data.title1', desc: 'serv.hosting.section3.data.desc1' },
@@ -147,7 +147,7 @@ export class YouAllServicesService {
       firstSection: {
         title: 'serv.web_hosting.section1.title',
         desc: 'serv.web_hosting.section1.desc',
-        img: 'assets/images/Group 1171278442 copy.svg',
+        img: 'assets/images/Group1171278442copy.svg',
       },
       secondSection: {
         title: 'serv.web_hosting.section2.title',
@@ -187,7 +187,7 @@ export class YouAllServicesService {
       firstSection: {
         title: 'serv.server_management.section1.title',
         desc: 'serv.server_management.section1.desc',
-        img: 'assets/images/Group 1171278442 copy 2.svg',
+        img: 'assets/images/Group1171278442copy2.svg',
       },
       secondSection: {
         title: 'serv.server_management.section2.title',
@@ -233,7 +233,7 @@ export class YouAllServicesService {
       firstSection: {
         title: 'serv.digital_marketing.section1.title',
         desc: 'serv.digital_marketing.section1.desc',
-        img: 'assets/images/Group 1171278442 copy 3.svg',
+        img: 'assets/images/Group1171278442copy3.svg',
       },
       secondSection: {
         title: 'serv.digital_marketing.section2.title',
@@ -245,7 +245,7 @@ export class YouAllServicesService {
         ]
       },
       thirdSection: {
-        img: 'assets/images/Frame 2147225349 copy 2.svg',
+        img: 'assets/images/Frame2147225349copy2.svg',
         title: 'serv.digital_marketing.section3.title',
         data: [
           { title: 'serv.digital_marketing.section3.data.title1', desc: 'serv.digital_marketing.section3.data.desc1' },
@@ -269,7 +269,7 @@ export class YouAllServicesService {
       firstSection: {
         title: 'serv.design_services.section1.title',
         desc: 'serv.design_services.section1.desc',
-        img: 'assets/images/Group 1171278442 copy 4.svg',
+        img: 'assets/images/Group1171278442copy4.svg',
       },
       secondSection: {
         title: 'serv.design_services.section2.title',
