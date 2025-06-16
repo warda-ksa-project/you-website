@@ -16,7 +16,7 @@ export class ServicesComponent {
   selectedData: any;
   services: any = [
     {
-      id: 0,
+      id: 1,
       name: 'services.service_new_1',
       image: 'assets/images/sv-1.svg',
       showDetails: false,
@@ -33,7 +33,7 @@ export class ServicesComponent {
       ],
     },
     {
-      id: 1,
+      id: 6,
       name: 'services.service_new_2',
       image: 'assets/images/sv-2.svg',
       showDetails: false,
@@ -54,7 +54,7 @@ export class ServicesComponent {
       ],
     },
     {
-      id: 2,
+      id: 13,
       name: 'services.service_new_3',
       image: 'assets/images/sv-3.svg',
       showDetails: false,
@@ -75,7 +75,7 @@ export class ServicesComponent {
       ],
     },
     {
-      id: 3,
+      id: 2,
       name: 'services.service_new_4',
       image: 'assets/images/sv-4.svg',
       showDetails: false,
@@ -92,7 +92,7 @@ export class ServicesComponent {
       ],
     },
     {
-      id: 4,
+      id: 11,
       name: 'services.service_new_5',
       image: 'assets/images/sv-5.svg',
       showDetails: false,
@@ -109,7 +109,7 @@ export class ServicesComponent {
       ],
     },
     {
-      id: 5,
+      id: 0,
       name: 'services.more_services',
       image: '',
       showDetails: false,
@@ -127,9 +127,9 @@ export class ServicesComponent {
   //   });
   // }
   selectedService(id: number) {
-    if (id == 5)
+    if (id == 0)
       this.route.navigate(['our-services']);
     else
-      this.selectedData = this.services[id];
+      this.route.navigate([`our-services/details/${id}`]);
   }
 }
