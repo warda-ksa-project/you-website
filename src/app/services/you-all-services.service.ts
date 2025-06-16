@@ -9,6 +9,52 @@ import { Observable, of } from 'rxjs';
 export class YouAllServicesService {
 
   private mainObject: any[] = [
+      {
+      id: 8,
+      pageData: {
+        breadCrumb: [
+          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
+          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
+          { id: 2, name: 'serv.breadCrumb.analytics', routing: '/our-services/web-design' },
+        ],
+        title: 'serv.analytics.title',
+        desc: 'serv.analytics.desc',
+      },
+      firstSection: {
+        title: 'serv.analytics.section1.title',
+        desc: 'serv.analytics.section1.desc',
+        img: 'assets/images/analticsGroup.svg',
+      },
+      secondSection: {
+        title: 'serv.analytics.section2.title',
+        data: [
+          { title: 'serv.analytics.section2.data.title1', desc: 'serv.analytics.section2.data.desc1' },
+          { title: 'serv.analytics.section2.data.title2', desc: 'serv.analytics.section2.data.desc2' },
+          { title: 'serv.analytics.section2.data.title3', desc: 'serv.analytics.section2.data.desc3' },
+          { title: 'serv.analytics.section2.data.title4', desc: 'serv.analytics.section2.data.desc4' },
+        ]
+      },
+      thirdSection: {
+        img: 'assets/images/FrameAnalatics.svg',
+        title: 'serv.analytics.section3.title',
+        data: [
+          { title: 'serv.analytics.section3.data.title1', desc: 'serv.analytics.section3.data.desc1' },
+          { title: 'serv.analytics.section3.data.title2', desc: 'serv.analytics.section3.data.desc2' },
+          { title: 'serv.analytics.section3.data.title3', desc: 'serv.analytics.section3.data.desc3' },
+          { title: 'serv.analytics.section3.data.title4', desc: 'serv.analytics.section3.data.desc4' },
+        ]
+      },
+      fourthSection: {
+        title: 'serv.analytics.section4.title',
+        data: [
+          { id: 1, title: 'serv.analytics.section4.data.title1', desc: 'serv.analytics.section4.data.desc1', color: 'color-1' },
+          { id: 2, title: 'serv.analytics.section4.data.title2', desc: 'serv.analytics.section4.data.desc2', color: 'color-2' },
+          { id: 3, title: 'serv.analytics.section4.data.title3', desc: 'serv.analytics.section4.data.desc3', color: 'color-3' },
+          { id: 4, title: 'serv.analytics.section4.data.title4', desc: 'serv.analytics.section4.data.desc4', color: 'color-1' },
+          { id: 5, title: 'serv.analytics.section4.data.title5', desc: 'serv.analytics.section4.data.desc5', color: 'color-2' },
+        ]
+      }
+    },
     {
       id: 1,
       pageData: {
