@@ -18,7 +18,7 @@ export const routes: Routes = [
         component: MainServicesComponent,
     },
     {
-        path: 'our-services/details',
+        path: 'our-services/details/:id',
         component: ServiceDetailsComponent
     }
 ];
