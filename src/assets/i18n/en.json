@@ -2,6 +2,9 @@
   "serv": {
     "breadCrumb": {
       "analytics": "Technical Analysis",
+      "project_management": "Project Management",
+      "works_development": "Business Development",
+      "technical_support": "Technical Support",
       "home": "Home",
       "service": "Our Services",
       "web_design": "Web Design",
@@ -58,6 +61,108 @@
           "desc4": "We prepare detailed reports that meet the client’s needs and support their investment decisions.",
           "title5": "Delivery and Support",
           "desc5": "We deliver reports on time with ongoing follow-up for any inquiries or additional needs."
+        }
+      }
+    },
+    "project_management": {
+      "title": "We Handle the Details, You Focus on Success",
+      "desc": "We lead your projects professionally... from idea to success",
+      "section1": {
+        "title": "We Manage Your Projects So You Can Lead with Confidence",
+        "desc": "We manage your projects with intelligence and organization, turning ideas into achievements and giving you clear visibility from start to delivery."
+      },
+      "section2": {
+        "title": "Confident, Efficient Project Management... With YOU, Success is Guaranteed",
+        "data": {
+          "title1": "Effective Organization",
+          "desc1": "We coordinate every detail of your project smoothly to ensure precise execution and steady workflow.",
+          "title2": "Ongoing Collaboration",
+          "desc2": "We provide a unified platform for your team that ensures effective communication and real-time progress tracking.",
+          "title3": "Risk Management",
+          "desc3": "We detect issues early and address them smartly to maintain project stability.",
+          "title4": "Smart Resource Management",
+          "desc4": "We optimize your resources for maximum return at minimal cost."
+        }
+      },
+      "section3": {
+        "title": "Why Choose YOU to Manage Your Projects Professionally?",
+        "data": {
+          "title1": "Precise Strategic Analysis",
+          "desc1": "We start from the roots—conducting in-depth research of your project and target market to ensure a well-planned start and effective strategy.",
+          "title2": "Professional Execution with Full Oversight",
+          "desc2": "The YOU team supports you every step of the way, from planning to meticulous follow-up, to ensure smooth execution and results that match your ambition.",
+          "title3": "Continuous Technical Support",
+          "desc3": "Support doesn't stop at launch. We provide ongoing technical assistance to swiftly resolve issues and keep your project on track.",
+          "title4": "Smart Launch & Outreach",
+          "desc4": "We boost your success chances with innovative marketing campaigns that bring your product or service to your ideal audience and maximize impact."
+        }
+      }
+    },
+    "works_development": {
+      "title": "We Drive Your Idea’s Growth with Confidence",
+      "desc": "We open doors of opportunity and shape the future of your business smartly.",
+      "section1": {
+        "title": "We Develop Your Business with Vision to Compete and Grow with Confidence",
+        "desc": "We develop your business with a strategic perspective, turning challenges into opportunities and building plans that guide you toward sustainable growth and market trust."
+      },
+      "section2": {
+        "title": "We Develop Your Business with a Realistic Vision That Opens Growth Horizons",
+        "data": {
+          "title1": "Smart Market Analysis",
+          "desc1": "We analyze the market, audience, and competitors to uncover growth opportunities and define the best strategic direction.",
+          "title2": "Actionable Business Plan",
+          "desc2": "We design a precise plan to guide your steps, including goals, budget, and resources in a practical way.",
+          "title3": "Product & Service Development",
+          "desc3": "We propose innovative solutions to enhance your offerings and adapt to changing market needs flexibly.",
+          "title4": "Brand Enhancement",
+          "desc4": "We help you build a strong presence and cohesive visual identity that boosts customer loyalty and visibility."
+        }
+      },
+      "section3": {
+        "title": "Why Choose YOU to Develop Your Business?",
+        "data": {
+          "title1": "Tailored Solutions for Your Needs",
+          "desc1": "We listen to you, understand your needs, and design practical solutions that support your business growth with intelligence and flexibility.",
+          "title2": "Modern Technologies",
+          "desc2": "We stay up-to-date with the latest technologies to provide you with powerful tools that push your business forward steadily.",
+          "title3": "Clear Commitment",
+          "desc3": "We develop your business with well-studied plans that ensure realistic results and goal achievement.",
+          "title4": "Exceptional Customer Experience",
+          "desc4": "We walk with you step by step, with full transparency and direct communication that builds trust and ensures satisfaction."
+        }
+      }
+    },
+    "technical_support": {
+      "title": "Continuous Support, Stable Performance",
+      "desc": "We support you technically to keep your business safe and running smoothly.",
+      "section1": {
+        "title": "We Support You Technically to Help You Grow with Confidence",
+        "desc": "We provide expert technical support that turns breakdowns into stability and builds a high-efficiency, reliable working environment."
+      },
+      "section2": {
+        "title": "Technical Support that Boosts Your Performance and Builds Customer Trust",
+        "data": {
+          "title1": "Professional Expertise",
+          "desc1": "Our experts are always ready to solve your technical issues efficiently and creatively.",
+          "title2": "Speed & Quality",
+          "desc2": "We respond instantly and deliver effective solutions without compromising on quality.",
+          "title3": "24/7 Support",
+          "desc3": "Our services are available 24/7 to ensure your business continuity without interruption.",
+          "title4": "Full Integration",
+          "desc4": "We provide integrated solutions in collaboration with your company’s technical departments."
+        }
+      },
+      "section3": {
+        "title": "Why Choose YOU for Technical Support?",
+        "data": {
+          "title1": "Stronger Satisfaction & Engagement",
+          "desc1": "We monitor every client interaction closely to ensure a seamless service experience that builds trust.",
+          "title2": "Long-Term Loyalty",
+          "desc2": "We design our support around a deep understanding of your clients’ needs to deliver a service that exceeds expectations.",
+          "title3": "Efficiency & Productivity",
+          "desc3": "We streamline tasks and data to save time and help your team focus on real impact.",
+          "title4": "Data-Driven Decisions",
+          "desc4": "We provide precise analytics on customer behavior to support you in making effective strategic decisions."
         }
       }
     },
