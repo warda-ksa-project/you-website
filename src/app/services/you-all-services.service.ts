@@ -13,50 +13,50 @@ export class YouAllServicesService {
       id: 1,
       pageData: {
         breadCrumb: [
-          { id: 0, name: 'الرئيسية ', routing: '/home' },
-          { id: 1, name: 'خدماتنا ', routing: '/our-services' },
-          { id: 2, name: 'تصميم المواقع' }
+          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
+          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
+          { id: 2, name: 'serv.breadCrumb.web_design', routing: '/our-services/web-design' }
         ],
-        title: 'نصمّم مواقع تسبق توقعاتك',
-        desc: 'مواقع سريعة، عصرية، وفعالة... مصممة لتُبرز علامتك وتحقّق أهدافك'
+        title: 'serv.web_design.title',
+        desc: 'serv.web_design.desc'
       },
       firstSection: {
-        title: 'تصميم إبداعي يحوّل الأفكار إلى واقع',
-        desc: 'من الهوية البصرية إلى تجربة المستخدم… نقدم حلول تصميم تعكس احترافك وتُبرز علامتك بأعلى جودة',
+        title: 'serv.web_design.section1.title',
+        desc: 'serv.web_design.section1.desc',
         img: 'assets/images/our-design.svg'
       },
       secondSection: {
-        title: 'لماذا تصميم مواقعنا يستحق ثقتك؟',
+        title: 'serv.web_design.section2.title',
         data: [
-          { title: 'تصميم مخصص لهويتك', desc: 'نبتكر واجهات تعكس شخصية علامتك بدقة وتترك انطباعًا لا يُنسى.' },
-          { title: 'تجربة مستخدم ذكية', desc: 'نصمم بتجربة مدروسة تجعل التصفح سهلًا وسلسًا لعملائك' },
-          { title: 'أداء عالي وسرعة استجابة', desc: 'مواقع سريعة وآمنة تعمل بكفاءة على كل الأجهزة والمتصفحات' },
-          { title: 'دعم واستمرارية', desc: 'نرافقك بعد التسليم لضمان استقرار موقعك وتطوره المستمر' }
+          { title: 'serv.web_design.section2.data.title1', desc: 'serv.web_design.section2.data.desc1' },
+          { title: 'serv.web_design.section2.data.title2', desc: 'serv.web_design.section2.data.desc2' },
+          { title: 'serv.web_design.section2.data.title3', desc: 'serv.web_design.section2.data.desc3' },
+          { title: 'serv.web_design.section2.data.title4', desc: 'serv.web_design.section2.data.desc4' }
         ]
       },
       thirdSection: {
         img: 'assets/images/you-frame.svg',
-        title: 'YOU هو خيارك الأمثل لتصميم المواقع ',
+        title: 'serv.web_design.section3.title',
         data: [
-          { title: 'فريق بخبرة عالية', desc: 'نضم نخبة من مصممي الويب والمطورين الذين يجمعون بين الإبداع والمعرفة التقنية لإنشاء مواقع تعكس رؤية علامتك وتحقق أهدافك' },
-          { title: 'مواقع تفاعلية وعصرية', desc: 'نصمم مواقع مرنة وسهلة التحديث باستخدام أحدث التقنيات لضمان سرعة الأداء وتجربة مستخدم متميزة' },
-          { title: 'تكامل سلس مع المنصات', desc: 'نربط موقعك باحترافية بمنصات التواصل الاجتماعي والأدوات التسويقية لتوسيع انتشارك وزيادة التفاعل' },
-          { title: 'مصداقية تترك انطباعًا', desc: 'نعزز حضورك الإلكتروني من خلال عناصر الثقة مثل الشهادات، التوصيات، وآراء العملاء، مما يدعم صورتك المهنية أمام جمهورك' }
+          { title: 'serv.web_design.section3.data.title1', desc: 'serv.web_design.section3.data.desc1' },
+          { title: 'serv.web_design.section3.data.title2', desc: 'serv.web_design.section3.data.desc2' },
+          { title: 'serv.web_design.section3.data.title3', desc: 'serv.web_design.section3.data.desc3' },
+          { title: 'serv.web_design.section3.data.title4', desc: 'serv.web_design.section3.data.desc4' }
         ]
       },
       fourthSection: {
-        title: 'خطوات أساسية لتصميم موقع إلكتروني ناجح',
+        title: 'serv.web_design.section4.title',
         data: [
-          { id: 1, title: 'تحديد متطلبات المشروع', desc: 'جمع المتطلبات الوظيفية وغير الوظيفية.', color: 'color-1' },
-          { id: 2, title: 'اختيار التكنولوجيا المناسبة', desc: 'اختيار تقنيات التطوير (HTML، CSS، JavaScript، وأطر العمل مثل React أو Angular أو Vue).', color: 'color-2' },
-          { id: 3, title: 'تصميم بنية قاعدة البيانات', desc: 'اختيار نوع قاعدة البيانات (SQL أو NoSQL) وتصميم الجداول والعلاقات', color: 'color-3' },
-          { id: 4, title: 'تطوير الهيكل الأساسي (Backend)', desc: 'تطوير واجهات برمجة التطبيقات (APIs) والتأكد من أداء وأمان العمليات الأساسية', color: 'color-1' },
-          { id: 5, title: 'تصميم وتطوير الواجهة الأمامية (Frontend)', desc: 'استخدام HTML و CSS و JavaScript لتطوير واجهة المستخدم وربطها بالهيكل الأساسي', color: 'color-2' },
-          { id: 6, title: 'الاختبار والتحقق', desc: 'إجراء اختبارات شاملة باستخدام أدوات الاختبار الآلي واختبار الوحدات', color: 'color-3' },
-          { id: 7, title: 'تحسين الأداء', desc: 'تحليل الأداء باستخدام أدوات مثل Google Lighthouse وتحسين وقت التحميل والاستجابة.', color: 'color-1' },
-          { id: 8, title: 'الأمان', desc: 'تأمين الموقع ضد التهديدات الشائعة واستخدام HTTPS وتشفير البيانات', color: 'color-2' },
-          { id: 9, title: 'الإطلاق والنشر', desc: 'نشر الموقع على خادم الإنتاج وضمان إعداد النسخ الاحتياطي والاستعادة.', color: 'color-3' },
-          { id: 10, title: 'المراقبة والصيانة', desc: 'مراقبة أداء الموقع واستقراره وتحديثه بانتظام لضمان الاستمرارية والتحسين.', color: 'color-1' }
+          { id: 1, title: 'serv.web_design.section4.data.title1', desc: 'serv.web_design.section4.data.desc1', color: 'color-1' },
+          { id: 2, title: 'serv.web_design.section4.data.title2', desc: 'serv.web_design.section4.data.desc2', color: 'color-2' },
+          { id: 3, title: 'serv.web_design.section4.data.title3', desc: 'serv.web_design.section4.data.desc3', color: 'color-3' },
+          { id: 4, title: 'serv.web_design.section4.data.title4', desc: 'serv.web_design.section4.data.desc4', color: 'color-1' },
+          { id: 5, title: 'serv.web_design.section4.data.title5', desc: 'serv.web_design.section4.data.desc5', color: 'color-2' },
+          { id: 6, title: 'serv.web_design.section4.data.title6', desc: 'serv.web_design.section4.data.desc6', color: 'color-3' },
+          { id: 7, title: 'serv.web_design.section4.data.title7', desc: 'serv.web_design.section4.data.desc7', color: 'color-1' },
+          { id: 8, title: 'serv.web_design.section4.data.title8', desc: 'serv.web_design.section4.data.desc8', color: 'color-2' },
+          { id: 9, title: 'serv.web_design.section4.data.title9', desc: 'serv.web_design.section4.data.desc9', color: 'color-3' },
+          { id: 10, title: 'serv.web_design.section4.data.title10', desc: 'serv.web_design.section4.data.desc10', color: 'color-1' }
         ]
       }
     },
@@ -64,154 +64,158 @@ export class YouAllServicesService {
       id: 2,
       pageData: {
         breadCrumb: [
-          { id: 0, name: 'الرئيسية ', routing: '/home' },
-          { id: 1, name: 'خدماتنا ', routing: '/our-services' },
-          { id: 2, name: ' تصميم تطبيقات الجوال ' }
+          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
+          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
+          { id: 2, name: 'serv.breadCrumb.mobile_app', routing: '/our-services/mobile-app' }
         ],
-        title: 'من فكرة إلى تطبيق يُحدث فرقًا',
-        desc: 'تطبيقات جوال تُطلق مشروعك إلى مستوى جديد'
+        title: 'serv.mobile_app.title',
+        desc: 'serv.mobile_app.desc'
       },
       firstSection: {
-        title: 'ابتكار بصري يخلق تأثيرًا لا يُنسى',
-        desc: 'نحوّل رؤيتك إلى تصميم متميز يجذب الانتباه، ويعبّر بدقة عن هوية علامتك',
+        title: 'serv.mobile_app.section1.title',
+        desc: 'serv.mobile_app.section1.desc',
         img: 'assets/images/Group 1171278441.svg'
       },
       secondSection: {
-        title: 'لماذا تصميم تطبيقات الجوال لدينا هو خيارك الذكي؟',
+        title: 'serv.mobile_app.section2.title',
         data: [
-          { title: 'استضافة موثوقة وآمنة', desc: 'نوفر بيئة استضافة حديثة وسريعة، مؤمنة بأعلى معايير الأمان' },
-          { title: 'تصميم جذاب وسهل ', desc: 'نصمم واجهات احترافية تعكس علامتك وتوفر تجربة استخدام سلسة' },
-          { title: ' دعم فني مستمر', desc: 'دعم متواصل على مدار الساعة لحل أي مشكلة بسرعة وكفاءة' },
-          { title: ' تطوير دائم ومتجدد', desc: 'نحدث تطبيقك باستمرار ليتماشى مع أحدث تقنيات السوق' }
+          { title: 'serv.mobile_app.section2.data.title1', desc: 'serv.mobile_app.section2.data.desc1' },
+          { title: 'serv.mobile_app.section2.data.title2', desc: 'serv.mobile_app.section2.data.desc2' },
+          { title: 'serv.mobile_app.section2.data.title3', desc: 'serv.mobile_app.section2.data.desc3' },
+          { title: 'serv.mobile_app.section2.data.title4', desc: 'serv.mobile_app.section2.data.desc4' }
         ]
       },
       fourthSection: {
-        title: 'خطوات بناء تطبيق يحقق نتائج حقيقية',
+        title: 'serv.mobile_app.section4.title',
         data: [
-          { id: 1, title: 'مرحلة التخطيط', desc: 'تحديد أهداف التطبيق، وفهم الفئة المستهدفة، لضمان تقديم تجربة تلبي احتياجاتهم بدقة.', color: 'color-1' },
-          { id: 2, title: 'تصميم الواجهة', desc: 'تحويل الأفكار إلى تصميم بصري أنيق يعكس الهوية ويضمن تجربة استخدام مريحة', color: 'color-2' },
-          { id: 3, title: 'المخططات الهيكلية (Wireframe)', desc: 'إنشاء تصور مبدئي لهيكل التطبيق يوضح ترتيب الشاشات وسهولة التنقل', color: 'color-3' }
+          { id: 1, title: 'serv.mobile_app.section4.data.title1', desc: 'serv.mobile_app.section4.data.desc1', color: 'color-1' },
+          { id: 2, title: 'serv.mobile_app.section4.data.title2', desc: 'serv.mobile_app.section4.data.desc2', color: 'color-2' },
+          { id: 3, title: 'serv.mobile_app.section4.data.title3', desc: 'serv.mobile_app.section4.data.desc3', color: 'color-3' }
         ]
       }
-    },
+    }
+    ,
     {
       id: 3,
       pageData: {
         breadCrumb: [
-          { id: 0, name: 'الرئيسية ', routing: '/home' },
-          { id: 1, name: 'خدماتنا ', routing: '/our-services' },
-          { id: 2, name: 'الخادم الخاص' }
+          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
+          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
+          { id: 2, name: 'serv.breadCrumb.hosting', routing: '/our-services/server' }
         ],
-        title: 'ثقة، أمان، سرعة — في كل نقرة',
-        desc: 'جاهزية دائمة، سرعة استجابة، وأمان بدون حدود'
+        title: 'serv.hosting.title',
+        desc: 'serv.hosting.desc'
       },
       firstSection: {
-        title: 'خادمك الخاص، أداء يواكب طموحاتك',
-        desc: 'نصمم حضورك الرقمي بتجربة بصرية تعكس علامتك، وتحوّل كل زيارة إلى انطباع دائم.',
+        title: 'serv.hosting.section1.title',
+        desc: 'serv.hosting.section1.desc',
         img: 'assets/images/Group 1171278442.svg'
       },
       secondSection: {
-        title: 'مميزات الخادم الخاص من YOU',
+        title: 'serv.hosting.section2.title',
         data: [
-          { title: 'أداء عالي السرعة', desc: 'تشغيل سريع وسلس بفضل معالجات قوية وموارد مخصصة.' },
-          { title: ' حماية بيانات قوية', desc: 'أنظمة تخزين مؤمّنة لضمان أمان واسترجاع بياناتك بسهولة.' },
-          { title: 'تخصيص كامل', desc: 'حرية في اختيار إعداداتك: من النظام وحتى التطبيقات والموارد.' },
-          { title: 'دعم فني دائم', desc: 'فريق دعم متخصص متاح 24/7 لحل أي مشكلة بسرعة وكفاءة.' }
+          { title: 'serv.hosting.section2.data.title1', desc: 'serv.hosting.section2.data.desc1' },
+          { title: 'serv.hosting.section2.data.title2', desc: 'serv.hosting.section2.data.desc2' },
+          { title: 'serv.hosting.section2.data.title3', desc: 'serv.hosting.section2.data.desc3' },
+          { title: 'serv.hosting.section2.data.title4', desc: 'serv.hosting.section2.data.desc4' }
         ]
       },
       thirdSection: {
         img: 'assets/images/Frame 2147225349 copy.svg',
-        title: ' لماذا YOU هي خيارك الأمثل لخادم خاص؟',
+        title: 'serv.hosting.section3.title',
         data: [
-          { title: 'أداء لا يُضاهى', desc: 'استفد من موارد مخصصة بالكامل تمنحك سرعة وثبات عاليين دون مشاركة.' },
-          { title: ' أمان مطلق', desc: 'تحكم كامل في إعدادات الحماية والتشفير، لضمان حماية بياناتك' },
-          { title: ' تخصيص حسب الطلب', desc: 'اضبط الخادم كما تريد، واختر نظام التشغيل والتطبيقات التي تناسبك.' },
-          { title: 'دعم تقني 24/7', desc: 'فريق مختص يساندك في أي وقت لضمان استمرارية أعمالك بأعلى كفاءة.' }
+          { title: 'serv.hosting.section3.data.title1', desc: 'serv.hosting.section3.data.desc1' },
+          { title: 'serv.hosting.section3.data.title2', desc: 'serv.hosting.section3.data.desc2' },
+          { title: 'serv.hosting.section3.data.title3', desc: 'serv.hosting.section3.data.desc3' },
+          { title: 'serv.hosting.section3.data.title4', desc: 'serv.hosting.section3.data.desc4' }
         ]
       }
-    },
+    }
+    ,
+
     {
       id: 4,
       pageData: {
         breadCrumb: [
-          { id: 0, name: 'الرئيسية ', routing: '/home' },
-          { id: 1, name: 'خدماتنا ', routing: '/our-services' },
-          { id: 2, name: 'إستضافة الويب' }
+          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
+          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
+          { id: 2, name: 'serv.breadCrumb.web_hosting', routing: '/our-services/web-hosting' }
         ],
-        title: 'ثقة، أمان، سرعة — في كل نقرة',
-        desc: 'جاهزية دائمة، سرعة استجابة، وأمان بدون حدود'
+        title: 'serv.web_hosting.title',
+        desc: 'serv.web_hosting.desc'
       },
       firstSection: {
-        title: 'استضافة ثابتة وسريعة تتقدّم محتواك',
-        desc: 'نبني حضورك الرقمي بتصميم يعكس هويتك، ويترك أثرًا لا يُنسى في كل زيارة',
+        title: 'serv.web_hosting.section1.title',
+        desc: 'serv.web_hosting.section1.desc',
         img: 'assets/images/Group 1171278442 copy.svg'
       },
       secondSection: {
-        title: 'لماذا استضافتنا هي البنية الذكية لموقعك؟',
+        title: 'serv.web_hosting.section2.title',
         data: [
-          { title: 'أمان يُعتمد عليه', desc: 'نوفّر حماية قوية تشمل التشفير والمراقبة المستمرة لحماية بياناتك.' },
-          { title: 'أداء سريع ومستقر', desc: 'خوادم قوية تضمن تحميل سريع واستقرار دائم لموقعك' },
-          { title: 'مرونة حسب احتياجك', desc: 'خطط قابلة للتعديل حسب نمو مشروعك دون تعقيد' },
-          { title: 'دعم فني متواصل', desc: 'فريق جاهز دائمًا لحل مشاكلك بسرعة واحترافية' }
+          { title: 'serv.web_hosting.section2.data.title1', desc: 'serv.web_hosting.section2.data.desc1' },
+          { title: 'serv.web_hosting.section2.data.title2', desc: 'serv.web_hosting.section2.data.desc2' },
+          { title: 'serv.web_hosting.section2.data.title3', desc: 'serv.web_hosting.section2.data.desc3' },
+          { title: 'serv.web_hosting.section2.data.title4', desc: 'serv.web_hosting.section2.data.desc4' }
         ]
       },
       fourthSection: {
-        title: 'استضافة الويب ببساطة: كيف تعمل؟',
+        title: 'serv.web_hosting.section4.title',
         data: [
-          { id: 1, title: 'بنية سحابية موثوقة', desc: 'تعتمد استضافتنا على مراكز بيانات عالمية مدارة بتقنيات الحوسبة السحابية، ما يضمن أداء عالي وتخزين آمن للبيانات والملفات', color: 'color-1' },
-          { id: 2, title: 'تسجيل النطاق', desc: 'نبدأ بتسجيل اسم النطاق الخاص بك، ليكون عنوانك الرقمي الذي يشير مباشرة إلى موقعك المستضاف لدينا.', color: 'color-2' },
-          { id: 3, title: 'تخصيص الموارد', desc: 'نوفر لك موارد الخادم المناسبة من مساحة تخزين، وRAM، ومعالجة، بما يتماشى مع حجم موقعك واحتياجاته.', color: 'color-3' },
-          { id: 4, title: 'رفع ملفات الموقع', desc: 'يتم تحميل ملفات موقعك بسهولة عبر لوحة التحكم أو بروتوكول FTP، ليبدأ الموقع في العمل على الإنترنت.', color: 'color-1' },
-          { id: 5, title: 'إعداد قواعد البيانات', desc: 'ننظم قواعد بيانات قوية (مثل MySQL) لاحتواء بيانات موقعك وتسهيل التفاعل معها بسرعة وأمان.', color: 'color-2' },
-          { id: 6, title: 'تهيئة الخادم', desc: 'نضبط الخادم ليخدم موقعك بكفاءة، باستخدام برامج مثل Apache أو Nginx لضمان سرعة الاستجابة واستقرار الأداء.', color: 'color-3' },
-          { id: 7, title: 'نشر الموقع وظهوره للزوار', desc: 'بعد الإعداد، يصبح موقعك متاحًا عبر الإنترنت ويستجيب بسرعة لأي طلب من المتصفح باستخدام النطاق الخاص بك.', color: 'color-1' },
-          { id: 8, title: 'إدارة دورية وصيانة', desc: 'نوفر تحديثات منتظمة، نسخ احتياطية، وحلول سريعة لأي مشكلة، لتضمن أداء مستمر بدون انقطاع.', color: 'color-2' }
+          { id: 1, title: 'serv.web_hosting.section4.data.title1', desc: 'serv.web_hosting.section4.data.desc1', color: 'color-1' },
+          { id: 2, title: 'serv.web_hosting.section4.data.title2', desc: 'serv.web_hosting.section4.data.desc2', color: 'color-2' },
+          { id: 3, title: 'serv.web_hosting.section4.data.title3', desc: 'serv.web_hosting.section4.data.desc3', color: 'color-3' },
+          { id: 4, title: 'serv.web_hosting.section4.data.title4', desc: 'serv.web_hosting.section4.data.desc4', color: 'color-1' },
+          { id: 5, title: 'serv.web_hosting.section4.data.title5', desc: 'serv.web_hosting.section4.data.desc5', color: 'color-2' },
+          { id: 6, title: 'serv.web_hosting.section4.data.title6', desc: 'serv.web_hosting.section4.data.desc6', color: 'color-3' },
+          { id: 7, title: 'serv.web_hosting.section4.data.title7', desc: 'serv.web_hosting.section4.data.desc7', color: 'color-1' },
+          { id: 8, title: 'serv.web_hosting.section4.data.title8', desc: 'serv.web_hosting.section4.data.desc8', color: 'color-2' }
         ]
       }
-    },
+    }
+    ,
     {
       id: 5,
       pageData: {
         breadCrumb: [
-          { id: 0, name: 'الرئيسية ', routing: '/home' },
-          { id: 1, name: 'خدماتنا ', routing: '/our-services' },
-          { id: 2, name: 'إدارة السيرفرات ' }
+          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
+          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
+          { id: 2, name: 'serv.breadCrumb.server_management', routing: '/our-services/server-management' }
         ],
-        title: 'تحكّم كامل. أداء بلا حدود',
-        desc: 'ندير خوادمك بكفاءة عالية، لضمان استقرار أعمالك وأمان بياناتك في كل لحظة تشغيل'
+        title: 'serv.server_management.title',
+        desc: 'serv.server_management.desc'
       },
       firstSection: {
-        title: 'تحكم كامل. أمان أعلى. دعم لا يتوقف',
-        desc: 'ندير بنيتك التحتية الرقمية بكفاءة تامة، لنمنحك استقرارًا دائمًا، وأداءً يعزز ثقة عملائك في كل لحظة اتصال.',
+        title: 'serv.server_management.section1.title',
+        desc: 'serv.server_management.section1.desc',
         img: 'assets/images/Group 1171278442 copy 2.svg'
       },
       secondSection: {
-        title: 'من أجل تشغيل بلا أعطال... اختر إدارة السيرفرات من YOU',
+        title: 'serv.server_management.section2.title',
         data: [
-          { title: 'استجابة أفضل', desc: 'نساعدك في تحسين استجابة موقعك للمستخدمين، مما يزيد من رضاهم ووفائهم' },
-          { title: 'تحسين الجودة', desc: 'نعمل بأفضل طرق الاختبار وضمان الجودة لضمان توفير تطبيقات خالية من الأخطاء.' },
-          { title: 'الأمان المتقدم', desc: 'نحرص على حماية بياناتك وتطبيقاتك من التهديدات و الاختراقات' },
-          { title: 'دعم مستدام', desc: 'نحن هنا دائما لمساعدتك على مدار الساعة للتعامل مع أي مشكلة أو استفسار.' }
+          { title: 'serv.server_management.section2.data.title1', desc: 'serv.server_management.section2.data.desc1' },
+          { title: 'serv.server_management.section2.data.title2', desc: 'serv.server_management.section2.data.desc2' },
+          { title: 'serv.server_management.section2.data.title3', desc: 'serv.server_management.section2.data.desc3' },
+          { title: 'serv.server_management.section2.data.title4', desc: 'serv.server_management.section2.data.desc4' }
         ]
       },
       thirdSection: {
         img: 'assets/images/you-frame.svg',
-        title: 'لماذا YOU هي شريكك الأمثل لإدارة السيرفرات؟',
+        title: 'serv.server_management.section3.title',
         data: [
-          { title: 'تعزيز سرعة التطوير', desc: 'خدمتنا تمكنك من تقليص الوقت اللازم لتطوير ونشر تطبيقاتك بشكل كبير، حيث تدمج بين التطوير والعمليات لضمان استجابة سريعة وفعالة.' },
-          { title: 'زيادة الاستقرار', desc: 'باستخدام استراتيجيات DevOps، نعمل على تحسين استقرار تطبيقاتك وتقليل الأعطال والمشاكل التقنية، مما ينتج عنه أداء أكثر ثباتًا وموثوقية.' },
-          { title: 'أمان معزز', desc: 'نحرص على توفير مستوى عالٍ من الأمان لتطبيقاتك وبياناتك من خلال تطبيق أفضل الممارسات الأمنية الحديثة والمتطورة.' },
-          { title: 'تكامل فعال', desc: 'خدمتنا تسمح بدمج سهل وفعال لمختلف الأدوات والتقنيات، بما في ذلك التطبيقات، قواعد البيانات، وأنظمة الإدارة، ' }
+          { title: 'serv.server_management.section3.data.title1', desc: 'serv.server_management.section3.data.desc1' },
+          { title: 'serv.server_management.section3.data.title2', desc: 'serv.server_management.section3.data.desc2' },
+          { title: 'serv.server_management.section3.data.title3', desc: 'serv.server_management.section3.data.desc3' },
+          { title: 'serv.server_management.section3.data.title4', desc: 'serv.server_management.section3.data.desc4' }
         ]
       },
       fourthSection: {
-        title: '',
+        title: 'serv.server_management.section4.title',
         data: [
-          { id: 1, title: 'التخطيط', desc: 'نبدأ بتحليل متطلبات مشروعك ونضع خطة تطوير شاملة تضمن تحقيق الأهداف المرجوة بكفاءة.', color: 'color-1' },
-          { id: 2, title: 'التطوير', desc: 'تقوم فرق البرمجة المتخصصة لدينا ببناء التطبيقات والبرمجيات باستخدام أحدث الأدوات والتقنيات المتقدمة لتحقيق أفضل النتائج.', color: 'color-2' },
-          { id: 3, title: 'الاختبار', desc: 'ختبر التطبيقات بعناية فائقة لضمان عدم وجود أي عيوب و لتوفير أعلى مستويات الجودة والأمان.', color: 'color-3' },
-          { id: 4, title: 'النشر', desc: 'بعد الاختبار، نقوم بنشر التطبيقات في بيئات الإنتاج بطريقة آمنة وموثوقة لضمان التشغيل السلس.', color: 'color-1' },
-          { id: 5, title: 'المراقبة', desc: 'نستمر في مراقبة أداء التطبيقات لاكتشاف أي مشاكل أو أخطاء بشكل فوري وتقديم الدعم اللازم لضمان استمرارية العمل.', color: 'color-2' }
+          { id: 1, title: 'serv.server_management.section4.data.title1', desc: 'serv.server_management.section4.data.desc1', color: 'color-1' },
+          { id: 2, title: 'serv.server_management.section4.data.title2', desc: 'serv.server_management.section4.data.desc2', color: 'color-2' },
+          { id: 3, title: 'serv.server_management.section4.data.title3', desc: 'serv.server_management.section4.data.desc3', color: 'color-3' },
+          { id: 4, title: 'serv.server_management.section4.data.title4', desc: 'serv.server_management.section4.data.desc4', color: 'color-1' },
+          { id: 5, title: 'serv.server_management.section4.data.title5', desc: 'serv.server_management.section4.data.desc5', color: 'color-2' }
         ]
       }
     },
@@ -219,35 +223,35 @@ export class YouAllServicesService {
       id: 6,
       pageData: {
         breadCrumb: [
-          { id: 0, name: 'الرئيسية ', routing: '/home' },
-          { id: 1, name: 'خدماتنا ', routing: '/our-services' },
-          { id: 2, name: 'التسويق الإلكتروني' }
+          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
+          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
+          { id: 2, name: 'serv.breadCrumb.digital_marketing', routing: '/our-services/digital-marketing' }
         ],
-        title: 'ننقلك من الظهور إلى التأثير',
-        desc: 'نُخطط، نُنفذ، ونُحلل لتحقيق نتائج ملموسة، ونبني لك حضورًا رقميًا يحقق النمو ويزيد من ولاء العملاء.'
+        title: 'serv.digital_marketing.title',
+        desc: 'serv.digital_marketing.desc'
       },
       firstSection: {
-        title: 'نرتقي بعلامتك الرقمية بخطى واثقة وأثر باقٍ',
-        desc: 'نصمم حملاتك الرقمية بذوق رفيع، لنمنح علامتك الحضور الأنيق، والوصول المدروس الذي يترك أثرًا طويل المدى',
+        title: 'serv.digital_marketing.section1.title',
+        desc: 'serv.digital_marketing.section1.desc',
         img: 'assets/images/Group 1171278442 copy 3.svg'
       },
       secondSection: {
-        title: 'نحو جمهورك، بخطى محسوبة',
+        title: 'serv.digital_marketing.section2.title',
         data: [
-          { title: 'وصول موجه بدقة', desc: 'نوصّل رسالتك بدقة لجمهورك المثالي لتحقيق أعلى عائد.' },
-          { title: 'تحليلات دقيقة', desc: 'نراقب الأداء لحظة بلحظة لاتخاذ قرارات مدروسة.' },
-          { title: 'محتوى يعبر عنك', desc: 'ننشئ محتوى يعكس هوية علامتك ويحفز التفاعل' },
-          { title: ' استراتيجيات مرنة', desc: 'نطوّر خططًا تتكيّف مع السوق وتدعم نموك المستمر.' }
+          { title: 'serv.digital_marketing.section2.data.title1', desc: 'serv.digital_marketing.section2.data.desc1' },
+          { title: 'serv.digital_marketing.section2.data.title2', desc: 'serv.digital_marketing.section2.data.desc2' },
+          { title: 'serv.digital_marketing.section2.data.title3', desc: 'serv.digital_marketing.section2.data.desc3' },
+          { title: 'serv.digital_marketing.section2.data.title4', desc: 'serv.digital_marketing.section2.data.desc4' }
         ]
       },
       thirdSection: {
         img: 'assets/images/Frame 2147225349 copy 2.svg',
-        title: 'لماذا YOU هي شريكك الأمثل في التسويق الإلكتروني؟',
+        title: 'serv.digital_marketing.section3.title',
         data: [
-          { title: 'خبرة ممتدة', desc: 'نمتلك سنوات من الخبرة العملية في التسويق الرقمي والتجارة الإلكترونية، ونقدم حلولًا دقيقة تلبي احتياجاتك وتحقق أهدافك' },
-          { title: 'خدمات متكاملة', desc: 'من تحسين محركات البحث، والإعلانات الممولة، إلى التسويق عبر السوشيال ميديا وكتابة المحتوى—كلها تحت سقف واحد' },
-          { title: 'استراتيجيات مصممة لك', desc: 'نفهم خصوصية كل نشاط تجاري، ونبني استراتيجيات مخصصة تعبر عن هويتك وتستهدف جمهورك بكفاءة' },
-          { title: 'تقنيات حديثة', desc: 'نستخدم أدوات تسويقية متقدمة لتحسين أداء الحملات وضمان أفضل النتائج' }
+          { title: 'serv.digital_marketing.section3.data.title1', desc: 'serv.digital_marketing.section3.data.desc1' },
+          { title: 'serv.digital_marketing.section3.data.title2', desc: 'serv.digital_marketing.section3.data.desc2' },
+          { title: 'serv.digital_marketing.section3.data.title3', desc: 'serv.digital_marketing.section3.data.desc3' },
+          { title: 'serv.digital_marketing.section3.data.title4', desc: 'serv.digital_marketing.section3.data.desc4' }
         ]
       }
     },
@@ -255,35 +259,35 @@ export class YouAllServicesService {
       id: 7,
       pageData: {
         breadCrumb: [
-          { id: 0, name: 'الرئيسية ', routing: '/home' },
-          { id: 1, name: 'خدماتنا ', routing: '/our-services' },
-          { id: 2, name: 'خدمات التصميم ' }
+          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
+          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
+          { id: 2, name: 'serv.breadCrumb.design_services', routing: '/our-services/design-services' }
         ],
-        title: 'ننقلك من الظهور إلى التأثير',
-        desc: 'نصمّم رؤيتك... ونُحَوِّل الأفكار إلى تجربة بصرية لا تُنسى'
+        title: 'serv.design_services.title',
+        desc: 'serv.design_services.desc'
       },
       firstSection: {
-        title: 'نصمّم لهويتك حضورًا بصريًا يُلهم ويترك بصمة ',
-        desc: 'نبتكر هويتك البصرية بذوق مدروس، لنمنح علامتك حضورًا مميزًا، وتأثيرًا بصريًا يُترجم رؤيتك بوضوح وإبداع',
+        title: 'serv.design_services.section1.title',
+        desc: 'serv.design_services.section1.desc',
         img: 'assets/images/Group 1171278442 copy 4.svg'
       },
       secondSection: {
-        title: 'مميزات خدمة التصميم من YOU',
+        title: 'serv.design_services.section2.title',
         data: [
-          { title: 'تصاميم عصرية تلائم جمهورك', desc: 'نواكب أحدث الاتجاهات لنبرز علامتك بشكل ملفت.' },
-          { title: 'هوية بصرية متكاملة', desc: 'نصمم كل عنصر ليعبر بدقة عن روح علامتك.' },
-          { title: 'مرونة في التخصيص', desc: 'نقدّم تصاميم قابلة للتعديل لتناسب احتياجاتك.' },
-          { title: 'جودة عالية', desc: 'نضمن تنفيذ احترافي ودقة في كل تفصيلة.' }
+          { title: 'serv.design_services.section2.data.title1', desc: 'serv.design_services.section2.data.desc1' },
+          { title: 'serv.design_services.section2.data.title2', desc: 'serv.design_services.section2.data.desc2' },
+          { title: 'serv.design_services.section2.data.title3', desc: 'serv.design_services.section2.data.desc3' },
+          { title: 'serv.design_services.section2.data.title4', desc: 'serv.design_services.section2.data.desc4' }
         ]
       },
       thirdSection: {
         img: 'assets/images/Frame 2147225349 copy 3.svg',
-        title: 'لماذا YOU هي خيارك الأمثل في خدمات التصميم؟',
+        title: 'serv.design_services.section3.title',
         data: [
-          { title: 'الخبرة والاحترافية', desc: 'لدينا فريق من المصممين المحترفين الذين يجمعون بين الخبرة و عشقهم لما يفعلون، ما يترجم إلى تصميمات تلفت الأنظار وتدوم طويلًا.' },
-          { title: 'التكنولوجيا الحديثة', desc: 'استخدامنا لأحدث التقنيات يضمن لك الحصول على تصميمات تتميز بالتجدد والكفاءة، وتسبق الاتجاهات الحديثة في عالم التصميم.' },
-          { title: 'التحليل والتقييم المستمر', desc: 'نلتزم بمراجعة وتحسين تصميماتنا باستمرار لضمان تحقيق أفضل النتائج.' },
-          { title: 'سجل حافل بالنجاح', desc: 'نفتخر بتاريخنا المليء بالنجاحات والإنجازات مع عملائنا، مما يجعلنا شريكك الموثوق لكل تحديات التصميم.' }
+          { title: 'serv.design_services.section3.data.title1', desc: 'serv.design_services.section3.data.desc1' },
+          { title: 'serv.design_services.section3.data.title2', desc: 'serv.design_services.section3.data.desc2' },
+          { title: 'serv.design_services.section3.data.title3', desc: 'serv.design_services.section3.data.desc3' },
+          { title: 'serv.design_services.section3.data.title4', desc: 'serv.design_services.section3.data.desc4' }
         ]
       }
     }

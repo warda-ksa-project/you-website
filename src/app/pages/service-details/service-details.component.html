@@ -3,27 +3,27 @@
   <div class="page-details">
     <div class="bread-crump-section" *ngIf="serviceData">
       <ng-container *ngFor="let crumb of serviceData.pageData.breadCrumb; let i = index">
-        <a *ngIf="crumb.routing; else noLink" [routerLink]="crumb.routing">{{ crumb.name }}</a>
+        <a *ngIf="crumb.routing; else noLink" [routerLink]="crumb.routing">{{ crumb.name|translate }}</a>
         <ng-template #noLink>
-          <p>{{ crumb.name }}</p>
+          <p>{{ crumb.name|translate }}</p>
         </ng-template>
         <p *ngIf="i < serviceData.pageData.breadCrumb.length - 1">/</p>
       </ng-container>
     </div>
 
     <div class="title" *ngIf="serviceData">
-      <p>{{ serviceData.pageData.title }}</p>
+      <p>{{ serviceData.pageData.title|translate }}</p>
     </div>
 
     <div class="desc" *ngIf="serviceData">
-      <p>{{ serviceData.pageData.desc }}</p>
+      <p>{{ serviceData.pageData.desc|translate }}</p>
     </div>
   </div>
   <div class="container">
     <div class="info d-flex justify-content-start flex-wrap mt-5" *ngIf="serviceData">
       <div class="text flex-grow-1">
-        <p class="title">{{ serviceData.firstSection.title }}</p>
-        <p class="desc mt-4">{{ serviceData.firstSection.desc }}</p>
+        <p class="title">{{ serviceData.firstSection.title|translate }}</p>
+        <p class="desc mt-4">{{ serviceData.firstSection.desc|translate }}</p>
       </div>
       <div class="img flex-grow-1">
         <img [src]="serviceData.firstSection.img" alt="first-section-img">
@@ -33,15 +33,15 @@
       <div class="mt-5" *ngIf="serviceData">
         <div class="text-center">
           <p class="fz-18">مميزاتنا </p>
-          <p class="fz-35">{{ serviceData.secondSection.title }}</p>
+          <p class="fz-35">{{ serviceData.secondSection.title|translate }}</p>
         </div>
         <div class="mt-3 d-flex justify-content-start flex-wrap">
           <div class="card box-shadow" *ngFor="let item of serviceData.secondSection.data">
             <div class="w-100 text-center">
               <img src="assets/images/tick-circle.svg" alt="check">
             </div>
-            <p class="bold">{{ item.title }}</p>
-            <p class="desc">{{ item.desc }}</p>
+            <p class="bold">{{ item.title|translate }}</p>
+            <p class="desc">{{ item.desc|translate }}</p>
           </div>
         </div>
       </div>
@@ -53,14 +53,14 @@
 
   <div class="you mt-5 d-flex justify-content-start flex-wrap" *ngIf="serviceData.thirdSection">
   <div class="text-you flex-grow-1">
-    {{ serviceData.thirdSection.title }}
+    {{ serviceData.thirdSection.title|translate }}
   </div>
 
   <div class="flex-grow-1">
     <div class="d-flex justify-content-start flex-wrap">
       <div class="card-col" *ngFor="let item of serviceData.thirdSection.data">
-        <p class="bold">{{ item.title }}</p>
-        <p class="desc">{{ item.desc }}</p>
+        <p class="bold">{{ item.title|translate }}</p>
+        <p class="desc">{{ item.desc|translate }}</p>
       </div>
     </div>
 
@@ -80,7 +80,7 @@
     </div>
 
    <div class="mt-5 mb-5" *ngIf="serviceData.fourthSection">
-  <p class="fz-35 bold">{{ serviceData.fourthSection.title }}</p>
+  <p class="fz-35 bold">{{ serviceData.fourthSection.title|translate }}</p>
 
   <div class="mt-4 d-flex justify-content-start flex-wrap">
     <div
@@ -88,8 +88,8 @@
       *ngFor="let step of serviceData.fourthSection.data"
       [ngClass]="step.color"
     >
-      <p class="bold">{{ step.title }}</p>
-      <p class="dsc">{{ step.desc }}</p>
+      <p class="bold">{{ step.title|translate }}</p>
+      <p class="dsc">{{ step.desc|translate }}</p>
     </div>
   </div>
 </div>
