@@ -25,12 +25,14 @@ export class MainServicesComponent {
  tabOne = [
   {
     id: 1,
+    serviceId: 1,
     img: 'assets/images/services/tab-1-1.svg',
     title: 'main_services.tab1_card1_title',
     desc: 'main_services.tab1_card1_desc'
   },
   {
     id: 2,
+    serviceId: 2,
     img: 'assets/images/services/tab-1-2.svg',
     title: 'main_services.tab1_card2_title',
     desc: 'main_services.tab1_card2_desc'
@@ -40,18 +42,21 @@ export class MainServicesComponent {
 tabTwo = [
   {
     id: 1,
+    serviceId: 3,
     img: 'assets/images/services/tab-2-1.svg',
     title: 'main_services.tab2_card1_title',
     desc: 'main_services.tab2_card1_desc'
   },
   {
     id: 2,
+    serviceId: 4,
     img: 'assets/images/services/tab-2-2.svg',
     title: 'main_services.tab2_card2_title',
     desc: 'main_services.tab2_card2_desc'
   },
   {
     id: 3,
+    serviceId: 5,
     img: 'assets/images/services/tab-2-3.svg',
     title: 'main_services.tab2_card3_title',
     desc: 'main_services.tab2_card3_desc'
@@ -61,12 +66,14 @@ tabTwo = [
 tabThree = [
   {
     id: 1,
+    serviceId: 6,
     img: 'assets/images/services/tab-3-1.svg',
     title: 'main_services.tab3_card1_title',
     desc: 'main_services.tab3_card1_desc'
   },
   {
     id: 2,
+    serviceId: 7,
     img: 'assets/images/services/tab-3-2.svg',
     title: 'main_services.tab3_card2_title',
     desc: 'main_services.tab3_card2_desc'
@@ -76,36 +83,41 @@ tabThree = [
 tabFour = [
   {
     id: 1,
+    serviceId: 8,
     img: 'assets/images/services/tab-4-1.svg',
     title: 'main_services.tab4_card1_title',
     desc: 'main_services.tab4_card1_desc'
   },
   {
     id: 2,
+    serviceId: 9,
     img: 'assets/images/services/tab-4-2.svg',
     title: 'main_services.tab4_card2_title',
     desc: 'main_services.tab4_card2_desc'
   },
   {
     id: 3,
+    serviceId: 11,
     img: 'assets/images/services/tab-4-3.svg',
     title: 'main_services.tab4_card3_title',
     desc: 'main_services.tab4_card3_desc'
   },
   {
     id: 4,
+    serviceId: 12,
     img: 'assets/images/services/tab-4-4.svg',
     title: 'main_services.tab4_card4_title',
     desc: 'main_services.tab4_card4_desc'
   },
   {
     id: 5,
+    serviceId: 13,
     img: 'assets/images/services/tab-4-5.svg',
     title: 'main_services.tab4_card5_title',
     desc: 'main_services.tab4_card5_desc'
   },
   {
-    id: 6,
+    id: 14,
     img: 'assets/images/services/tab-4-6.svg',
     title: 'main_services.tab4_card6_title',
     desc: 'main_services.tab4_card6_desc'
@@ -139,7 +151,7 @@ tabFour = [
     }
   }
 
-  goToServicesdetails(){
-    this.router.navigateByUrl('our-services/details')
+  goToServicesdetails(serviceId: any){
+    this.router.navigate(['our-services/details' , serviceId])
   }
 }
