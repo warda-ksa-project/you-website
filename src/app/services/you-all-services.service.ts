@@ -15,15 +15,15 @@ export class YouAllServicesService {
         breadCrumb: [
           { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
           { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
-          { id: 2, name: 'serv.breadCrumb.web_design', routing: '/our-services/web-design' }
+          { id: 2, name: 'serv.breadCrumb.web_design', routing: '/our-services/web-design' },
         ],
         title: 'serv.web_design.title',
-        desc: 'serv.web_design.desc'
+        desc: 'serv.web_design.desc',
       },
       firstSection: {
         title: 'serv.web_design.section1.title',
         desc: 'serv.web_design.section1.desc',
-        img: 'assets/images/our-design.svg'
+        img: 'assets/images/our-design.svg',
       },
       secondSection: {
         title: 'serv.web_design.section2.title',
@@ -31,7 +31,7 @@ export class YouAllServicesService {
           { title: 'serv.web_design.section2.data.title1', desc: 'serv.web_design.section2.data.desc1' },
           { title: 'serv.web_design.section2.data.title2', desc: 'serv.web_design.section2.data.desc2' },
           { title: 'serv.web_design.section2.data.title3', desc: 'serv.web_design.section2.data.desc3' },
-          { title: 'serv.web_design.section2.data.title4', desc: 'serv.web_design.section2.data.desc4' }
+          { title: 'serv.web_design.section2.data.title4', desc: 'serv.web_design.section2.data.desc4' },
         ]
       },
       thirdSection: {
@@ -41,7 +41,7 @@ export class YouAllServicesService {
           { title: 'serv.web_design.section3.data.title1', desc: 'serv.web_design.section3.data.desc1' },
           { title: 'serv.web_design.section3.data.title2', desc: 'serv.web_design.section3.data.desc2' },
           { title: 'serv.web_design.section3.data.title3', desc: 'serv.web_design.section3.data.desc3' },
-          { title: 'serv.web_design.section3.data.title4', desc: 'serv.web_design.section3.data.desc4' }
+          { title: 'serv.web_design.section3.data.title4', desc: 'serv.web_design.section3.data.desc4' },
         ]
       },
       fourthSection: {
@@ -56,7 +56,7 @@ export class YouAllServicesService {
           { id: 7, title: 'serv.web_design.section4.data.title7', desc: 'serv.web_design.section4.data.desc7', color: 'color-1' },
           { id: 8, title: 'serv.web_design.section4.data.title8', desc: 'serv.web_design.section4.data.desc8', color: 'color-2' },
           { id: 9, title: 'serv.web_design.section4.data.title9', desc: 'serv.web_design.section4.data.desc9', color: 'color-3' },
-          { id: 10, title: 'serv.web_design.section4.data.title10', desc: 'serv.web_design.section4.data.desc10', color: 'color-1' }
+          { id: 10, title: 'serv.web_design.section4.data.title10', desc: 'serv.web_design.section4.data.desc10', color: 'color-1' },
         ]
       }
     },
@@ -66,15 +66,15 @@ export class YouAllServicesService {
         breadCrumb: [
           { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
           { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
-          { id: 2, name: 'serv.breadCrumb.mobile_app', routing: '/our-services/mobile-app' }
+          { id: 2, name: 'serv.breadCrumb.mobile_app', routing: '/our-services/mobile-app' },
         ],
         title: 'serv.mobile_app.title',
-        desc: 'serv.mobile_app.desc'
+        desc: 'serv.mobile_app.desc',
       },
       firstSection: {
         title: 'serv.mobile_app.section1.title',
         desc: 'serv.mobile_app.section1.desc',
-        img: 'assets/images/Group 1171278441.svg'
+        img: 'assets/images/Group 1171278441.svg',
       },
       secondSection: {
         title: 'serv.mobile_app.section2.title',
@@ -82,7 +82,7 @@ export class YouAllServicesService {
           { title: 'serv.mobile_app.section2.data.title1', desc: 'serv.mobile_app.section2.data.desc1' },
           { title: 'serv.mobile_app.section2.data.title2', desc: 'serv.mobile_app.section2.data.desc2' },
           { title: 'serv.mobile_app.section2.data.title3', desc: 'serv.mobile_app.section2.data.desc3' },
-          { title: 'serv.mobile_app.section2.data.title4', desc: 'serv.mobile_app.section2.data.desc4' }
+          { title: 'serv.mobile_app.section2.data.title4', desc: 'serv.mobile_app.section2.data.desc4' },
         ]
       },
       fourthSection: {
@@ -90,7 +90,7 @@ export class YouAllServicesService {
         data: [
           { id: 1, title: 'serv.mobile_app.section4.data.title1', desc: 'serv.mobile_app.section4.data.desc1', color: 'color-1' },
           { id: 2, title: 'serv.mobile_app.section4.data.title2', desc: 'serv.mobile_app.section4.data.desc2', color: 'color-2' },
-          { id: 3, title: 'serv.mobile_app.section4.data.title3', desc: 'serv.mobile_app.section4.data.desc3', color: 'color-3' }
+          { id: 3, title: 'serv.mobile_app.section4.data.title3', desc: 'serv.mobile_app.section4.data.desc3', color: 'color-3' },
         ]
       }
     }
@@ -101,15 +101,15 @@ export class YouAllServicesService {
         breadCrumb: [
           { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
           { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
-          { id: 2, name: 'serv.breadCrumb.hosting', routing: '/our-services/server' }
+          { id: 2, name: 'serv.breadCrumb.hosting', routing: '/our-services/server' },
         ],
         title: 'serv.hosting.title',
-        desc: 'serv.hosting.desc'
+        desc: 'serv.hosting.desc',
       },
       firstSection: {
         title: 'serv.hosting.section1.title',
         desc: 'serv.hosting.section1.desc',
-        img: 'assets/images/Group 1171278442.svg'
+        img: 'assets/images/Group 1171278442.svg',
       },
       secondSection: {
         title: 'serv.hosting.section2.title',
@@ -117,7 +117,7 @@ export class YouAllServicesService {
           { title: 'serv.hosting.section2.data.title1', desc: 'serv.hosting.section2.data.desc1' },
           { title: 'serv.hosting.section2.data.title2', desc: 'serv.hosting.section2.data.desc2' },
           { title: 'serv.hosting.section2.data.title3', desc: 'serv.hosting.section2.data.desc3' },
-          { title: 'serv.hosting.section2.data.title4', desc: 'serv.hosting.section2.data.desc4' }
+          { title: 'serv.hosting.section2.data.title4', desc: 'serv.hosting.section2.data.desc4' },
         ]
       },
       thirdSection: {
@@ -127,7 +127,7 @@ export class YouAllServicesService {
           { title: 'serv.hosting.section3.data.title1', desc: 'serv.hosting.section3.data.desc1' },
           { title: 'serv.hosting.section3.data.title2', desc: 'serv.hosting.section3.data.desc2' },
           { title: 'serv.hosting.section3.data.title3', desc: 'serv.hosting.section3.data.desc3' },
-          { title: 'serv.hosting.section3.data.title4', desc: 'serv.hosting.section3.data.desc4' }
+          { title: 'serv.hosting.section3.data.title4', desc: 'serv.hosting.section3.data.desc4' },
         ]
       }
     }
@@ -139,15 +139,15 @@ export class YouAllServicesService {
         breadCrumb: [
           { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
           { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
-          { id: 2, name: 'serv.breadCrumb.web_hosting', routing: '/our-services/web-hosting' }
+          { id: 2, name: 'serv.breadCrumb.web_hosting', routing: '/our-services/web-hosting' },
         ],
         title: 'serv.web_hosting.title',
-        desc: 'serv.web_hosting.desc'
+        desc: 'serv.web_hosting.desc',
       },
       firstSection: {
         title: 'serv.web_hosting.section1.title',
         desc: 'serv.web_hosting.section1.desc',
-        img: 'assets/images/Group 1171278442 copy.svg'
+        img: 'assets/images/Group 1171278442 copy.svg',
       },
       secondSection: {
         title: 'serv.web_hosting.section2.title',
@@ -155,7 +155,7 @@ export class YouAllServicesService {
           { title: 'serv.web_hosting.section2.data.title1', desc: 'serv.web_hosting.section2.data.desc1' },
           { title: 'serv.web_hosting.section2.data.title2', desc: 'serv.web_hosting.section2.data.desc2' },
           { title: 'serv.web_hosting.section2.data.title3', desc: 'serv.web_hosting.section2.data.desc3' },
-          { title: 'serv.web_hosting.section2.data.title4', desc: 'serv.web_hosting.section2.data.desc4' }
+          { title: 'serv.web_hosting.section2.data.title4', desc: 'serv.web_hosting.section2.data.desc4' },
         ]
       },
       fourthSection: {
@@ -168,7 +168,7 @@ export class YouAllServicesService {
           { id: 5, title: 'serv.web_hosting.section4.data.title5', desc: 'serv.web_hosting.section4.data.desc5', color: 'color-2' },
           { id: 6, title: 'serv.web_hosting.section4.data.title6', desc: 'serv.web_hosting.section4.data.desc6', color: 'color-3' },
           { id: 7, title: 'serv.web_hosting.section4.data.title7', desc: 'serv.web_hosting.section4.data.desc7', color: 'color-1' },
-          { id: 8, title: 'serv.web_hosting.section4.data.title8', desc: 'serv.web_hosting.section4.data.desc8', color: 'color-2' }
+          { id: 8, title: 'serv.web_hosting.section4.data.title8', desc: 'serv.web_hosting.section4.data.desc8', color: 'color-2' },
         ]
       }
     }
@@ -179,15 +179,15 @@ export class YouAllServicesService {
         breadCrumb: [
           { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
           { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
-          { id: 2, name: 'serv.breadCrumb.server_management', routing: '/our-services/server-management' }
+          { id: 2, name: 'serv.breadCrumb.server_management', routing: '/our-services/server-management' },
         ],
         title: 'serv.server_management.title',
-        desc: 'serv.server_management.desc'
+        desc: 'serv.server_management.desc',
       },
       firstSection: {
         title: 'serv.server_management.section1.title',
         desc: 'serv.server_management.section1.desc',
-        img: 'assets/images/Group 1171278442 copy 2.svg'
+        img: 'assets/images/Group 1171278442 copy 2.svg',
       },
       secondSection: {
         title: 'serv.server_management.section2.title',
@@ -195,7 +195,7 @@ export class YouAllServicesService {
           { title: 'serv.server_management.section2.data.title1', desc: 'serv.server_management.section2.data.desc1' },
           { title: 'serv.server_management.section2.data.title2', desc: 'serv.server_management.section2.data.desc2' },
           { title: 'serv.server_management.section2.data.title3', desc: 'serv.server_management.section2.data.desc3' },
-          { title: 'serv.server_management.section2.data.title4', desc: 'serv.server_management.section2.data.desc4' }
+          { title: 'serv.server_management.section2.data.title4', desc: 'serv.server_management.section2.data.desc4' },
         ]
       },
       thirdSection: {
@@ -205,7 +205,7 @@ export class YouAllServicesService {
           { title: 'serv.server_management.section3.data.title1', desc: 'serv.server_management.section3.data.desc1' },
           { title: 'serv.server_management.section3.data.title2', desc: 'serv.server_management.section3.data.desc2' },
           { title: 'serv.server_management.section3.data.title3', desc: 'serv.server_management.section3.data.desc3' },
-          { title: 'serv.server_management.section3.data.title4', desc: 'serv.server_management.section3.data.desc4' }
+          { title: 'serv.server_management.section3.data.title4', desc: 'serv.server_management.section3.data.desc4' },
         ]
       },
       fourthSection: {
@@ -215,7 +215,7 @@ export class YouAllServicesService {
           { id: 2, title: 'serv.server_management.section4.data.title2', desc: 'serv.server_management.section4.data.desc2', color: 'color-2' },
           { id: 3, title: 'serv.server_management.section4.data.title3', desc: 'serv.server_management.section4.data.desc3', color: 'color-3' },
           { id: 4, title: 'serv.server_management.section4.data.title4', desc: 'serv.server_management.section4.data.desc4', color: 'color-1' },
-          { id: 5, title: 'serv.server_management.section4.data.title5', desc: 'serv.server_management.section4.data.desc5', color: 'color-2' }
+          { id: 5, title: 'serv.server_management.section4.data.title5', desc: 'serv.server_management.section4.data.desc5', color: 'color-2' },
         ]
       }
     },
@@ -225,15 +225,15 @@ export class YouAllServicesService {
         breadCrumb: [
           { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
           { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
-          { id: 2, name: 'serv.breadCrumb.digital_marketing', routing: '/our-services/digital-marketing' }
+          { id: 2, name: 'serv.breadCrumb.digital_marketing', routing: '/our-services/digital-marketing' },
         ],
         title: 'serv.digital_marketing.title',
-        desc: 'serv.digital_marketing.desc'
+        desc: 'serv.digital_marketing.desc',
       },
       firstSection: {
         title: 'serv.digital_marketing.section1.title',
         desc: 'serv.digital_marketing.section1.desc',
-        img: 'assets/images/Group 1171278442 copy 3.svg'
+        img: 'assets/images/Group 1171278442 copy 3.svg',
       },
       secondSection: {
         title: 'serv.digital_marketing.section2.title',
@@ -241,7 +241,7 @@ export class YouAllServicesService {
           { title: 'serv.digital_marketing.section2.data.title1', desc: 'serv.digital_marketing.section2.data.desc1' },
           { title: 'serv.digital_marketing.section2.data.title2', desc: 'serv.digital_marketing.section2.data.desc2' },
           { title: 'serv.digital_marketing.section2.data.title3', desc: 'serv.digital_marketing.section2.data.desc3' },
-          { title: 'serv.digital_marketing.section2.data.title4', desc: 'serv.digital_marketing.section2.data.desc4' }
+          { title: 'serv.digital_marketing.section2.data.title4', desc: 'serv.digital_marketing.section2.data.desc4' },
         ]
       },
       thirdSection: {
@@ -251,7 +251,7 @@ export class YouAllServicesService {
           { title: 'serv.digital_marketing.section3.data.title1', desc: 'serv.digital_marketing.section3.data.desc1' },
           { title: 'serv.digital_marketing.section3.data.title2', desc: 'serv.digital_marketing.section3.data.desc2' },
           { title: 'serv.digital_marketing.section3.data.title3', desc: 'serv.digital_marketing.section3.data.desc3' },
-          { title: 'serv.digital_marketing.section3.data.title4', desc: 'serv.digital_marketing.section3.data.desc4' }
+          { title: 'serv.digital_marketing.section3.data.title4', desc: 'serv.digital_marketing.section3.data.desc4' },
         ]
       }
     },
@@ -261,15 +261,15 @@ export class YouAllServicesService {
         breadCrumb: [
           { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
           { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
-          { id: 2, name: 'serv.breadCrumb.design_services', routing: '/our-services/design-services' }
+          { id: 2, name: 'serv.breadCrumb.design_services', routing: '/our-services/design-services' },
         ],
         title: 'serv.design_services.title',
-        desc: 'serv.design_services.desc'
+        desc: 'serv.design_services.desc',
       },
       firstSection: {
         title: 'serv.design_services.section1.title',
         desc: 'serv.design_services.section1.desc',
-        img: 'assets/images/Group 1171278442 copy 4.svg'
+        img: 'assets/images/Group 1171278442 copy 4.svg',
       },
       secondSection: {
         title: 'serv.design_services.section2.title',
@@ -277,7 +277,7 @@ export class YouAllServicesService {
           { title: 'serv.design_services.section2.data.title1', desc: 'serv.design_services.section2.data.desc1' },
           { title: 'serv.design_services.section2.data.title2', desc: 'serv.design_services.section2.data.desc2' },
           { title: 'serv.design_services.section2.data.title3', desc: 'serv.design_services.section2.data.desc3' },
-          { title: 'serv.design_services.section2.data.title4', desc: 'serv.design_services.section2.data.desc4' }
+          { title: 'serv.design_services.section2.data.title4', desc: 'serv.design_services.section2.data.desc4' },
         ]
       },
       thirdSection: {
@@ -287,7 +287,7 @@ export class YouAllServicesService {
           { title: 'serv.design_services.section3.data.title1', desc: 'serv.design_services.section3.data.desc1' },
           { title: 'serv.design_services.section3.data.title2', desc: 'serv.design_services.section3.data.desc2' },
           { title: 'serv.design_services.section3.data.title3', desc: 'serv.design_services.section3.data.desc3' },
-          { title: 'serv.design_services.section3.data.title4', desc: 'serv.design_services.section3.data.desc4' }
+          { title: 'serv.design_services.section3.data.title4', desc: 'serv.design_services.section3.data.desc4' },
         ]
       }
     }
