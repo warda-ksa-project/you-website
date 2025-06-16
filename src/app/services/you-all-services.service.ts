@@ -89,16 +89,6 @@ export class YouAllServicesService {
           { title: 'serv.project_management.section3.data.title3', desc: 'serv.project_management.section3.data.desc3' },
           { title: 'serv.project_management.section3.data.title4', desc: 'serv.project_management.section3.data.desc4' },
         ]
-      },
-      fourthSection: {
-        title: 'serv.project_management.section4.title',
-        data: [
-          { id: 1, title: 'serv.project_management.section4.data.title1', desc: 'serv.project_management.section4.data.desc1', color: 'color-1' },
-          { id: 2, title: 'serv.project_management.section4.data.title2', desc: 'serv.project_management.section4.data.desc2', color: 'color-2' },
-          { id: 3, title: 'serv.project_management.section4.data.title3', desc: 'serv.project_management.section4.data.desc3', color: 'color-3' },
-          { id: 4, title: 'serv.project_management.section4.data.title4', desc: 'serv.project_management.section4.data.desc4', color: 'color-1' },
-          { id: 5, title: 'serv.project_management.section4.data.title5', desc: 'serv.project_management.section4.data.desc5', color: 'color-2' },
-        ]
       }
     },
     {
@@ -135,16 +125,6 @@ export class YouAllServicesService {
           { title: 'serv.works_development.section3.data.title3', desc: 'serv.works_development.section3.data.desc3' },
           { title: 'serv.works_development.section3.data.title4', desc: 'serv.works_development.section3.data.desc4' },
         ]
-      },
-      fourthSection: {
-        title: 'serv.works_development.section4.title',
-        data: [
-          { id: 1, title: 'serv.works_development.section4.data.title1', desc: 'serv.works_development.section4.data.desc1', color: 'color-1' },
-          { id: 2, title: 'serv.works_development.section4.data.title2', desc: 'serv.works_development.section4.data.desc2', color: 'color-2' },
-          { id: 3, title: 'serv.works_development.section4.data.title3', desc: 'serv.works_development.section4.data.desc3', color: 'color-3' },
-          { id: 4, title: 'serv.works_development.section4.data.title4', desc: 'serv.works_development.section4.data.desc4', color: 'color-1' },
-          { id: 5, title: 'serv.works_development.section4.data.title5', desc: 'serv.works_development.section4.data.desc5', color: 'color-2' },
-        ]
       }
     },
     {
@@ -180,16 +160,6 @@ export class YouAllServicesService {
           { title: 'serv.technical_support.section3.data.title2', desc: 'serv.technical_support.section3.data.desc2' },
           { title: 'serv.technical_support.section3.data.title3', desc: 'serv.technical_support.section3.data.desc3' },
           { title: 'serv.technical_support.section3.data.title4', desc: 'serv.technical_support.section3.data.desc4' },
-        ]
-      },
-      fourthSection: {
-        title: 'serv.technical_support.section4.title',
-        data: [
-          { id: 1, title: 'serv.technical_support.section4.data.title1', desc: 'serv.technical_support.section4.data.desc1', color: 'color-1' },
-          { id: 2, title: 'serv.technical_support.section4.data.title2', desc: 'serv.technical_support.section4.data.desc2', color: 'color-2' },
-          { id: 3, title: 'serv.technical_support.section4.data.title3', desc: 'serv.technical_support.section4.data.desc3', color: 'color-3' },
-          { id: 4, title: 'serv.technical_support.section4.data.title4', desc: 'serv.technical_support.section4.data.desc4', color: 'color-1' },
-          { id: 5, title: 'serv.technical_support.section4.data.title5', desc: 'serv.technical_support.section4.data.desc5', color: 'color-2' },
         ]
       }
     },
