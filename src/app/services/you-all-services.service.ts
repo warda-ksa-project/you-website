@@ -10,160 +10,6 @@ export class YouAllServicesService {
 
   private mainObject: any[] = [
     {
-      id: 8,
-      pageData: {
-        breadCrumb: [
-          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
-          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
-          { id: 2, name: 'serv.breadCrumb.analytics', routing: '/our-services/web-design' },
-        ],
-        title: 'serv.analytics.title',
-        desc: 'serv.analytics.desc',
-      },
-      firstSection: {
-        title: 'serv.analytics.section1.title',
-        desc: 'serv.analytics.section1.desc',
-        img: 'assets/images/analticsGroup.svg',
-      },
-      secondSection: {
-        title: 'serv.analytics.section2.title',
-        data: [
-          { title: 'serv.analytics.section2.data.title1', desc: 'serv.analytics.section2.data.desc1' },
-          { title: 'serv.analytics.section2.data.title2', desc: 'serv.analytics.section2.data.desc2' },
-          { title: 'serv.analytics.section2.data.title3', desc: 'serv.analytics.section2.data.desc3' },
-          { title: 'serv.analytics.section2.data.title4', desc: 'serv.analytics.section2.data.desc4' },
-        ]
-      },
-      thirdSection: {
-        img: 'assets/images/FrameAnalatics.svg',
-        title: 'serv.analytics.section3.title',
-        data: [
-          { title: 'serv.analytics.section3.data.title1', desc: 'serv.analytics.section3.data.desc1' },
-          { title: 'serv.analytics.section3.data.title2', desc: 'serv.analytics.section3.data.desc2' },
-          { title: 'serv.analytics.section3.data.title3', desc: 'serv.analytics.section3.data.desc3' },
-          { title: 'serv.analytics.section3.data.title4', desc: 'serv.analytics.section3.data.desc4' },
-        ]
-      },
-      fourthSection: {
-        title: 'serv.analytics.section4.title',
-        data: [
-          { id: 1, title: 'serv.analytics.section4.data.title1', desc: 'serv.analytics.section4.data.desc1', color: 'color-1' },
-          { id: 2, title: 'serv.analytics.section4.data.title2', desc: 'serv.analytics.section4.data.desc2', color: 'color-2' },
-          { id: 3, title: 'serv.analytics.section4.data.title3', desc: 'serv.analytics.section4.data.desc3', color: 'color-3' },
-          { id: 4, title: 'serv.analytics.section4.data.title4', desc: 'serv.analytics.section4.data.desc4', color: 'color-1' },
-          { id: 5, title: 'serv.analytics.section4.data.title5', desc: 'serv.analytics.section4.data.desc5', color: 'color-2' },
-        ]
-      }
-    },
-    {
-      id: 11,
-      pageData: {
-        breadCrumb: [
-          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
-          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
-          { id: 2, name: 'serv.breadCrumb.project_management', routing: '/our-services/web-design' },
-        ],
-        title: 'serv.project_management.title',
-        desc: 'serv.project_management.desc',
-      },
-      firstSection: {
-        title: 'serv.project_management.section1.title',
-        desc: 'serv.project_management.section1.desc',
-        img: 'assets/images/GroupProjectmanagment.svg',
-      },
-      secondSection: {
-        title: 'serv.project_management.section2.title',
-        data: [
-          { title: 'serv.project_management.section2.data.title1', desc: 'serv.project_management.section2.data.desc1' },
-          { title: 'serv.project_management.section2.data.title2', desc: 'serv.project_management.section2.data.desc2' },
-          { title: 'serv.project_management.section2.data.title3', desc: 'serv.project_management.section2.data.desc3' },
-          { title: 'serv.project_management.section2.data.title4', desc: 'serv.project_management.section2.data.desc4' },
-        ]
-      },
-      thirdSection: {
-        img: 'assets/images/FrameProjectmanagment.svg',
-        title: 'serv.project_management.section3.title',
-        data: [
-          { title: 'serv.project_management.section3.data.title1', desc: 'serv.project_management.section3.data.desc1' },
-          { title: 'serv.project_management.section3.data.title2', desc: 'serv.project_management.section3.data.desc2' },
-          { title: 'serv.project_management.section3.data.title3', desc: 'serv.project_management.section3.data.desc3' },
-          { title: 'serv.project_management.section3.data.title4', desc: 'serv.project_management.section3.data.desc4' },
-        ]
-      }
-    },
-    {
-      id: 12,
-      pageData: {
-        breadCrumb: [
-          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
-          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
-          { id: 2, name: 'serv.breadCrumb.works_development', routing: '/our-services/web-design' },
-        ],
-        title: 'serv.works_development.title',
-        desc: 'serv.works_development.desc',
-      },
-      firstSection: {
-        title: 'serv.works_development.section1.title',
-        desc: 'serv.works_development.section1.desc',
-        img: 'assets/images/GroupWorkmanagment.svg',
-      },
-      secondSection: {
-        title: 'serv.works_development.section2.title',
-        data: [
-          { title: 'serv.works_development.section2.data.title1', desc: 'serv.works_development.section2.data.desc1' },
-          { title: 'serv.works_development.section2.data.title2', desc: 'serv.works_development.section2.data.desc2' },
-          { title: 'serv.works_development.section2.data.title3', desc: 'serv.works_development.section2.data.desc3' },
-          { title: 'serv.works_development.section2.data.title4', desc: 'serv.works_development.section2.data.desc4' },
-        ]
-      },
-      thirdSection: {
-        img: 'assets/images/FrameWorkManament.svg',
-        title: 'serv.works_development.section3.title',
-        data: [
-          { title: 'serv.works_development.section3.data.title1', desc: 'serv.works_development.section3.data.desc1' },
-          { title: 'serv.works_development.section3.data.title2', desc: 'serv.works_development.section3.data.desc2' },
-          { title: 'serv.works_development.section3.data.title3', desc: 'serv.works_development.section3.data.desc3' },
-          { title: 'serv.works_development.section3.data.title4', desc: 'serv.works_development.section3.data.desc4' },
-        ]
-      }
-    },
-    {
-      id: 13,
-      pageData: {
-        breadCrumb: [
-          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
-          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
-          { id: 2, name: 'serv.breadCrumb.technical_support', routing: '/our-services/web-design' },
-        ],
-        title: 'serv.technical_support.title',
-        desc: 'serv.technical_support.desc',
-      },
-      firstSection: {
-        title: 'serv.technical_support.section1.title',
-        desc: 'serv.technical_support.section1.desc',
-        img: 'assets/images/GroupTSupport.svg',
-      },
-      secondSection: {
-        title: 'serv.technical_support.section2.title',
-        data: [
-          { title: 'serv.technical_support.section2.data.title1', desc: 'serv.technical_support.section2.data.desc1' },
-          { title: 'serv.technical_support.section2.data.title2', desc: 'serv.technical_support.section2.data.desc2' },
-          { title: 'serv.technical_support.section2.data.title3', desc: 'serv.technical_support.section2.data.desc3' },
-          { title: 'serv.technical_support.section2.data.title4', desc: 'serv.technical_support.section2.data.desc4' },
-        ]
-      },
-      thirdSection: {
-        img: 'assets/images/FrameTSupport.svg',
-        title: 'serv.technical_support.section3.title',
-        data: [
-          { title: 'serv.technical_support.section3.data.title1', desc: 'serv.technical_support.section3.data.desc1' },
-          { title: 'serv.technical_support.section3.data.title2', desc: 'serv.technical_support.section3.data.desc2' },
-          { title: 'serv.technical_support.section3.data.title3', desc: 'serv.technical_support.section3.data.desc3' },
-          { title: 'serv.technical_support.section3.data.title4', desc: 'serv.technical_support.section3.data.desc4' },
-        ]
-      }
-    },
-    {
       id: 1,
       pageData: {
         breadCrumb: [
@@ -444,7 +290,161 @@ export class YouAllServicesService {
           { title: 'serv.design_services.section3.data.title4', desc: 'serv.design_services.section3.data.desc4' },
         ]
       }
-    }
+    },
+    {
+      id: 8,
+      pageData: {
+        breadCrumb: [
+          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
+          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
+          { id: 2, name: 'serv.breadCrumb.analytics', routing: '/our-services/web-design' },
+        ],
+        title: 'serv.analytics.title',
+        desc: 'serv.analytics.desc',
+      },
+      firstSection: {
+        title: 'serv.analytics.section1.title',
+        desc: 'serv.analytics.section1.desc',
+        img: 'assets/images/analticsGroup.svg',
+      },
+      secondSection: {
+        title: 'serv.analytics.section2.title',
+        data: [
+          { title: 'serv.analytics.section2.data.title1', desc: 'serv.analytics.section2.data.desc1' },
+          { title: 'serv.analytics.section2.data.title2', desc: 'serv.analytics.section2.data.desc2' },
+          { title: 'serv.analytics.section2.data.title3', desc: 'serv.analytics.section2.data.desc3' },
+          { title: 'serv.analytics.section2.data.title4', desc: 'serv.analytics.section2.data.desc4' },
+        ]
+      },
+      thirdSection: {
+        img: 'assets/images/FrameAnalatics.svg',
+        title: 'serv.analytics.section3.title',
+        data: [
+          { title: 'serv.analytics.section3.data.title1', desc: 'serv.analytics.section3.data.desc1' },
+          { title: 'serv.analytics.section3.data.title2', desc: 'serv.analytics.section3.data.desc2' },
+          { title: 'serv.analytics.section3.data.title3', desc: 'serv.analytics.section3.data.desc3' },
+          { title: 'serv.analytics.section3.data.title4', desc: 'serv.analytics.section3.data.desc4' },
+        ]
+      },
+      fourthSection: {
+        title: 'serv.analytics.section4.title',
+        data: [
+          { id: 1, title: 'serv.analytics.section4.data.title1', desc: 'serv.analytics.section4.data.desc1', color: 'color-1' },
+          { id: 2, title: 'serv.analytics.section4.data.title2', desc: 'serv.analytics.section4.data.desc2', color: 'color-2' },
+          { id: 3, title: 'serv.analytics.section4.data.title3', desc: 'serv.analytics.section4.data.desc3', color: 'color-3' },
+          { id: 4, title: 'serv.analytics.section4.data.title4', desc: 'serv.analytics.section4.data.desc4', color: 'color-1' },
+          { id: 5, title: 'serv.analytics.section4.data.title5', desc: 'serv.analytics.section4.data.desc5', color: 'color-2' },
+        ]
+      }
+    },
+    {
+      id: 11,
+      pageData: {
+        breadCrumb: [
+          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
+          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
+          { id: 2, name: 'serv.breadCrumb.project_management', routing: '/our-services/web-design' },
+        ],
+        title: 'serv.project_management.title',
+        desc: 'serv.project_management.desc',
+      },
+      firstSection: {
+        title: 'serv.project_management.section1.title',
+        desc: 'serv.project_management.section1.desc',
+        img: 'assets/images/GroupProjectmanagment.svg',
+      },
+      secondSection: {
+        title: 'serv.project_management.section2.title',
+        data: [
+          { title: 'serv.project_management.section2.data.title1', desc: 'serv.project_management.section2.data.desc1' },
+          { title: 'serv.project_management.section2.data.title2', desc: 'serv.project_management.section2.data.desc2' },
+          { title: 'serv.project_management.section2.data.title3', desc: 'serv.project_management.section2.data.desc3' },
+          { title: 'serv.project_management.section2.data.title4', desc: 'serv.project_management.section2.data.desc4' },
+        ]
+      },
+      thirdSection: {
+        img: 'assets/images/FrameProjectmanagment.svg',
+        title: 'serv.project_management.section3.title',
+        data: [
+          { title: 'serv.project_management.section3.data.title1', desc: 'serv.project_management.section3.data.desc1' },
+          { title: 'serv.project_management.section3.data.title2', desc: 'serv.project_management.section3.data.desc2' },
+          { title: 'serv.project_management.section3.data.title3', desc: 'serv.project_management.section3.data.desc3' },
+          { title: 'serv.project_management.section3.data.title4', desc: 'serv.project_management.section3.data.desc4' },
+        ]
+      }
+    },
+    {
+      id: 12,
+      pageData: {
+        breadCrumb: [
+          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
+          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
+          { id: 2, name: 'serv.breadCrumb.works_development', routing: '/our-services/web-design' },
+        ],
+        title: 'serv.works_development.title',
+        desc: 'serv.works_development.desc',
+      },
+      firstSection: {
+        title: 'serv.works_development.section1.title',
+        desc: 'serv.works_development.section1.desc',
+        img: 'assets/images/GroupWorkmanagment.svg',
+      },
+      secondSection: {
+        title: 'serv.works_development.section2.title',
+        data: [
+          { title: 'serv.works_development.section2.data.title1', desc: 'serv.works_development.section2.data.desc1' },
+          { title: 'serv.works_development.section2.data.title2', desc: 'serv.works_development.section2.data.desc2' },
+          { title: 'serv.works_development.section2.data.title3', desc: 'serv.works_development.section2.data.desc3' },
+          { title: 'serv.works_development.section2.data.title4', desc: 'serv.works_development.section2.data.desc4' },
+        ]
+      },
+      thirdSection: {
+        img: 'assets/images/FrameWorkManament.svg',
+        title: 'serv.works_development.section3.title',
+        data: [
+          { title: 'serv.works_development.section3.data.title1', desc: 'serv.works_development.section3.data.desc1' },
+          { title: 'serv.works_development.section3.data.title2', desc: 'serv.works_development.section3.data.desc2' },
+          { title: 'serv.works_development.section3.data.title3', desc: 'serv.works_development.section3.data.desc3' },
+          { title: 'serv.works_development.section3.data.title4', desc: 'serv.works_development.section3.data.desc4' },
+        ]
+      }
+    },
+    {
+      id: 13,
+      pageData: {
+        breadCrumb: [
+          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
+          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
+          { id: 2, name: 'serv.breadCrumb.technical_support', routing: '/our-services/web-design' },
+        ],
+        title: 'serv.technical_support.title',
+        desc: 'serv.technical_support.desc',
+      },
+      firstSection: {
+        title: 'serv.technical_support.section1.title',
+        desc: 'serv.technical_support.section1.desc',
+        img: 'assets/images/GroupTSupport.svg',
+      },
+      secondSection: {
+        title: 'serv.technical_support.section2.title',
+        data: [
+          { title: 'serv.technical_support.section2.data.title1', desc: 'serv.technical_support.section2.data.desc1' },
+          { title: 'serv.technical_support.section2.data.title2', desc: 'serv.technical_support.section2.data.desc2' },
+          { title: 'serv.technical_support.section2.data.title3', desc: 'serv.technical_support.section2.data.desc3' },
+          { title: 'serv.technical_support.section2.data.title4', desc: 'serv.technical_support.section2.data.desc4' },
+        ]
+      },
+      thirdSection: {
+        img: 'assets/images/FrameTSupport.svg',
+        title: 'serv.technical_support.section3.title',
+        data: [
+          { title: 'serv.technical_support.section3.data.title1', desc: 'serv.technical_support.section3.data.desc1' },
+          { title: 'serv.technical_support.section3.data.title2', desc: 'serv.technical_support.section3.data.desc2' },
+          { title: 'serv.technical_support.section3.data.title3', desc: 'serv.technical_support.section3.data.desc3' },
+          { title: 'serv.technical_support.section3.data.title4', desc: 'serv.technical_support.section3.data.desc4' },
+        ]
+      }
+    },
   ];
 
   getObjectById(id: any): Observable<any> {
