@@ -69,7 +69,7 @@ export class YouAllServicesService {
       firstSection: {
         title: 'serv.project_management.section1.title',
         desc: 'serv.project_management.section1.desc',
-        img: 'assets/images/analticsGroup.svg',
+        img: 'assets/images/GroupProjectmanagment.svg',
       },
       secondSection: {
         title: 'serv.project_management.section2.title',
@@ -81,7 +81,7 @@ export class YouAllServicesService {
         ]
       },
       thirdSection: {
-        img: 'assets/images/FrameAnalatics.svg',
+        img: 'assets/images/FrameProjectmanagment.svg',
         title: 'serv.project_management.section3.title',
         data: [
           { title: 'serv.project_management.section3.data.title1', desc: 'serv.project_management.section3.data.desc1' },
@@ -115,7 +115,7 @@ export class YouAllServicesService {
       firstSection: {
         title: 'serv.works_development.section1.title',
         desc: 'serv.works_development.section1.desc',
-        img: 'assets/images/analticsGroup.svg',
+        img: 'assets/images/GroupWorkmanagment.svg',
       },
       secondSection: {
         title: 'serv.works_development.section2.title',
@@ -127,7 +127,7 @@ export class YouAllServicesService {
         ]
       },
       thirdSection: {
-        img: 'assets/images/FrameAnalatics.svg',
+        img: 'assets/images/FrameWorkManament.svg',
         title: 'serv.works_development.section3.title',
         data: [
           { title: 'serv.works_development.section3.data.title1', desc: 'serv.works_development.section3.data.desc1' },
@@ -161,7 +161,7 @@ export class YouAllServicesService {
       firstSection: {
         title: 'serv.technical_support.section1.title',
         desc: 'serv.technical_support.section1.desc',
-        img: 'assets/images/analticsGroup.svg',
+        img: 'assets/images/GroupTSupport.svg',
       },
       secondSection: {
         title: 'serv.technical_support.section2.title',
@@ -173,7 +173,7 @@ export class YouAllServicesService {
         ]
       },
       thirdSection: {
-        img: 'assets/images/FrameAnalatics.svg',
+        img: 'assets/images/FrameTSupport.svg',
         title: 'serv.technical_support.section3.title',
         data: [
           { title: 'serv.technical_support.section3.data.title1', desc: 'serv.technical_support.section3.data.desc1' },
