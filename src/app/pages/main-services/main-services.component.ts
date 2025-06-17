@@ -153,7 +153,7 @@ tabFour = [
   }
 
   goToServicesdetails(serviceId: any){
-    console.log('Service ID:', serviceId);
-    this.router.navigate(['our-services/details' , serviceId])
+    this.router.navigateByUrl(`/our-services/details/${serviceId}`);
+
   }
 }

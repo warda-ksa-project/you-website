@@ -127,9 +127,12 @@ export class ServicesComponent {
   //   });
   // }
   selectedService(id: number) {
+    console.log('Selected service ID:', id);
     if (id == 0)
       this.route.navigate(['our-services']);
     else
-this.route.navigateByUrl(`/our-services/details/${id}`);
+      this.route.navigate(['our-services']).then(() => {
+        this.route.navigateByUrl(`/our-services/details/${id}`); // Navigate to service details
+      });
   }
 }
