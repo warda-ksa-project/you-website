@@ -130,6 +130,6 @@ export class ServicesComponent {
     if (id == 0)
       this.route.navigate(['our-services']);
     else
-      this.route.navigate([`our-services/details/${id}`]);
+this.route.navigateByUrl(`/our-services/details/${id}`);
   }
 }

@@ -97,27 +97,28 @@ tabFour = [
   },
   {
     id: 3,
-    serviceId: 11,
+    serviceId: 10,
     img: 'assets/images/services/tab-4-3.svg',
     title: 'main_services.tab4_card3_title',
     desc: 'main_services.tab4_card3_desc'
   },
   {
     id: 4,
-    serviceId: 12,
+    serviceId: 11,
     img: 'assets/images/services/tab-4-4.svg',
     title: 'main_services.tab4_card4_title',
     desc: 'main_services.tab4_card4_desc'
   },
   {
     id: 5,
-    serviceId: 13,
+    serviceId: 12,
     img: 'assets/images/services/tab-4-5.svg',
     title: 'main_services.tab4_card5_title',
     desc: 'main_services.tab4_card5_desc'
   },
   {
-    id: 14,
+    id: 6,
+    serviceId: 13,
     img: 'assets/images/services/tab-4-6.svg',
     title: 'main_services.tab4_card6_title',
     desc: 'main_services.tab4_card6_desc'
@@ -152,6 +153,7 @@ tabFour = [
   }
 
   goToServicesdetails(serviceId: any){
+    console.log('Service ID:', serviceId);
     this.router.navigate(['our-services/details' , serviceId])
   }
 }
