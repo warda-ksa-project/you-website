@@ -36,8 +36,8 @@
         <div class="desc">
           <p>{{ card.desc | translate }}</p>
         </div>
-        <div class="routing">
-          <a (click)="goToServicesdetails(card.serviceId)">أعرف المزيد <img src="assets/images/more.svg" alt="" /></a>
+        <div class="routing" style="cursor: pointer;">
+          <a (click)="goToServicesdetails(card.serviceId)"> {{ 'main_services.know_more' | translate}} <img src="assets/images/more.svg" alt="" /></a>
         </div>
       </div>
     </div>

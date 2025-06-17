@@ -1,0 +1,104 @@
+.crm-section-container {
+  .content {
+    .title-desc-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgb(229, 229, 229);
+
+      .title {
+        p {
+          font-size: 35px;
+          color: rgba(13, 13, 13, 1);
+          font-weight: 500;
+        }
+      }
+
+      .desc {
+        p {
+          font-size: 16px;
+          color: rgba(128, 128, 128, 1);
+          font-weight: 400;
+        }
+      }
+    }
+
+    .details-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      @media (max-width: 800px) {
+
+        .first-section {
+          flex-basis: auto !important;
+        }
+      }
+
+      .first-section {
+        flex-basis: 70%;
+
+        .row-one {
+          .item {
+            padding-bottom: 20px !important;
+            border-bottom: 1px solid rgb(229, 229, 229) !important;
+          }
+        }
+
+        @media (max-width: 800px) {
+          .rows-details {
+            flex-wrap: wrap;
+          }
+        }
+
+        .rows-details {
+          display: flex;
+          gap: 20px;
+          align-items: center;
+          margin-top: 40px;
+          justify-content: center;
+
+          .item {
+            flex-basis: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+
+            .title {
+              p {
+                font-size: 24px;
+                color: rgba(13, 13, 13, 1);
+                font-weight: 500;
+              }
+            }
+
+            .desc {
+              width: 325px;
+
+              p {
+                font-size: 16px;
+                color: rgba(128, 128, 128, 1);
+                font-weight: 400;
+              }
+            }
+          }
+        }
+      }
+
+      @media (max-width: 800px) {
+        .second-section {
+          display: none;
+        }
+      }
+    }
+
+     @media (max-width: 600px) {
+
+        .title-desc-section {
+          flex-wrap: wrap !important;
+        }
+      }
+  }
+}

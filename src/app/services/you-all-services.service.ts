@@ -58,6 +58,10 @@ export class YouAllServicesService {
           { id: 9, title: 'serv.web_design.section4.data.title9', desc: 'serv.web_design.section4.data.desc9', color: 'color-3' },
           { id: 10, title: 'serv.web_design.section4.data.title10', desc: 'serv.web_design.section4.data.desc10', color: 'color-1' },
         ]
+      },
+      techSection: {
+        title: 'serv.web_design.techSection.title',
+        img: 'assets/images/tools.svg'
       }
     },
     {
@@ -92,6 +96,10 @@ export class YouAllServicesService {
           { id: 2, title: 'serv.mobile_app.section4.data.title2', desc: 'serv.mobile_app.section4.data.desc2', color: 'color-2' },
           { id: 3, title: 'serv.mobile_app.section4.data.title3', desc: 'serv.mobile_app.section4.data.desc3', color: 'color-3' },
         ]
+      },
+      techSection: {
+        title: 'serv.mobile_app.techSection.title',
+        img: 'assets/images/mobile-application.svg'
       }
     }
     ,
@@ -333,9 +341,108 @@ export class YouAllServicesService {
           { id: 2, title: 'serv.analytics.section4.data.title2', desc: 'serv.analytics.section4.data.desc2', color: 'color-2' },
           { id: 3, title: 'serv.analytics.section4.data.title3', desc: 'serv.analytics.section4.data.desc3', color: 'color-3' },
           { id: 4, title: 'serv.analytics.section4.data.title4', desc: 'serv.analytics.section4.data.desc4', color: 'color-1' },
-          { id: 5, title: 'serv.analytics.section4.data.title5', desc: 'serv.analytics.section4.data.desc5', color: 'color-2' },
+          { id: 5, title: 'serv.analytics.section4.data.title5', desc: 'serv.analytics.section4.data.desc5', color: 'color-2' }
         ]
       }
+    },
+    {
+      id: 9,
+      pageData: {
+        breadCrumb: [
+          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
+          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
+          { id: 2, name: 'serv.breadCrumb.compaies_systems', routing: '/our-services/web-design' },
+        ],
+        title: 'serv.compaies_systems.title',
+        desc: 'serv.compaies_systems.desc',
+      },
+      firstSection: {
+        title: 'serv.compaies_systems.section1.title',
+        desc: 'serv.compaies_systems.section1.desc',
+        img: 'assets/images/company-system-1.svg',
+      },
+      secondSection: {
+        title: 'serv.compaies_systems.section2.title',
+        data: [
+          { title: 'serv.compaies_systems.section2.data.title1', desc: 'serv.compaies_systems.section2.data.desc1' },
+          { title: 'serv.compaies_systems.section2.data.title2', desc: 'serv.compaies_systems.section2.data.desc2' },
+          { title: 'serv.compaies_systems.section2.data.title3', desc: 'serv.compaies_systems.section2.data.desc3' },
+          { title: 'serv.compaies_systems.section2.data.title4', desc: 'serv.compaies_systems.section2.data.desc4' },
+        ]
+      },
+      thirdSection: {
+        img: 'assets/images/company-system-2.svg',
+        title: 'serv.compaies_systems.section3.title',
+        data: [
+          { title: 'serv.compaies_systems.section3.data.title1', desc: 'serv.compaies_systems.section3.data.desc1' },
+          { title: 'serv.compaies_systems.section3.data.title2', desc: 'serv.compaies_systems.section3.data.desc2' },
+          { title: 'serv.compaies_systems.section3.data.title3', desc: 'serv.compaies_systems.section3.data.desc3' },
+          { title: 'serv.compaies_systems.section3.data.title4', desc: 'serv.compaies_systems.section3.data.desc4' },
+        ]
+      },
+      fourthSection: {
+        title: 'serv.compaies_systems.section4.title',
+        data: [
+          { id: 1, title: 'serv.compaies_systems.section4.data.title1', desc: 'serv.compaies_systems.section4.data.desc1', color: 'color-1' },
+          { id: 2, title: 'serv.compaies_systems.section4.data.title2', desc: 'serv.compaies_systems.section4.data.desc2', color: 'color-2' },
+          { id: 3, title: 'serv.compaies_systems.section4.data.title3', desc: 'serv.compaies_systems.section4.data.desc3', color: 'color-3' },
+          { id: 4, title: 'serv.compaies_systems.section4.data.title4', desc: 'serv.compaies_systems.section4.data.desc4', color: 'color-1' },
+          { id: 5, title: 'serv.compaies_systems.section4.data.title5', desc: 'serv.compaies_systems.section4.data.desc5', color: 'color-2' },
+          { id: 4, title: 'serv.compaies_systems.section4.data.title6', desc: 'serv.compaies_systems.section4.data.desc6', color: 'color-3' },
+          { id: 5, title: 'serv.compaies_systems.section4.data.title7', desc: 'serv.compaies_systems.section4.data.desc7', color: 'color-1' },
+        ]
+      },
+      sixSection: true,
+      sevenSection: true
+    },
+    {
+      id: 10,
+      pageData: {
+        breadCrumb: [
+          { id: 0, name: 'serv.breadCrumb.home', routing: '/home' },
+          { id: 1, name: 'serv.breadCrumb.service', routing: '/our-services' },
+          { id: 2, name: 'serv.breadCrumb.program_testing', routing: '/our-services/web-design' },
+        ],
+        title: 'serv.program_testing.title',
+        desc: 'serv.program_testing.desc',
+      },
+      firstSection: {
+        title: 'serv.program_testing.section1.title',
+        desc: 'serv.program_testing.section1.desc',
+        img: 'assets/images/test-1.svg',
+      },
+      secondSection: {
+        title: 'serv.program_testing.section2.title',
+        data: [
+          { title: 'serv.program_testing.section2.data.title1', desc: 'serv.program_testing.section2.data.desc1' },
+          { title: 'serv.program_testing.section2.data.title2', desc: 'serv.program_testing.section2.data.desc2' },
+          { title: 'serv.program_testing.section2.data.title3', desc: 'serv.program_testing.section2.data.desc3' },
+          { title: 'serv.program_testing.section2.data.title4', desc: 'serv.program_testing.section2.data.desc4' },
+        ]
+      },
+      thirdSection: {
+        img: 'assets/images/test-2.svg',
+        title: 'serv.program_testing.section3.title',
+        data: [
+          { title: 'serv.program_testing.section3.data.title1', desc: 'serv.program_testing.section3.data.desc1' },
+          { title: 'serv.program_testing.section3.data.title2', desc: 'serv.program_testing.section3.data.desc2' },
+          { title: 'serv.program_testing.section3.data.title3', desc: 'serv.program_testing.section3.data.desc3' },
+          { title: 'serv.program_testing.section3.data.title4', desc: 'serv.program_testing.section3.data.desc4' },
+        ]
+      },
+      fourthSection: {
+        title: 'serv.program_testing.section4.title',
+        data: [
+          { id: 1, title: 'serv.program_testing.section4.data.title1', desc: 'serv.program_testing.section4.data.desc1', color: 'color-1' },
+          { id: 2, title: 'serv.program_testing.section4.data.title2', desc: 'serv.program_testing.section4.data.desc2', color: 'color-2' },
+          { id: 3, title: 'serv.program_testing.section4.data.title3', desc: 'serv.program_testing.section4.data.desc3', color: 'color-3' },
+          { id: 4, title: 'serv.program_testing.section4.data.title4', desc: 'serv.program_testing.section4.data.desc4', color: 'color-1' },
+          { id: 5, title: 'serv.program_testing.section4.data.title5', desc: 'serv.program_testing.section4.data.desc5', color: 'color-2' },
+          { id: 4, title: 'serv.program_testing.section4.data.title6', desc: 'serv.program_testing.section4.data.desc6', color: 'color-3' },
+          { id: 5, title: 'serv.program_testing.section4.data.title7', desc: 'serv.program_testing.section4.data.desc7', color: 'color-1' },
+        ]
+      },
+      eightSection: true
     },
     {
       id: 11,

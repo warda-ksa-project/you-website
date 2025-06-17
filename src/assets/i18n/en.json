@@ -13,7 +13,115 @@
       "web_hosting": "Web Hosting",
       "server_management": "Server Management",
       "digital_marketing": "Digital Marketing",
-      "design_services": "Design Services"
+      "design_services": "Design Services",
+      "compaies_systems": "Business Systems",
+      "program_testing": "Software Testing"
+    },
+    "program_testing": {
+    "title": "Test Accurately, Deliver Confidently",
+    "desc": "We test your software with precision... so you can deliver unshakable confidence to your clients.",
+    "section1": {
+      "title": "We connect your systems smoothly to steer your business confidently",
+      "desc": "We structure your operations efficiently and cohesively, making management smoother and turning operational data into strategic decisions that support steady, clear growth."
+    },
+    "section2": {
+      "title": "Benefits of YOU’s Software Testing Service",
+      "data": {
+        "title1": "Reduced Overall Costs",
+        "desc1": "We catch bugs early to reduce future costs and save you the trouble of later fixes.",
+        "title2": "Excellent Product Quality",
+        "desc2": "We deliver a high-quality, error-free product that boosts your market credibility and increases your success chances.",
+        "title3": "Full Customer Satisfaction",
+        "desc3": "We pay close attention to every detail to ensure complete satisfaction, designing tests based on your specific requirements.",
+        "title4": "Detection and Correction of All Defects",
+        "desc4": "We identify every issue and fix it at the root to ensure ongoing stability and an ideal user experience."
+      }
+    },
+    "section3": {
+      "title": "Why Choose YOU to Test Your Software?",
+      "data": {
+        "title1": "Accurate Functional Testing",
+        "desc1": "We precisely evaluate your system’s functions to ensure every component works efficiently and meets specifications.",
+        "title2": "Comprehensive Non-Functional Testing",
+        "desc2": "We test your system's performance, security, and stability to ensure readiness for any scenario.",
+        "title3": "Continuous Confirmation Testing",
+        "desc3": "After each update, we re-check performance to confirm fixes are effective and haven’t disrupted the system.",
+        "title4": "Smart Regression Testing",
+        "desc4": "We verify how changes affect the rest of the system, ensuring all features remain stable and intact."
+      }
+    },
+    "section4": {
+      "title": "How Does YOU Perform Software Testing Accurately and Professionally?",
+      "data": {
+        "title1": "Identify Requirements",
+        "desc1": "We begin with an analytical session to understand your project goals and features to be tested—ensuring the plan is built around your real needs.",
+        "title2": "Strategic Test Planning",
+        "desc2": "We create a full plan that covers test types, appropriate tools, and timeline—ensuring an organized and efficient process.",
+        "title3": "Design Test Scenarios",
+        "desc3": "We develop precise test cases that reflect all expected functionalities to cover both technical and behavioral aspects.",
+        "title4": "Test Execution",
+        "desc4": "We implement real-world test scenarios to detect possible bugs and analyze system interaction with variables.",
+        "title5": "Analyze and Evaluate Results",
+        "desc5": "We deeply review results, identify weak points, and provide analytical reports to help improve your product quality.",
+        "title6": "Fix Defects and Follow Up",
+        "desc6": "We coordinate with the development team to fix issues, then re-test to verify the success of implemented fixes.",
+        "title7": "Retesting and Regression Testing",
+        "desc7": "We rerun tests after modifications and ensure that no disruptions were caused elsewhere in the system."
+      }
+    }
+  },
+    "compaies_systems": {
+      "title": "Smart systems that manage and grow your business",
+      "desc": "We provide you with smart solutions that seamlessly coordinate your company’s systems — from daily operations to performance reports.",
+      "section1": {
+        "title": "We connect your systems smoothly to steer your business confidently",
+        "desc": "We structure your operations efficiently and cohesively, making management smoother and transforming operational data into strategic decisions that boost your growth steadily and clearly."
+      },
+      "section2": {
+        "title": "Why choose YOU for business management systems?",
+        "data": {
+          "title1": "Accelerate your business growth",
+          "desc1": "Our smart systems give your organization a powerful boost to grow and expand efficiently at high speed.",
+          "title2": "Comprehensive technical integration",
+          "desc2": "We connect your website, app, and management system into one harmonious ecosystem.",
+          "title3": "Instant decision execution",
+          "desc3": "We speed up the decision-making cycle from approval to actual implementation thanks to the system's flexibility and speed.",
+          "title4": "Professional technical support",
+          "desc4": "The YOU team is always ready to provide efficient and attentive technical support to ensure your systems run smoothly."
+        }
+      },
+      "section3": {
+        "title": "Why choose YOU for enterprise systems services?",
+        "data": {
+          "title1": "Faster growth",
+          "desc1": "Our systems are designed to accelerate growth through flexible and fast technologies that let you execute plans efficiently and achieve your goals more quickly.",
+          "title2": "Comprehensive integration",
+          "desc2": "We provide a fully integrated technical infrastructure that seamlessly connects your platforms to ensure unified data flow and enhance the internal and external user experience.",
+          "title3": "Immediate implementation",
+          "desc3": "Our systems activate approved decisions instantly, saving execution time and reducing delays in completing tasks and projects.",
+          "title4": "Technical support services",
+          "desc4": "Our support team is always by your side, ready to resolve any issue or inquiry to ensure uninterrupted operation without delays or breakdowns."
+        }
+      },
+      "section4": {
+        "title": "Steps to build business systems with YOU",
+        "data": {
+          "title1": "Information gathering",
+          "desc1": "We begin by understanding your company’s needs and gathering accurate details to ensure the system aligns with your goals.",
+          "title2": "System analysis",
+          "desc2": "We analyze the requirements and draw a clear plan that defines tasks and timelines accurately for efficient project execution.",
+          "title3": "Work planning",
+          "desc3": "We prepare a comprehensive plan with an initial price offer to agree upon — ensuring clarity and commitment from both sides.",
+          "title4": "Discussion and approval",
+          "desc4": "We present the plan to you, receive your feedback, and make necessary adjustments until you're fully satisfied with the direction.",
+          "title5": "Design implementation",
+          "desc5": "We start the design using the latest platforms and keep you updated regularly to follow every step.",
+          "title6": "Development and testing",
+          "desc6": "We develop the system accurately and test it thoroughly to ensure smooth performance and bug-free functionality.",
+          "title7": "Training and delivery",
+          "desc7": "We train your team to use the system professionally, then deliver the project ready for efficient operation from day one."
+        }
+      }
     },
     "analytics": {
       "title": "Deeper Insights, Smarter Decisions",
@@ -223,6 +331,9 @@
           "title10": "Monitoring & Maintenance",
           "desc10": "Continuously monitor performance and apply updates to ensure stability and improvements."
         }
+      },
+      "techSection": {
+        "title": "Web Development Tools and Technologies"
       }
     },
     "mobile_app": {
@@ -255,6 +366,9 @@
           "title3": "Wireframing",
           "desc3": "Build a structural blueprint of the app to plan screen layout and smooth navigation."
         }
+      },
+      "techSection": {
+        "title": "Our tools and technologies"
       }
     },
     "hosting": {
@@ -662,5 +776,50 @@
     "step_9_desc": "Deploy the website to the production server and ensure backup and recovery setup.",
     "step_10_title": "Monitoring and Maintenance",
     "step_10_desc": "Monitor site performance and stability, and update regularly to ensure continuity and improvement."
-  }
+  },
+  "CRM": {
+    "TITLE": "How does a CRM system enhance your business success?",
+    "DESCRIPTION": "A Customer Relationship Management (CRM) system is a strategic tool that strengthens your customer communication, organizes their data, and personalizes their experience to improve satisfaction and loyalty—directly contributing to business growth.",
+    "SECTIONS": {
+      "ENGAGEMENT": {
+        "TITLE": "Enhance Customer Engagement",
+        "DESC": "CRM acts as a dynamic database recording every interaction between your company and the customer—calls, emails, or meetings—enabling you to deliver a personalized and exceptional customer experience."
+      },
+      "LOYALTY": {
+        "TITLE": "Increase Customer Satisfaction and Loyalty",
+        "DESC": "By accurately understanding your customers' needs and desires, your company can offer services and products that exceed expectations, thereby increasing satisfaction."
+      },
+      "PRODUCTIVITY": {
+        "TITLE": "Boost Productivity and Focus Efforts",
+        "DESC": "CRM efficiently organizes customer information and operational tasks, saving time and resources, which increases productivity and reduces costs."
+      },
+      "INSIGHTS": {
+        "TITLE": "Analyze Data and Make Strategic Decisions",
+        "DESC": "CRM collects data from customer and sales activities and provides deep insights to help you understand market trends and formulate data-driven strategies."
+      }
+    }
+  },
+  "ERP": {
+    "TITLE": "Benefits of ERP System for Your Business",
+    "SECTIONS": {
+      "EFFICIENCY": {
+        "TITLE": "Increased Efficiency and Time Savings",
+        "DESC": "By streamlining processes and reducing repetitive tasks, employees can easily access necessary data, minimizing wasted effort and time while increasing productivity."
+      },
+      "INTEGRATION": {
+        "TITLE": "Operational Integration",
+        "DESC": "ERP creates ideal harmony between departments such as accounting, sales, inventory management, and HR. This integration ensures efficient information flow across the company, improving organization and increasing operational flexibility."
+      },
+      "STRATEGY": {
+        "TITLE": "Strategic Decision Making",
+        "DESC": "With accurate and reliable data, analyzing situations and anticipating challenges becomes easier. Business leaders can make informed decisions that drive the company toward achieving goals and promoting growth."
+      },
+      "CUSTOMER_SATISFACTION": {
+        "TITLE": "Improved Customer Satisfaction",
+        "DESC": "ERP unifies and enhances customer information, enabling personalized and efficient services that accurately meet their needs. This leads to satisfaction, strengthens loyalty, and ensures strong, lasting customer relationships."
+      }
+    }
+  },
+  "tools": "Tools Used in Software Testing"
+
 }
