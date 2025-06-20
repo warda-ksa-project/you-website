@@ -1,5 +1,4 @@
 .card-container {
-
   .card {
     background-color: #e6edff;
     height: 200px;
@@ -33,8 +32,9 @@
     }
 
     .read-more {
-      position: relative;
-      top: 45px;
+      // padding-top: 50px;
+      // position: relative;
+      // top: 45px;
     }
   }
 }
@@ -46,7 +46,14 @@
 .bkg-blue {
   background-color: #031aaf !important;
   color: #fff;
-
+  min-height: 300px;
+  .card-body {
+    display: flex;
+    justify-content: center!important;
+    justify-items: center!important;
+    align-items: center!important;
+    margin-bottom: 25px;
+  }
   span,
   p {
     color: #fff;
@@ -57,4 +64,10 @@
   .second-text {
     font-size: 15px !important;
   }
+}
+.gray {
+  color: #808080;
+}
+.fz-20 {
+  font-size: 20px;
 }

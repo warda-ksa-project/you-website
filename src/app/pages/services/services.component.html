@@ -10,7 +10,7 @@
       <p class="primary-text mt-3 lh-40">{{ "services.p1" | translate }}</p>
     </div>
     <div class="col-lg-8 col-md-8 col-sm-12 mt-3">
-      <p class="second-text fz-30 lh-40">{{ "services.p2" | translate }}</p>
+      <p class="second-text fz-20 lh-40">{{ "services.p2" | translate }}</p>
     </div>
   </div>
   <div
@@ -19,13 +19,13 @@
       <div class="col-lg-4 col-md-6 mb-4" *ngFor="let item of services">
         <div (click)="selectedService(item?.id)" [class.bkg-blue]="item?.id == 0"
           class="card text-center box-shadow h-100">
-          <div class="w-100 p-3">
-            <img [src]="item?.image" width="50" alt="" />
+          <div class="w-100">
+            <img *ngIf="item?.id!==0" [src]="item?.image" width="71"height="72" alt="" />
           </div>
 
           <div class="card-body">
-            <span [ngClass]="{'read-more': item?.id == 0}"> {{ item?.name | translate }}</span>
-            <p>{{ item?.desc | translate }}</p>
+            <span class="fz-20"  [ngClass]="{'read-more': item?.id == 0}"> {{ item?.name | translate }}</span>
+            <p class="gray">{{ item?.desc | translate }}</p>
           </div>
 
           <div *ngIf="item?.id !== 0" class="footer text-start p-3" [class.arabicDirection]="currentLang == 'ar'">
