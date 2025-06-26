@@ -1,66 +1,89 @@
 <div id="contact">
   <h1 class="primary-text mt-3 hidden">contact</h1>
-  <div class="bkg text-white mt-3 mb-3 animate__animated animate__fadeInDown animate__delay-1s">
+  <div
+    class="bkg text-white mt-3 mb-3 animate__animated animate__fadeInDown animate__delay-1s"
+  >
     <p>{{ "contact.p1" | translate }}</p>
     <p class="fz-35">
       {{ "contact.p2" | translate }}
     </p>
   </div>
-  <div class="page mt-4 animate__animated animate__backInLeft animate__delay-2s">
+  <div
+    class="page mt-4 animate__animated animate__backInLeft animate__delay-2s"
+  >
     <p class="second-text">{{ "contact.title" | translate }}</p>
     <p class="bold fz-35">
       {{ "contact.let_contact" | translate }}
       <span class="text-yellow"> {{ "contact.real_ideas" | translate }} </span>
     </p>
     <div class="card-container d-flex justify-content-start flex-wrap mt-2">
-      <div class="card card-yellow  box-shadow">
+      <div class="card card-yellow box-shadow">
         <div class="data-card">
           <div class="mb-3">
             <img src="assets/images/contact_2.svg" width="50" alt="" />
           </div>
-          <span class="bold block fz-20 mb-2">{{"contact.title" | translate }}</span>
+          <span class="bold block fz-20 mb-2">{{
+            "contact.title" | translate
+          }}</span>
           <div class="d-flex justify-content-start">
-            <span class="block">{{"contact.mobile_number" | translate }}</span>
+            <span class="block">{{ "contact.b1" | translate }} - </span>
+            <span class="block reverse">
+              {{ "contact.b1_info" | translate }}
+            </span>
+          </div>
+          <div class="d-flex justify-content-start">
+            <span class="block">{{ "contact.mobile_number" | translate }}</span>
             <span class="block reverse"> +966 4567 123 </span>
           </div>
           <div class="d-flex justify-content-start">
-            <span class="block"> {{"contact.phone_number" | translate }} </span>
-            <span class="block reverse"> +966 4567 123 </span>
-          </div>
-            <div class="d-flex justify-content-start">
-            <span class="block"> {{"contact.email" | translate }} </span>
-            <span class="block reverse"> {{'info@you.sa | info@you.om'}} </span>
+            <span class="block"> {{ "contact.email" | translate }} </span>
+            <span class="block reverse">
+              {{ "info@you.sa | info@you.om" }}
+            </span>
           </div>
         </div>
       </div>
 
-            <div class="card card-blue  box-shadow">
+      <div class="card card-blue box-shadow">
         <div class="data-card">
           <div class="mb-3">
             <img src="assets/images/contact_2.svg" width="50" alt="" />
           </div>
-          <span class="bold block fz-20 mb-2">{{"contact.branches" | translate }}</span>
+          <span class="bold block fz-20 mb-2">{{
+            "contact.title" | translate
+          }}</span>
+
           <div class="d-flex justify-content-start">
-            <span class="block">{{"contact.b1" | translate }} - </span>
-            <span class="block reverse"> {{"contact.b1_info" | translate }} </span>
+            <span class="block"> {{ "contact.b2" | translate }} - </span>
+            <span class="block reverse">
+              {{ "contact.b2_info" | translate }}
+            </span>
           </div>
           <div class="d-flex justify-content-start">
-            <span class="block"> {{"contact.b2" | translate }} - </span>
-            <span class="block reverse"> {{"contact.b2_info" | translate }} </span>
+            <span class="block">{{ "contact.mobile_number" | translate }}</span>
+            <span class="block reverse"> +968 9116 6614 </span>
+          </div>
+          <div class="d-flex justify-content-start">
+            <span class="block"> {{ "contact.email" | translate }} </span>
+            <span class="block reverse">
+              {{ "info@you.sa | info@you.om" }}
+            </span>
           </div>
         </div>
       </div>
-      <div class="card card-gray  box-shadow">
+      <div class="card card-gray box-shadow">
         <div class="data-card">
           <div class="mb-3">
             <img src="assets/images/contact_1.svg" width="50" alt="" />
           </div>
-          <span class="bold block fz-20 mb-2">{{"contact.works_hours" | translate }} </span>
-          <span class="block fz-20"> {{"contact.wk1" | translate }}</span>
+          <span class="bold block fz-20 mb-2"
+            >{{ "contact.works_hours" | translate }}
+          </span>
+          <span class="block fz-20"> {{ "contact.wk1" | translate }}</span>
           <div class="d-flex justify-content-start">
             <span class="block">
-              <span> 09:00 {{"contact.morning" | translate }} </span> -
-              <span> 05:00 {{"contact.night" | translate }} </span>
+              <span> 09:00 {{ "contact.morning" | translate }} </span> -
+              <span> 05:00 {{ "contact.night" | translate }} </span>
             </span>
           </div>
           <!-- <div class="d-flex justify-content-start">
@@ -70,7 +93,9 @@
               <span> 08:00 {{"contact.night" | translate }} </span>
             </span>
           </div> -->
-          <span class="block fz-20">({{"contact.SAR_Period_time" | translate }} )</span>
+          <span class="block fz-20"
+            >({{ "contact.SAR_Period_time" | translate }} )</span
+          >
         </div>
       </div>
     </div>
